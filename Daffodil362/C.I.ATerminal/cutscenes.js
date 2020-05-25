@@ -774,7 +774,7 @@ function puzzle10Done(){
 	};
 	
 	function line5(){
-		addNewLogItem("comp", "Decrypted URL:" + URLPuzzleTwo); //9235613951
+		addNewLogItem("comp", "Decrypted URL: " + URLPuzzleTwo); //9235613951
 	};
 	
 	function line6(){
@@ -1207,7 +1207,7 @@ function FileLokPuzzle1(){
 	};
 	
 	function line3(){
-		addNewLogItem("comp", "Decrypted URL:" + FileLokPuzzle1De);
+		addNewLogItem("comp", "Decrypted URL: " + FileLokPuzzle1De);
 	};
 	
 	function line4(){
@@ -1249,7 +1249,7 @@ function FileLokPuzzle2(){
 	};
 	
 	function line3(){
-		addNewLogItem("comp", "Decrypted URL:" + FileLokPuzzle2De);
+		addNewLogItem("comp", "Decrypted URL: " + FileLokPuzzle2De);
 	};
 	
 	function line4(){
@@ -1291,7 +1291,7 @@ function FileLokPuzzle3(){
 	};
 	
 	function line3(){
-		addNewLogItem("comp", "Decrypted URL:" + FileLokPuzzle3De);
+		addNewLogItem("comp", "Decrypted URL: " + FileLokPuzzle3De);
 	};
 	
 	function line4(){
@@ -1333,7 +1333,7 @@ function FileLokPuzzle4(){
 	};
 	
 	function line3(){
-		addNewLogItem("comp", "Decrypted URL:" + FileLokPuzzle4De);
+		addNewLogItem("comp", "Decrypted URL: " + FileLokPuzzle4De);
 	};
 	
 	function line4(){
@@ -1375,7 +1375,7 @@ function FileLokPuzzle5(){
 	};
 	
 	function line3(){
-		addNewLogItem("comp", "Decrypted URL:" + FileLokPuzzle5De);
+		addNewLogItem("comp", "Decrypted URL: " + FileLokPuzzle5De);
 	};
 	
 	function line4(){
@@ -1417,7 +1417,7 @@ function FileLokPuzzle6(){
 	};
 	
 	function line3(){
-		addNewLogItem("comp", "Decrypted URL:" + FileLokPuzzle6De);
+		addNewLogItem("comp", "Decrypted URL: " + FileLokPuzzle6De);
 	};
 	
 	function line4(){
@@ -1459,7 +1459,7 @@ function FileLokPuzzle7(){
 	};
 	
 	function line3(){
-		addNewLogItem("comp", "Decrypted URL:" + FileLokPuzzle7De);
+		addNewLogItem("comp", "Decrypted URL: " + FileLokPuzzle7De);
 	};
 	
 	function line4(){
@@ -1501,7 +1501,7 @@ function FileLokPuzzle8(){
 	};
 	
 	function line3(){
-		addNewLogItem("comp", "Decrypted URL:" + FileLokPuzzle8De);
+		addNewLogItem("comp", "Decrypted URL: " + FileLokPuzzle8De);
 	};
 	
 	function line4(){
