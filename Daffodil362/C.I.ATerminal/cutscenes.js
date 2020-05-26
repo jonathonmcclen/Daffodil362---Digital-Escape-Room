@@ -2855,7 +2855,7 @@ function FinalCutscenept2(){
 	}
 	
 	function line34(){
-		addNewLogItem("comp", "Your time:" + Time + " Minutes");
+		addNewLogItem("comp", "Your time: " + Time + " Minutes");
 	}
 	
 	function line35(){
