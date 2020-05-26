@@ -2000,7 +2000,7 @@ function decrypt(ID){
 function download(ID,what){
 	
 	function line1(){
-		addNewLogItem("comp", "Downlaoding:" + what);
+		addNewLogItem("comp", "Downloading:" + what);
 	};
 	
 	function line2(){
@@ -2827,7 +2827,7 @@ function FinalCutscenept2(){
 	}
 	
 	function line27(){
-		addNewLogItem("comp", "Command Submission Recognizeds");
+		addNewLogItem("comp", "Command Submission Recognized");
 	}
 	
 	function line28(){
