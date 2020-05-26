@@ -2863,11 +2863,11 @@ function FinalCutscenept2(){
 	}
 	
 	function line36(){
-		addNewLogItem("comp", "Story by: Jonthon McClendon");
+		addNewLogItem("comp", "Story by: Jonathon McClendon");
 	}
 	
 	function line37(){
-		addNewLogItem("comp", "Puzzle Design: Jonthon McClendon");
+		addNewLogItem("comp", "Puzzle Design: Jonathon McClendon");
 	}
 	
 	function line38(){
@@ -2875,11 +2875,11 @@ function FinalCutscenept2(){
 	}
 	
 	function line39(){
-		addNewLogItem("comp", "Jonthon McClendon");
+		addNewLogItem("comp", "Jonathon McClendon");
 	}
 	
 	function line40(){
-		addNewLogItem("comp", "Jonthon McClendon");
+		addNewLogItem("comp", "Jonathon McClendon");
 	}
 	
 	function line41(){
@@ -2887,7 +2887,7 @@ function FinalCutscenept2(){
 	}
 	
 	function line42(){
-		addNewLogItem("comp", "Jonthon McClendon");
+		addNewLogItem("comp", "Jonathon McClendon");
 	}
 	
 	function line43(){
@@ -2904,21 +2904,18 @@ function FinalCutscenept2(){
 	
 	function line46(){
 		addNewLogItem("comp", "Sorry for all the computers I ruined in my youth.");
-	}
-	
-	function line47(){
 		addNewLogItem("comp", "Trying to take them apart and figure out how they work");
 	}
 	
-	function line48(){
+	function line47(){
 		addNewLogItem("comp", "~ Rickeles Family");
 	}
 	
-	function line49(){
+	function line48(){
 		addNewLogItem("comp", "~ Bradley & The Tompkins Family");
 	}
 	
-	function line50(){
+	function line49(){
 		addNewLogItem("comp", "Thank you for the guidance and knowledge you provided me.");
 	}
 
@@ -2972,7 +2969,6 @@ function FinalCutscenept2(){
 	setTimeout(line47, 185000);
 	setTimeout(line48, 190000);
 	setTimeout(line49, 195000);
-	setTimeout(line50, 205000);
 
 	
 	// need 40 seconds or 40,000 milaseconds
