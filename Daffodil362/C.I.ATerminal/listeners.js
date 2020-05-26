@@ -40,7 +40,7 @@ var puzzle16 = false;
 var finalCut = true;
 
 //-----------------------------------------------------------
-var hintCode = 1;
+var hintCode = "001";
 //-----------------------------------------------------------
 
 
@@ -73,7 +73,7 @@ function checkPlayerInput() {
 			playerUsername = playerTXT;
 			login1 = true;
 			login1Done(); // cutscenes.js
-			hintCode = 2;
+			hintCode = "002";
 		};
 
 	} else if(login2 != true){
@@ -87,7 +87,7 @@ function checkPlayerInput() {
 		playerPassword = playerTXT;
 		login2 = true;
 		login2Done(); // cutscenes.js
-		hintCode = 101;
+		hintCode = "101";
 			
 		};
 		
@@ -97,7 +97,7 @@ function checkPlayerInput() {
 			
 			puzzle1 = true;
 			puzzle1Done();
-			hintCode = 102;
+			hintCode = "102";
 			
 		} else if (playerTXT == "hint"){
 			
@@ -113,7 +113,7 @@ function checkPlayerInput() {
 			
 			puzzle2 = true;
 			puzzle2Done();
-			hintCode = 103;
+			hintCode = "103";
 			
 		} else if (playerTXT == "hint"){
 			
@@ -129,7 +129,7 @@ function checkPlayerInput() {
 			
 			puzzle3 = true;
 			puzzle3Done();
-			hintCode = 104;
+			hintCode = "104";
 			
 		} else if (playerTXT == "hint"){
 			
@@ -145,7 +145,7 @@ function checkPlayerInput() {
 			
 			puzzle4 = true;
 			puzzle4Done();
-			hintCode = 105;
+			hintCode = "105";
 			
 		} else if (playerTXT == "hint"){
 			
@@ -161,7 +161,7 @@ function checkPlayerInput() {
 			
 			puzzle5 = true;
 			puzzle5Done();
-			hintCode = 106;
+			hintCode = "106";
 
 		} else if (playerTXT == "hint"){
 			
@@ -178,7 +178,7 @@ function checkPlayerInput() {
 			
 			puzzle6 = true;
 			puzzle6Done();
-			hintCode = 107;
+			hintCode = "107";
 			
 		} else if (playerTXT == "hint"){
 			
@@ -196,7 +196,7 @@ function checkPlayerInput() {
 			
 			puzzle7 = true;
 			puzzle16Done();
-			hintCode = 108;
+			hintCode = "108";
 
 		} else if (playerTXT == "hint"){
 			
@@ -214,7 +214,7 @@ function checkPlayerInput() {
 			
 			puzzle8 = true;
 			puzzle17Done();
-			hintCode = 109;
+			hintCode = "109";
 
 		} else if (playerTXT == "hint"){
 			
@@ -232,7 +232,7 @@ function checkPlayerInput() {
 			
 			puzzle9 = true;
 			puzzle18Done();
-			hintCode = 110;
+			hintCode = "110";
 			
 		} else if (playerTXT == "hint"){
 			
@@ -252,7 +252,7 @@ function checkPlayerInput() {
 			LoggedIn();
 			document.getElementById("txt").maxLength = "100";
 			loggedIn = true;
-			hintCode = 201;
+			hintCode = "201";
 			
 		} else if (playerTXT == "hint"){
 			
@@ -269,69 +269,69 @@ function checkPlayerInput() {
 		 if (playerTXT == "https://57203-23423-76039-67239"){ // Start Email Alabaster Terminal
 
 			puzzle15Done();
-			hintCode = 202;
+			hintCode = "202";
 
 		} else if (playerTXT == alabasterTerminalURL){ // Hack Alabaster terminal for Authenticationcode
 			
 			puzzle7Done();
-			hintCode = 203;
+			hintCode = "203";
 			
 		} else if (playerTXT == "https://12406-13796-93659-37402"){ // First cutscene ENCRYPTED URL
 				
 			puzzle8Done();
-			hintCode = 204;
+			hintCode = "204";
 
 		} else if (playerTXT == "https://40353-36520-23634-27560"){ // Second cutscene ENCRYPTED URL
 				
 			puzzle9Done();
-			hintCode = 205;
+			hintCode = "205";
 
 		} else if (playerTXT == "https://66737-26553-26594-46592"){ // Third cutscene ENCRYPTED URL
 				
 			puzzle10Done();
-			hintCode = 206;
+			hintCode = "206";
 
 		} else if (playerTXT == "https://20693-10782-40621-12479"){ // Fourth cutscene ENCRYPTED URL
 				
 			puzzle11Done();
-			hintCode = 206;
+			hintCode = "206";
 
 		} else if (playerTXT == "https://twitter.com/Anonymo00841943"){
 				
 			puzzle12Done();
-			hintCode = 207;
+			hintCode = "207";
 
 		} else if (playerTXT == FileLokPuzzle1En){
 			FileLokPuzzle1();
-			hintCode = 208;
+			hintCode = "208";
 
 		} else if (playerTXT == FileLokPuzzle2En){
 			FileLokPuzzle2();
-			hintCode = 209;
+			hintCode = "209";
 
 		} else if (playerTXT == FileLokPuzzle3En){
 			FileLokPuzzle3();
-			hintCode = 210;
+			hintCode = "210";
 
 		} else if (playerTXT == FileLokPuzzle4En){
 			FileLokPuzzle4();
-			hintCode = 211;
+			hintCode = "211";
 
 		} else if (playerTXT == FileLokPuzzle5En){
 			FileLokPuzzle5();
-			hintCode = 212;
+			hintCode = "212";
 
 		} else if (playerTXT == FileLokPuzzle6En){
 			FileLokPuzzle6();
-			hintCode = 213;
+			hintCode = "213";
 
 		} else if (playerTXT == FileLokPuzzle7En){
 			FileLokPuzzle7();
-			hintCode = 214;
+			hintCode = "214";
 
 		} else if (playerTXT == FileLokPuzzle8En){
 			FileLokPuzzle8();
-			hintCode = 215;
+			hintCode = "215";
 
 		} else if (playerTXT == "https://twitter.com/Ax787556086"){
 				
@@ -341,7 +341,7 @@ function checkPlayerInput() {
 		} else if (playerTXT == "https://10109-37583-28534-49452"){// Google maps Puzzle
 				
 			puzzle13Done();
-			hintCode = 216;
+			hintCode = "216";
 
 		} else if (playerTXT == "https://75896-29742-69504-22231"){ //Encryped URL Example SERIOUSLY?
 
@@ -355,7 +355,7 @@ function checkPlayerInput() {
 			encryptedDone = true;
 			cutsceneHacked();
 			Hacked = true;
-			hintCode = 301;
+			hintCode = "301";
 
 		} else if (playerTXT == "hint"){
 			
@@ -374,7 +374,7 @@ function checkPlayerInput() {
 			
 				Section6Puzzle1();
 				puzzle11 = true;
-				hintCode = 302;
+				hintCode = "302";
 				
 			} else {
 				
@@ -386,7 +386,7 @@ function checkPlayerInput() {
 			
 				Section6Puzzle2();
 				puzzle12 = true;
-				hintCode = 303;
+				hintCode = "303";
 				
 			} else if (playerTXT == "hint"){
 			
@@ -400,7 +400,7 @@ function checkPlayerInput() {
 			
 				Section6Puzzle3();
 				puzzle13 = true;
-				hintCode = 304;
+				hintCode = "304";
 				
 			} else if (playerTXT == "hint"){
 			
@@ -414,7 +414,7 @@ function checkPlayerInput() {
 			
 				Section6Puzzle4();
 				puzzle14 = true;
-				hintCode = 305;
+				hintCode = "305";
 				
 			} else if (playerTXT == "hint"){
 			
