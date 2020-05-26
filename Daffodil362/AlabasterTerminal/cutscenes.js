@@ -374,7 +374,7 @@ function puzzle2Fail() {
 	};
 	
 	function line7(){
-		addNewLogItem("comp", "Enter IP Address you wish to connect");
+		addNewLogItem("comp", "ENTER Authentication code:");
 	};
 	
 	
