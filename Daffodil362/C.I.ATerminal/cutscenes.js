@@ -2859,23 +2859,23 @@ function FinalCutscenept2(){
 	}
 	
 	function line35(){
-		addNewLogItem("comp", "CREDITS:");
+		divider();
 	}
 	
 	function line36(){
-		addNewLogItem("comp", "Story by: Jonathon McClendon");
+		addNewLogItem("comp", "CREDITS:");
 	}
 	
 	function line37(){
-		addNewLogItem("comp", "Puzzle Design: Jonathon McClendon");
+		addNewLogItem("comp", "Story & Puzzle Design By: Jonathon McClendon");
 	}
 	
 	function line38(){
-		addNewLogItem("comp", "Coading Team:");
+		divider();
 	}
 	
 	function line39(){
-		addNewLogItem("comp", "Jonathon McClendon");
+		addNewLogItem("comp", "Coading Team:");
 	}
 	
 	function line40(){
@@ -2883,39 +2883,84 @@ function FinalCutscenept2(){
 	}
 	
 	function line41(){
-		addNewLogItem("comp", "&");
-	}
-	
-	function line42(){
 		addNewLogItem("comp", "Jonathon McClendon");
 	}
 	
+	function line42(){
+		addNewLogItem("comp", "&");
+	}
+	
 	function line43(){
-		addNewLogItem("comp", "Poem Witer: John McClendon");
+		addNewLogItem("comp", "Jonathon McClendon");
 	}
 	
 	function line44(){
-		addNewLogItem("comp", "Special thanks to");
+		divider();
 	}
 	
 	function line45(){
-		addNewLogItem("comp", "~ Gretchen McClendon (mom)");
+		addNewLogItem("comp", "Poem Witer: John McClendon");
 	}
 	
 	function line46(){
+		divider();
+	}
+	
+	function line47(){
+		addNewLogItem("comp", "Play Testers:");
+	}
+	
+	function line48(){
+		addNewLogItem("comp", "John McClendon");
+	}
+	
+	function line49(){
+		addNewLogItem("comp", "Gretchen McClneodn");
+	}
+	
+	function line50(){
+		addNewLogItem("comp", "Gabriela Piluk");
+	}
+	
+	function line51(){
+		addNewLogItem("comp", "Scott Rickles");
+	}
+	
+	function line52(){
+		
+		addNewLogItem("comp", "Aaron Rickles");
+	}
+	
+	function line53(){
+		divider();
+	}
+	
+	function line54(){
+		addNewLogItem("comp", "Special Thanks To");
+	}
+	
+	function line55(){
+		addNewLogItem("comp", "~ Gretchen McClendon (mom)");
+	}
+	
+	function line56(){
 		addNewLogItem("comp", "Sorry for all the computers I ruined in my youth.");
 		addNewLogItem("comp", "Trying to take them apart and figure out how they work");
 	}
 	
-	function line47(){
+	function line57(){
+		addNewLogItem("comp", "Johnson Family");
+	}
+	
+	function line58(){
 		addNewLogItem("comp", "~ Rickeles Family");
 	}
 	
-	function line48(){
+	function line59(){
 		addNewLogItem("comp", "~ Bradley & The Tompkins Family");
 	}
 	
-	function line49(){
+	function line60(){
 		addNewLogItem("comp", "Thank you for the guidance and knowledge you provided me.");
 	}
 
@@ -2969,6 +3014,17 @@ function FinalCutscenept2(){
 	setTimeout(line47, 185000);
 	setTimeout(line48, 190000);
 	setTimeout(line49, 195000);
+	setTimeout(line50, 200000);
+	setTimeout(line51, 205000);
+	setTimeout(line52, 210000);
+	setTimeout(line53, 215000);
+	setTimeout(line54, 220000);
+	setTimeout(line55, 225000);
+	setTimeout(line56, 230000);
+	setTimeout(line57, 235000);
+	setTimeout(line58, 240000);
+	setTimeout(line59, 245000);
+	setTimeout(line60, 250000);
 
 	
 	// need 40 seconds or 40,000 milaseconds
