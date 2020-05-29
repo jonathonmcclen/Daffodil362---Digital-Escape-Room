@@ -269,69 +269,68 @@ function checkPlayerInput() {
 		 if (playerTXT == "https://57203-23423-76039-67239"){ // Start Email Alabaster Terminal
 
 			puzzle15Done();
-			hintCode = "202";
 
 		} else if (playerTXT == alabasterTerminalURL){ // Hack Alabaster terminal for Authenticationcode
 			
 			puzzle7Done();
-			hintCode = "203";
 			
 		} else if (playerTXT == "https://12406-13796-93659-37402"){ // First cutscene ENCRYPTED URL
 				
 			puzzle8Done();
-			hintCode = "204";
+			hintCode = "202";
 
 		} else if (playerTXT == "https://40353-36520-23634-27560"){ // Second cutscene ENCRYPTED URL
 				
 			puzzle9Done();
-			hintCode = "205";
+			hintCode = "203";
 
 		} else if (playerTXT == "https://66737-26553-26594-46592"){ // Third cutscene ENCRYPTED URL
 				
 			puzzle10Done();
-			hintCode = "206";
+			hintCode = "204";
 
 		} else if (playerTXT == "https://20693-10782-40621-12479"){ // Fourth cutscene ENCRYPTED URL
 				
 			puzzle11Done();
-			hintCode = "206";
+			hintCode = "205";
 
 		} else if (playerTXT == "https://twitter.com/Anonymo00841943"){
 				
 			puzzle12Done();
-			hintCode = "207";
 
 		} else if (playerTXT == FileLokPuzzle1En){ //puzzle 2 Shapes 1
 			FileLokPuzzle1();
-			hintCode = "208";
+			hintCode = "206";
 
 		} else if (playerTXT == FileLokPuzzle2En){ //puzzle 3 Shapes 2
 			FileLokPuzzle2();
-			hintCode = "209";
+			hintCode = "207";
 
 		} else if (playerTXT == FileLokPuzzle3En){ //puzzle 4 Fruit Salad
 			FileLokPuzzle3();
-			hintCode = "210";
+			hintCode = "208";
 
 		} else if (playerTXT == FileLokPuzzle4En){ //puzzle 5 Colors 2
 			FileLokPuzzle4();
-			hintCode = "211";
+			hintCode = "209";
 
 		} else if (playerTXT == FileLokPuzzle5En){ //puzzle 6 Twitter Hack Poem
 			FileLokPuzzle5();
-			hintCode = "212";
+			hintCode = "210";
 
 		} else if (playerTXT == FileLokPuzzle6En){ //puzzle 7 Helcopter Photo
 			FileLokPuzzle6();
-			hintCode = "213";
+			hintCode = "211";
 
 		} else if (playerTXT == FileLokPuzzle7En){ //puzzle 8 Phone number
 			FileLokPuzzle7();
-			hintCode = "214";
+			hintCode = "212";
+			//Gives you 3124
+			//3124 Gives you FileLokPuzzle8En
 
-		} else if (playerTXT == FileLokPuzzle8En){ //puzzle 9  
+		} else if (playerTXT == FileLokPuzzle8En){ //puzzle 9  Skeleton Key
 			FileLokPuzzle8();
-			hintCode = "215";
+			hintCode = "213";
 
 		} else if (playerTXT == "https://twitter.com/Ax787556086"){
 				
@@ -341,7 +340,7 @@ function checkPlayerInput() {
 		} else if (playerTXT == "https://10109-37583-28534-49452"){// Google maps Puzzle
 				
 			puzzle13Done();
-			hintCode = "216";
+			hintCode = "214";
 
 		} else if (playerTXT == "https://75896-29742-69504-22231"){ //Encryped URL Example SERIOUSLY?
 
