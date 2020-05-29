@@ -43,7 +43,7 @@ function login1Done(){
 function login2Done(){
 	
 	function line1(){
-		addNewLogItem("comp", "Command Submission recognized");
+		addNewLogItem("comp", "Command Entry Recognized");
 	};
 	
 	function line2(){
@@ -63,11 +63,11 @@ function login2Done(){
 	};
 	
 	function line5(){
-		addNewLogItem("comp","Could not verify your identity");
+		addNewLogItem("comp","Could NOT verify identity");
 	};
 	
 	function line6(){
-		addNewLogItem("comp","Please complete authentication to be loged in");
+		addNewLogItem("comp","Please complete authenticate to gain access.");
 	};
 	
 	function line7(){
@@ -136,27 +136,27 @@ function puzzle2Done() {
 	};
 	
 	function line6(){
-		addNewLogItem("comp", "5. InputFive(5)**REFERAENCE#…4…END");
+		addNewLogItem("comp", "5. InputFive(5)**REFERENCE#…4…END");
 	};
 	
 	function line7(){
-		addNewLogItem("comp", "3. InputThree(3)**REFERAENCE#…6…END");
+		addNewLogItem("comp", "3. InputThree(3)**REFERENCE#…6…END");
 	};
 	
 	function line8(){
-		addNewLogItem("comp", "1. InputOne(1)**REFERAENCE#…9…END");
+		addNewLogItem("comp", "1. InputOne(1)**REFERENCE#…9…END");
 	};
 	
 	function line9(){
-		addNewLogItem("comp", "6. InputSix(6)**REFERAENCE#…2…END");
+		addNewLogItem("comp", "6. InputSix(6)**REFERENCE#…2…END");
 	};
 	
 	function line10(){
-		addNewLogItem("comp", "2. InputTwo(2)**REFERAENCE#…7…END");
+		addNewLogItem("comp", "2. InputTwo(2)**REFERENCE#…7…END");
 	};
 	
 	function line11(){
-		addNewLogItem("comp", "4. InputFour(4)**REFERAENCE#…1…END");
+		addNewLogItem("comp", "4. InputFour(4)**REFERENCEE#…1…END");
 	};
 	
 	function line12(){
@@ -194,27 +194,27 @@ function puzzle3Done() {
 	};
 	
 	function line3(){
-		addNewLogItem("comp", "4. InputFour(4)**REFERAENCE#…8…END");
+		addNewLogItem("comp", "4. InputFour(4)**REFERENCE#…8…END");
 	};
 	
 	function line4(){
-		addNewLogItem("comp", "1. InputOne(1)**REFERAENCE#…4…END");
+		addNewLogItem("comp", "1. InputOne(1)**REFERENCE#…4…END");
 	};
 	
 	function line5(){
-		addNewLogItem("comp", "3. InputThree(3)**REFERAENCE#…2…END");
+		addNewLogItem("comp", "3. InputThree(3)**REFERENCE#…2…END");
 	};
 	
 	function line6(){
-		addNewLogItem("comp", "6. InputSix(6)**REFERAENCE#…3…END");
+		addNewLogItem("comp", "6. InputSix(6)**REFERENCE#…3…END");
 	};
 	
 	function line7(){
-		addNewLogItem("comp", "5. InputFive(5)**REFERAENCE#…6…END");
+		addNewLogItem("comp", "5. InputFive(5)**REFERENCE#…6…END");
 	};
 	
 	function line8(){
-		addNewLogItem("comp", "2. InputTwo(2)**REFERAENCE#…5…END");
+		addNewLogItem("comp", "2. InputTwo(2)**REFERENCE#…5…END");
 	};
 	
 	function line12(){
@@ -251,27 +251,27 @@ function puzzle4Done() {
 	};
 	
 	function line3(){
-		addNewLogItem("comp", "LogLine#1>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>__REFERAENC#_2___");
+		addNewLogItem("comp", "LogLine#1>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>__REFERENCE#_2___");
 	};
 	
 	function line4(){
-		addNewLogItem("comp", "LogLine#2>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>__REFERAENC#_0___");
+		addNewLogItem("comp", "LogLine#2>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>__REFERENCE#_0___");
 	};
 	
 	function line5(){
-		addNewLogItem("comp", "LogLine#3>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>__REFERAENC#_3___");
+		addNewLogItem("comp", "LogLine#3>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>__REFERENEC#_3___");
 	};
 	
 	function line6(){
-		addNewLogItem("comp", "LogLine#4>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>__REFERAENC#_8___");
+		addNewLogItem("comp", "LogLine#4>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>__REFERENCE#_8___");
 	};
 	
 	function line7(){
-		addNewLogItem("comp", "LogLine#5>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>__REFERAENC#_9___");
+		addNewLogItem("comp", "LogLine#5>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>__REFERENCE#_9___");
 	};
 	
 	function line8(){
-		addNewLogItem("comp", "LogLine#6>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>__REFERAENC#_6___");
+		addNewLogItem("comp", "LogLine#6>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>__REFERENCE#_6___");
 	};
 	
 	setTimeout(line1, 7000);
@@ -301,27 +301,27 @@ function puzzle5Done() {
 	};
 	
 	function line3(){
-		addNewLogItem("comp", "LogLine#6>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>__REFERAENC#_9___");
+		addNewLogItem("comp", "LogLine#6>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>__REFERENCE#_9___");
 	};
 	
 	function line4(){
-		addNewLogItem("comp", "LogLine#5>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>__REFERAENC#_4___");
+		addNewLogItem("comp", "LogLine#5>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>__REFERENCE#_4___");
 	};
 	
 	function line5(){
-		addNewLogItem("comp", "LogLine#4>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>__REFERAENC#_6___");
+		addNewLogItem("comp", "LogLine#4>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>__REFERENCE#_6___");
 	};
 	
 	function line6(){
-		addNewLogItem("comp", "LogLine#3>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>__REFERAENC#_8___");
+		addNewLogItem("comp", "LogLine#3>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>__REFERENCE#_8___");
 	};
 	
 	function line7(){
-		addNewLogItem("comp", "LogLine#2>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>__REFERAENC#_1___");
+		addNewLogItem("comp", "LogLine#2>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>__REFERENCE#_1___");
 	};
 	
 	function line8(){
-		addNewLogItem("comp", "LogLine#1>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>__REFERAENC#_0___");
+		addNewLogItem("comp", "LogLine#1>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>__REFERENCE#_0___");
 	};
 	
 	setTimeout(line1, 7000);
@@ -344,31 +344,31 @@ function puzzle6Done () {
 	};
 	
 	function line2(){
-		addNewLogItem("comp", "LOG LINES TOO LONG TYPE REFRENCE NUMBERS THEN PRESS ENTER");
+		addNewLogItem("comp", "LOG LINES TOO LONG TYPE REFERENCE NUMBERS THEN PRESS ENTER");
 	};
 	
 	function line3(){
-		addNewLogItem("comp", "LogLine#1>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>____REFERAENC#_5___<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______");
+		addNewLogItem("comp", "LogLine#1>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>____REFERENCE#_5___<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______");
 	};
 	
 	function line4(){
-		addNewLogItem("comp", "LogLine#2>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>____REFERAENC#_0___<<<<<<<<<<<<<<<<<<<______Too_Far_______");
+		addNewLogItem("comp", "LogLine#2>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>____REFERENCE#_0___<<<<<<<<<<<<<<<<<<<______Too_Far_______");
 	};
 	
 	function line5(){
-		addNewLogItem("comp", "LogLine#3>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>____REFERAENC#_2___<<<<<<<<<<<<<<<<<<<______Too_Far_______");
+		addNewLogItem("comp", "LogLine#3>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>____REFERENCE#_2___<<<<<<<<<<<<<<<<<<<______Too_Far_______");
 	};
 	
 	function line6(){
-		addNewLogItem("comp", "LogLine#4>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>____REFERAENC#_8___<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______");
+		addNewLogItem("comp", "LogLine#4>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>____REFERENECE#_8___<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______");
 	};
 	
 	function line7(){
-		addNewLogItem("comp", "LogLine#5>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>____REFERAENC#_3___");
+		addNewLogItem("comp", "LogLine#5>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>____REFERENCE#_3___");
 	};
 	
 	function line8(){
-		addNewLogItem("comp", "LogLine#6>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>____REFERAENC#_6___");
+		addNewLogItem("comp", "LogLine#6>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>____REFERENCE#_6___");
 	};
 	
 	setTimeout(line1, 7000);
@@ -399,27 +399,27 @@ function puzzle16Done () {
 	};
 	
 	function line3(){
-		addNewLogItem("comp", "LogLine#1>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>____REFERAENC#_1___<<<<<<<<<<<<<<<<<<<______Too_Far_______");
+		addNewLogItem("comp", "LogLine#1>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>____REFERENCE#_1___<<<<<<<<<<<<<<<<<<<______Too_Far_______");
 	};
 	
 	function line4(){
-		addNewLogItem("comp", "LogLine#4>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>____REFERAENC#_9___<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______");
+		addNewLogItem("comp", "LogLine#4>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>____REFERENCE#_9___<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______");
 	};
 	
 	function line5(){
-		addNewLogItem("comp", "LogLine#5>>>>>>>>>>>>>>>>>>>___REFERAENC#_5___>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>___CODE_TOO_LONG__");
+		addNewLogItem("comp", "LogLine#5>>>>>>>>>>>>>>>>>>>___REFERENC#_5___>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>___CODE_TOO_LONG__");
 	};
 	
 	function line6(){
-		addNewLogItem("comp", "LogLine#3>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>____REFERAENC#_3___<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______");
+		addNewLogItem("comp", "LogLine#3>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>____REFERENCE#_3___<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______");
 	};
 	
 	function line7(){
-		addNewLogItem("comp", "LogLine#2>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>____REFERAENC#_6___<<<<<<<<<<<<<<<<<<<______Too_Far_______");
+		addNewLogItem("comp", "LogLine#2>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>____REFERENCE#_6___<<<<<<<<<<<<<<<<<<<______Too_Far_______");
 	};
 	
 	function line8(){
-		addNewLogItem("comp", "LogLine#6>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>____REFERAENC#_5___");
+		addNewLogItem("comp", "LogLine#6>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>____REFERENCE#_5___");
 	};
 	
 	setTimeout(line1, 7000);
@@ -446,19 +446,19 @@ function puzzle17Done () {
 	};
 	
 	function line2(){
-		addNewLogItem("comp", "LOG LINES TOO LONG TYPE REFRENCE NUMBERS THEN PRESS ENTER");
+		addNewLogItem("comp", "LOG LINES TOO LONG TYPE REFERENCE NUMBERS THEN PRESS ENTER");
 	};
 	
 	function line3(){
-		addNewLogItem("comp", ">>>>>>>>>>>>>>>>>>>___REFERAENC#_9___>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>___CODE_TOO_LONG__LogLine#2");
+		addNewLogItem("comp", ">>>>>>>>>>>>>>>>>>>___REFERENCE#_9___>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>___CODE_TOO_LONG__LogLine#2");
 	};
 	
 	function line4(){
-		addNewLogItem("comp", ">>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>____REFERAENC#_8___LogLine#4");
+		addNewLogItem("comp", ">>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>____REFERENCE#_8___LogLine#4");
 	};
 	
 	function line5(){
-		addNewLogItem("comp", ">>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>____REFERAENC#_0___<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______LogLine#3");
+		addNewLogItem("comp", ">>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>____REFERENCE#_0___<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______LogLine#3");
 	};
 	
 	function line6(){
@@ -466,11 +466,11 @@ function puzzle17Done () {
 	};
 	
 	function line7(){
-		addNewLogItem("comp", ">>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>____REFERAENC#_6___<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______LogLine#5");
+		addNewLogItem("comp", ">>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>____REFERENCE#_6___<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______LogLine#5");
 	};
 	
 	function line8(){
-		addNewLogItem("comp", ">>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>____REFERAENC#_5___<<<<<<<<<<<<<<<<<<<______Too_Far_______LogLine#1");
+		addNewLogItem("comp", ">>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>____REREFERENCE#_5___<<<<<<<<<<<<<<<<<<<______Too_Far_______LogLine#1");
 	};
 	
 	setTimeout(line1, 7000);
@@ -504,7 +504,7 @@ function puzzle18Done () {
 	};
 	
 	function line4(){
-		addNewLogItem("comp", "Retreival instruction");
+		addNewLogItem("comp", "Retreival instructions:");
 	};
 	
 	function line5(){
@@ -516,11 +516,11 @@ function puzzle18Done () {
 	};
 	
 	function line7(){
-		addNewLogItem("comp", "subtract 10");
+		addNewLogItem("comp", "Subtract 10");
 	};
 	
 	function line8(){
-		addNewLogItem("comp", "ADD 60");
+		addNewLogItem("comp", "Add 60");
 	};
 	
 	function line9(){
@@ -562,27 +562,27 @@ function LoggedIn() {
 	//Animation starts at 5000ms
 	
 	function line1(){
-		addNewLogItem("comp", "You are now logged in " + playerUsername);
+		addNewLogItem("comp", "Login Successful for user " + playerUsername);
 	};
 	
 	function line2(){
-		addNewLogItem("comp", "Your C.I.A terminal is now capable of Hacking and Decrypting Urls");
+		addNewLogItem("comp", "Your C.I.A terminal is now capable of Hacking and Decrypting URLs");
 	};
 	
 	function line3(){
-		addNewLogItem("comp", "Encrypted urls look like this");
+		addNewLogItem("comp", "ENCRYPTED URLs look like this:");
 	};
 	
 	function line4(){
-		addNewLogItem("comp", "EXAMPLE: https://75896-29742-69504-22231");
+		addNewLogItem("comp", "*** EXAMPLE **** https://75896-29742-69504-22231");
 	};
 
 	function line5(){
-		addNewLogItem("comp", "Encrypted URL's can't be pasted into your browser untill they are DECYPTED");
+		addNewLogItem("comp", "All DECRYPTED URls can be used in a browser to visit web pages.");
 	};
 	
 	function line6(){
-		addNewLogItem("comp", "Once Decrypted. URl's can be used in yoru browser to take you to new webpages");
+		addNewLogItem("comp", "ENCRYPTED URL's MUST be DECRYPTED before pasting into browser address window.");
 	};
 	
 	function line7(){
@@ -590,7 +590,7 @@ function LoggedIn() {
 	};
 	
 	function line8(){
-		addNewLogItem("comp", "ENTER URL TO HACK OR DECYRIPT");
+		addNewLogItem("comp", "ENTER URL TO HACK OR DECYRYPT:");
 	};
 	
 	function line9(){
@@ -632,7 +632,7 @@ function puzzle7Done() {
 	};
 	
 	function line5(){
-		addNewLogItem("comp", "ENTER URL TO HACK OR DECYRIPT");
+		addNewLogItem("comp", "ENTER URL TO HACK OR DECYRYPT:");
 	};
 	
 	function line6(){
@@ -676,7 +676,7 @@ function puzzle8Done(){
 	};
 	
 	function line6(){
-		addNewLogItem("comp", "ENTER URL TO HACK OR DECYRIPT");
+		addNewLogItem("comp", "ENTER URL TO HACK OR DECYRYPT:");
 	};
 	
 	function line7(){
@@ -717,11 +717,11 @@ function puzzle9Done(){
 	};
 	
 	function line5(){
-		addNewLogItem("comp", "Decrypted URL: " + URLPuzzleOne); // 6502735770
+		addNewLogItem("comp", "DECRYPTED URL: " + URLPuzzleOne); // 6502735770
 	};
 	
 	function line6(){
-		addNewLogItem("comp", "Decrypted URL's can be pasted into your browser");
+		addNewLogItem("comp", "DECRYPTED URL's can be pasted into your browser");
 	};
 	
 	function line7(){
@@ -729,7 +729,7 @@ function puzzle9Done(){
 	};
 	
 	function line8(){
-		addNewLogItem("comp", "ENTER URL TO HACK OR DECYRIPT");
+		addNewLogItem("comp", "ENTER URL TO HACK OR DECYRYPT:");
 	};
 	
 	function line9(){
@@ -774,11 +774,11 @@ function puzzle10Done(){
 	};
 	
 	function line5(){
-		addNewLogItem("comp", "Decrypted URL: " + URLPuzzleTwo); //9235613951
+		addNewLogItem("comp", "DECRYPTED URL: " + URLPuzzleTwo); //9235613951
 	};
 	
 	function line6(){
-		addNewLogItem("comp", "Decrypted URL's can be pasted into your browser");
+		addNewLogItem("comp", "DECRYPTED URL's can be pasted into your browser.");
 	};
 	
 	function line7(){
@@ -786,7 +786,7 @@ function puzzle10Done(){
 	};
 	
 	function line8(){
-		addNewLogItem("comp", "ENTER URL TO HACK OR DECYRIPT");
+		addNewLogItem("comp", "ENTER URL TO HACK OR DECRYPT");
 	};
 	
 	function line9(){
@@ -821,15 +821,15 @@ function puzzle11Done(){
 	};
 	
 	function line3(){
-		addNewLogItem("comp", "Decrypted URL: https://twitter.com/Anonymo00841943");
+		addNewLogItem("comp", "DECRYPTED URL: https://twitter.com/Anonymo00841943");
 	};
 	
 	function line4(){
-		addNewLogItem("comp", "This URL is hackable");
+		addNewLogItem("comp", "This URL is hackable,");
 	};
 	
 	function line5(){
-		addNewLogItem("comp", "Decrypted URL's can be pasted into your browser");
+		addNewLogItem("comp", "DECRYPTED URL's can be pasted into your browser");
 	};
 	
 	function line6(){
@@ -837,7 +837,7 @@ function puzzle11Done(){
 	};
 	
 	function line7(){
-		addNewLogItem("comp", "ENTER URL TO HACK OR DECYRIPT");
+		addNewLogItem("comp", "ENTER URL TO HACK OR DECYRYPT");
 	};
 	
 	function line8(){
@@ -871,55 +871,52 @@ function puzzle12Done(){
 	};
 	
 	function line3(){
-		addNewLogItem("comp", "Message1> the yellow spider");
+		addNewLogItem("comp", "Message1> One blue ball bounces.");
 	};
 	
 	function line4(){
-		addNewLogItem("comp", "Message2> I have nothing that is purple");
+		addNewLogItem("comp", "Message2> The red desk has four legs.");
 	};
 	
 	function line5(){
-		addNewLogItem("comp", "Message3> The red desk has four legs");
+		addNewLogItem("comp", "Message3> I have nothing that is purple.");
 	};
 	
 	function line6(){
-		addNewLogItem("comp", "Message4> The girl has green eyes");
+		addNewLogItem("comp", "Message4> A girl has green eyes.");
 	};
 	
 	function line7(){
-		addNewLogItem("comp", "Message5> One blue ball");
+		addNewLogItem("comp", "Message5> A yellow spider crawls.");
 	};
 	
 	function line8(){
-		addNewLogItem("comp", "Message6> three hard boiled eggs");
+		addNewLogItem("comp", "Message6> Three hard boiled eggs.");
 	};
 	
 	function line9(){
-		addNewLogItem("comp", "Message7> five oranges in a fruit bowl");
+		addNewLogItem("comp", "Message7> Five oranges in a fruit bowl.");
 	};
 	
 	function line10(){
-		addNewLogItem("comp", "Message8> Six grains of sand remain in the hour glass");
+		addNewLogItem("comp", "Message8> Six grains of sand remain in the hour glass.");
 	};
 	
 	function line11(){
-		addNewLogItem("comp", "Message9> seven burnt matches");
+		addNewLogItem("comp", "Message9> Seven burnt matches.");
 	};
 	
 	function line12(){
-		addNewLogItem("comp", "Message10> Nine peices of silver");
+		addNewLogItem("comp", "Message10> Nine peices of silver.");
 	};
 	
-	function line13(){
-		addNewLogItem("comp", "Message11> ENCRYPTED URL:");
-	};
 	
 	function line14(){
-		addNewLogItem("important", "CHECK YOUR EMAIL");
+		addNewLogItem("important", "CHECK YOUR EMAIL.");
 	};
 	
 	function line15(){
-		addNewLogItem("important", "IF YOU DIDNT RECIEVE AN EMAIL VISIT:");
+		addNewLogItem("important", "IF YOU DIDNT RECIEVE AN EMAIL, VISIT:");
 	};
 	
 	function line16(){
@@ -931,7 +928,7 @@ function puzzle12Done(){
 	};
 		
 	function line18(){
-		addNewLogItem("comp", "ENTER URL TO HACK OR DECYRIPT");
+		addNewLogItem("comp", "ENTER URL TO HACK OR DECRYPT:");
 	};
 	
 	function line19(){
@@ -952,13 +949,12 @@ function puzzle12Done(){
 	setTimeout(line10, 13500);
 	setTimeout(line11, 14000);
 	setTimeout(line12, 14500);
-	setTimeout(line13, 15000);
-	setTimeout(line14, 15500);
-	setTimeout(line15, 16000);
-	setTimeout(line16, 16500);
-	setTimeout(line17, 17000);
-	setTimeout(line18, 17500);
-	setTimeout(line19, 18000);
+	setTimeout(line14, 15000);
+	setTimeout(line15, 15500);
+	setTimeout(line16, 16000);
+	setTimeout(line17, 16500);
+	setTimeout(line18, 17000);
+	setTimeout(line19, 17500);
 	
 };
 function puzzle13Done(){
@@ -985,7 +981,7 @@ function puzzle13Done(){
 	};
 	
 	function line5(){
-		addNewLogItem("comp", "ENTER URL TO HACK OR DECYRIPT");
+		addNewLogItem("comp", "ENTER URL TO HACK OR DECRYPT");
 	};
 	
 	function line6(){
@@ -1020,11 +1016,11 @@ function puzzle14Done(){
 	};
 	
 	function line4(){
-		addNewLogItem("comp", "Message2> @Ax7> I Forgot my username again");
+		addNewLogItem("comp", "Message2> @Ax7> I forgot my username again!");
 	};
 	
 	function line5(){
-		addNewLogItem("comp", "Message3> @Anonymous5> Seriously? Here I reset it...");
+		addNewLogItem("comp", "Message3> @Anonymous5> Seriously? Here, I reset it...");
 	};
 	
 	function line6(){
@@ -1036,7 +1032,7 @@ function puzzle14Done(){
 	};
 	
 	function line8(){
-		addNewLogItem("comp", "ENTER URL TO HACK OR DECYRIPT");
+		addNewLogItem("comp", "ENTER URL TO HACK OR DECRYPT");
 	};
 	
 	function line9(){
@@ -1072,15 +1068,15 @@ function puzzle15Done(){
 	};
 	
 	function line4(){
-		addNewLogItem("comp", "Decrypted URL's can be pasted into your browser");
+		addNewLogItem("comp", "Decrypted URLs can be pasted into your browser.");
 	};
 	
 	function line5(){
-		addNewLogItem("comp", "Some Decrypted Urls can be Hacked");
+		addNewLogItem("comp", "Some Decrypted URLs can be Hacked.");
 	};
 	
 	function line6(){
-		addNewLogItem("comp", "This URL IS hackable");
+		addNewLogItem("comp", "This URL IS hackable.");
 	};
 	
 	function line7(){
@@ -1088,7 +1084,7 @@ function puzzle15Done(){
 	};
 	
 	function line8(){
-		addNewLogItem("comp", "ENTER URL TO HACK OR DECYRIPT");
+		addNewLogItem("comp", "ENTER URL TO HACK OR DECRYPT:");
 	};
 	
 	function line9(){
@@ -1120,7 +1116,7 @@ function ExampleFail(){
 	};
 	
 	function line3(){
-		addNewLogItem("comp", "VERY FUNNY Mr. Funny Guy");
+		addNewLogItem("comp", "VERY FUNNY, Mr. Funny Guy");
 	};
 	
 	function line4(){
@@ -1128,7 +1124,7 @@ function ExampleFail(){
 	};
 	
 	function line5(){
-		addNewLogItem("comp", "ENTER " + "\"" + "A REAL" + "\"" + " URL TO HACK OR DECYRIPT");
+		addNewLogItem("comp", "ENTER " + "\"" + "A REAL" + "\"" + " URL TO HACK OR DECRYPT");
 	};
 	
 	function line6(){
@@ -1162,7 +1158,7 @@ function cutsceneHacked(){
 	};
 	
 	function line4(){
-		addNewLogItem("comp","COMPLETE THE SEQUENCE");
+		addNewLogItem("comp","COMPLETE THE SEQUENCE:");
 	};
 	
 	function line5(){
@@ -1174,7 +1170,7 @@ function cutsceneHacked(){
 	};
 	
 	function line7(){
-		addNewLogItem("comp", "TYPE SOLUTION THEN PRESS ENTER");
+		addNewLogItem("comp", "Input solution then press ENTER");
 	};
 	
 	function line8(){
@@ -1211,7 +1207,7 @@ function FileLokPuzzle1(){
 	};
 	
 	function line4(){
-		addNewLogItem("comp", "Decrypted URL's can be pasted into your browser");
+		addNewLogItem("comp", "Decrypted URLss can be pasted into your browser.");
 	};
 	
 	function line5(){
@@ -1219,7 +1215,7 @@ function FileLokPuzzle1(){
 	};
 	
 	function line6(){
-		addNewLogItem("comp", "ENTER URL TO HACK OR DECYRIPT");
+		addNewLogItem("comp", "ENTER URL TO HACK OR DECRYPT");
 	};
 	
 	function line7(){
@@ -1253,7 +1249,7 @@ function FileLokPuzzle2(){
 	};
 	
 	function line4(){
-		addNewLogItem("comp", "Decrypted URL's can be pasted into your browser");
+		addNewLogItem("comp", "Decrypted URL's can be pasted into your browser.");
 	};
 	
 	function line5(){
@@ -1261,7 +1257,7 @@ function FileLokPuzzle2(){
 	};
 	
 	function line6(){
-		addNewLogItem("comp", "ENTER URL TO HACK OR DECYRIPT");
+		addNewLogItem("comp", "ENTER URL TO HACK OR DECRYPT");
 	};
 	
 	function line7(){
@@ -1295,7 +1291,7 @@ function FileLokPuzzle3(){
 	};
 	
 	function line4(){
-		addNewLogItem("comp", "Decrypted URL's can be pasted into your browser");
+		addNewLogItem("comp", "Decrypted URLs can be pasted into your browser.");
 	};
 	
 	function line5(){
@@ -1303,7 +1299,7 @@ function FileLokPuzzle3(){
 	};
 	
 	function line6(){
-		addNewLogItem("comp", "ENTER URL TO HACK OR DECYRIPT");
+		addNewLogItem("comp", "ENTER URL TO HACK OR DECRYPT");
 	};
 	
 	function line7(){
@@ -1337,7 +1333,7 @@ function FileLokPuzzle4(){
 	};
 	
 	function line4(){
-		addNewLogItem("comp", "Decrypted URL's can be pasted into your browser");
+		addNewLogItem("comp", "Decrypted URLs can be pasted into your browser.");
 	};
 	
 	function line5(){
@@ -1345,7 +1341,7 @@ function FileLokPuzzle4(){
 	};
 	
 	function line6(){
-		addNewLogItem("comp", "ENTER URL TO HACK OR DECYRIPT");
+		addNewLogItem("comp", "ENTER URL TO HACK OR DECRYPT:");
 	};
 	
 	function line7(){
@@ -1379,7 +1375,7 @@ function FileLokPuzzle5(){
 	};
 	
 	function line4(){
-		addNewLogItem("comp", "Decrypted URL's can be pasted into your browser");
+		addNewLogItem("comp", "Decrypted URLs can be pasted into your browser.");
 	};
 	
 	function line5(){
@@ -1387,7 +1383,7 @@ function FileLokPuzzle5(){
 	};
 	
 	function line6(){
-		addNewLogItem("comp", "ENTER URL TO HACK OR DECYRIPT");
+		addNewLogItem("comp", "ENTER URL TO HACK OR DECRYPT");
 	};
 	
 	function line7(){
@@ -1421,7 +1417,7 @@ function FileLokPuzzle6(){
 	};
 	
 	function line4(){
-		addNewLogItem("comp", "Decrypted URL's can be pasted into your browser");
+		addNewLogItem("comp", "Decrypted URLs can be pasted into your browser.");
 	};
 	
 	function line5(){
@@ -1429,7 +1425,7 @@ function FileLokPuzzle6(){
 	};
 	
 	function line6(){
-		addNewLogItem("comp", "ENTER URL TO HACK OR DECYRIPT");
+		addNewLogItem("comp", "ENTER URL TO HACK OR DECRYPT");
 	};
 	
 	function line7(){
@@ -1463,7 +1459,7 @@ function FileLokPuzzle7(){
 	};
 	
 	function line4(){
-		addNewLogItem("comp", "Decrypted URL's can be pasted into your browser");
+		addNewLogItem("comp", "Decrypted URLs can be pasted into your browser.");
 	};
 	
 	function line5(){
@@ -1471,7 +1467,7 @@ function FileLokPuzzle7(){
 	};
 	
 	function line6(){
-		addNewLogItem("comp", "ENTER URL TO HACK OR DECYRIPT");
+		addNewLogItem("comp", "ENTER URL TO HACK OR DECRYPT:");
 	};
 	
 	function line7(){
@@ -1505,7 +1501,7 @@ function FileLokPuzzle8(){
 	};
 	
 	function line4(){
-		addNewLogItem("comp", "Decrypted URL's can be pasted into your browser");
+		addNewLogItem("comp", "Decrypted URLs can be pasted into your browser");
 	};
 	
 	function line5(){
@@ -1513,7 +1509,7 @@ function FileLokPuzzle8(){
 	};
 	
 	function line6(){
-		addNewLogItem("comp", "ENTER URL TO HACK OR DECYRIPT");
+		addNewLogItem("comp", "ENTER URL TO HACK OR DECRYPT");
 	};
 	
 	function line7(){
@@ -1549,31 +1545,31 @@ function Section6Puzzle1(){
 	};
 	
 	function line3(){
-		addNewLogItem("comp", "LOG LINES TOO LONG TYPE REFRENCE NUMBERS THEN PRESS ENTER");
+		addNewLogItem("comp", "LOG LINES TOO LONG TYPE REFERENCE NUMBERS THEN PRESS ENTER");
 	};
 	
 	function line4(){
-		addNewLogItem("comp", "LogLine#5>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>____REFERAENC#_8___<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______");
+		addNewLogItem("comp", "LogLine#5>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>____REFERENCE#_8___<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______");
 	};
 	
 	function line5(){
-		addNewLogItem("comp", "LogLine#6>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>____REFERAENC#_3___<<<<<<<<<<<<<<<<<<<______Too_Far_______");
+		addNewLogItem("comp", "LogLine#6>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>____REFERENCE#_3___<<<<<<<<<<<<<<<<<<<______Too_Far_______");
 	};
 	
 	function line6(){
-		addNewLogItem("comp", "LogLine#2>>>>>>>>>>>>>>>>>>>___REFERAENC#_2___>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>___CODE_TOO_LONG__");
+		addNewLogItem("comp", "LogLine#2>>>>>>>>>>>>>>>>>>>___REFERENCE#_2___>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>___CODE_TOO_LONG__");
 	};
 	
 	function line7(){
-		addNewLogItem("comp", "LogLine#4>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>____REFERAENC#_2___");
+		addNewLogItem("comp", "LogLine#4>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>____REFERENCE#_2___");
 	};
 	
 	function line8(){
-		addNewLogItem("comp", "LogLine#1>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>____REFERAENC#_7___<<<<<<<<<<<<<<<<<<<______Too_Far_______");
+		addNewLogItem("comp", "LogLine#1>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>____REFERENCE#_7___<<<<<<<<<<<<<<<<<<<______Too_Far_______");
 	};
 	
 	function line9(){
-		addNewLogItem("comp", "LogLine#3>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>____REFERAENC#_8___<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______");
+		addNewLogItem("comp", "LogLine#3>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>____REFERENCE#_8___<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______");
 	}
 	
 	setTimeout(line1, 9000);
@@ -1602,31 +1598,31 @@ function Section6Puzzle2(){
 	};
 	
 	function line3(){
-		addNewLogItem("comp", "LOG LINES OUT OF ORDER /& TOO LONG. TYPE REFRENCE NUMBERS THEN PRESS ENTER");
+		addNewLogItem("comp", "LOG LINES OUT OF ORDER /& TOO LONG. TYPE REFERENCE NUMBERS THEN PRESS ENTER");
 	};
 	
 	function line4(){
-		addNewLogItem("comp", "LogLine#3>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_REFERAENC#_Green__<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______");
+		addNewLogItem("comp", "LogLine#3>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_REFERENCE#_Green__<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______");
 	};
 	
 	function line5(){
-		addNewLogItem("comp", "LogLine#2>>>>>>>>>>>>>>>>>>>___REFERAENC#_7___>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>___CODE_TOO_LONG__");
+		addNewLogItem("comp", "LogLine#2>>>>>>>>>>>>>>>>>>>___REFERENCE#_7___>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>___CODE_TOO_LONG__");
 	};
 	
 	function line6(){
-		addNewLogItem("comp", "LogLine#1>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>____REFERAENC#_2___<<<<<<<<<<<<<<<<<<<______Too_Far_______");
+		addNewLogItem("comp", "LogLine#1>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>____REFERENCE#_2___<<<<<<<<<<<<<<<<<<<______Too_Far_______");
 	};
 	
 	function line7(){
-		addNewLogItem("comp", "LogLine#4>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>____REFERAENC#_6___");
+		addNewLogItem("comp", "LogLine#4>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>____REFERENCE#_6___");
 	};
 	
 	function line8(){
-		addNewLogItem("comp", "LogLine#6>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>____REFERAENC#_7___<<<<<<<<<<<<<<<<<<<______Too_Far_______");
+		addNewLogItem("comp", "LogLine#6>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>____REFERENCE#_7___<<<<<<<<<<<<<<<<<<<______Too_Far_______");
 	};
 	
 	function line9(){
-		addNewLogItem("comp", "LogLine#5>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>____REFERAENC#_3___<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______");
+		addNewLogItem("comp", "LogLine#5>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>____REFERENCE#_3___<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______");
 	};
 
 	
@@ -1656,31 +1652,31 @@ function Section6Puzzle3(){
 	};
 	
 	function line3(){
-		addNewLogItem("comp", "LOG LINES TOO LONG TYPE REFRENCE NUMBERS THEN PRESS ENTER");
+		addNewLogItem("comp", "LOG LINES TOO LONG TYPE REFERNCE NUMBERS THEN PRESS ENTER");
 	};
 	
 	function line4(){
-		addNewLogItem("comp", "LogLine#4>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>____REFERAENC#_0___");
+		addNewLogItem("comp", "LogLine#4>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>____REFERENCE#_0___");
 	};
 	
 	function line5(){
-		addNewLogItem("comp", "LogLine#2>>>>>>>>>>>>>>>>>>>___REFERAENC#_0___>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>___CODE_TOO_LONG__");
+		addNewLogItem("comp", "LogLine#2>>>>>>>>>>>>>>>>>>>___REFERENCE#_0___>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>___CODE_TOO_LONG__");
 	};
 	
 	function line6(){
-		addNewLogItem("comp", "LogLine#3>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>____REFERAENC#_7___<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______");
+		addNewLogItem("comp", "LogLine#3>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>____REFERENCE#_7___<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______");
 	};
 	
 	function line7(){
-		addNewLogItem("comp", "LogLine#5>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>____REFERAENC#_4___<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______");
+		addNewLogItem("comp", "LogLine#5>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>____REFERENCE#_4___<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______");
 	};
 	
 	function line8(){
-		addNewLogItem("comp", "LogLine#6>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>____REFERAENC#_9___<<<<<<<<<<<<<<<<<<<______Too_Far_______");
+		addNewLogItem("comp", "LogLine#6>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>____REFERENEC#_9___<<<<<<<<<<<<<<<<<<<______Too_Far_______");
 	};
 	
 	function line9(){
-		addNewLogItem("comp", "LogLine#1>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>____REFERAENC#_3___<<<<<<<<<<<<<<<<<<<______Too_Far_______");
+		addNewLogItem("comp", "LogLine#1>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>____REFERENCE#_3___<<<<<<<<<<<<<<<<<<<______Too_Far_______");
 	};
 
 	
@@ -1710,31 +1706,31 @@ function Section6Puzzle4(){
 	};
 	
 	function line3(){
-		addNewLogItem("comp", "LOG LINES TOO LONG TYPE REFRENCE NUMBERS THEN PRESS ENTER");
+		addNewLogItem("comp", "LOG LINES TOO LONG TYPE REFERENCE NUMBERS THEN PRESS ENTER");
 	};
 	
 	function line4(){
-		addNewLogItem("comp", "REFERAENC#1>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>______LogLine#■______<<<<<<<<<<<<<<<<<<<______Too_Far_______");
+		addNewLogItem("comp", "REFERENCE#1>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>______LogLine#■______<<<<<<<<<<<<<<<<<<<______Too_Far_______");
 	};
 	
 	function line5(){
-		addNewLogItem("comp", "REFERAENC#7>>>>>>>>>>>>>>>>>>>_____LogLine#◉______>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>___CODE_TOO_LONG__");
+		addNewLogItem("comp", "REFERENCE#7>>>>>>>>>>>>>>>>>>>_____LogLine#◉______>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>___CODE_TOO_LONG__");
 	};
 	
 	function line6(){
-		addNewLogItem("comp", "REFERAENC#4>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>______LogLine#▲______<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______");
+		addNewLogItem("comp", "REFERENCE#4>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>______LogLine#▲______<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______");
 	};
 	
 	function line7(){
-		addNewLogItem("comp", "REFERAENC#6>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>______LogLine#◧______");
+		addNewLogItem("comp", "REFERENCE#6>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>______LogLine#◧______");
 	};
 	
 	function line8(){
-		addNewLogItem("comp", "REFERAENC#3>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>______LogLine#●______<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______");
+		addNewLogItem("comp", "REFERENCE#3>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>______LogLine#●______<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______");
 	};
 	
 	function line9(){
-		addNewLogItem("comp", "REFERAENC#9>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>______LogLine#=______<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______");
+		addNewLogItem("comp", "REFERENCE#9>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>______LogLine#=______<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______");
 	};
 
 	
@@ -1760,7 +1756,7 @@ function repeatInstructions() {
 	};
 	
 	function line2(){
-		addNewLogItem("comp", "Enter URL to hack or decrypt");
+		addNewLogItem("comp", "Enter URL to hack or decrypt:");
 	};
 	
 	setTimeout(line1, 500);
@@ -2318,7 +2314,7 @@ function decryptFail(){
 	};
 	
 	function line4(){
-		addNewLogItem("comp", "ENTER URL TO HACK OR DECYRIPT");
+		addNewLogItem("comp", "ENTER URL TO HACK OR DECRYPT");
 	};
 	
 	function line5(){
@@ -2401,7 +2397,7 @@ function systemCrash(){
 	};
 	
 	function line2(){
-		addNewLogItem("comp", "ATEMPTING RESTART");
+		addNewLogItem("comp", "ATTEMPTING RESTART");
 	};
 	
 	function line3(){
@@ -2730,35 +2726,35 @@ function FinalCutscenept2(){
 	};
 	
 	function line5(){
-		download("downlaod5","Secret#5")
+		download("downlaod5","Secret #5")
 	};
 	
 	function line6(){
-		download("downlaod6","Making cookies")
+		download("downlaod6","Making Cookies")
 	};
 	
 	function line7(){
-		download("downlaod7","Secret#7")
+		download("downlaod7","Secret #7")
 	};
 	
 	function line8(){
-		download("downlaod7","Secret#8")
+		download("downlaod7","Secret #8")
 	};
 	
 	function line9(){
-		download("downlaod7","Secret#9")
+		download("downlaod7","Secret #9")
 	};
 	
 	function line10(){
-		download("downlaod1","Secret#1")
+		download("downlaod1","Secret #1")
 	};
 	
 	function line11(){
-		download("downlaod2","Secret#2")
+		download("downlaod2","Secret #2")
 	};
 	
 	function line12(){
-		download("downlaod3","Secret#3")
+		download("downlaod3","Secret #3")
 	};
 	
 	function line13(){
@@ -2766,7 +2762,7 @@ function FinalCutscenept2(){
 	};
 	
 	function line14(){
-		download("downlaod5","Secret#5")
+		download("downlaod5","Secret #5")
 	};
 	
 	function line15(){
@@ -2778,11 +2774,11 @@ function FinalCutscenept2(){
 	};
 	
 	function line17(){
-		download("downlaod7","Secret#8")
+		download("downlaod7","Secret #8")
 	};
 	
 	function line18(){
-		download("downlaod7","Secret#9")
+		download("downlaod7","Secret #9")
 	};
 	
 	document.getElementById("txt").style.display = "none";
@@ -2819,7 +2815,7 @@ function FinalCutscenept2(){
 	}
 	
 	function line25(){
-		addNewLogItem("comp", "Please enter your password" + playerUsername);
+		addNewLogItem("comp", "Please enter your password " + playerUsername);
 	}
 	
 	function line26(){
@@ -2835,11 +2831,11 @@ function FinalCutscenept2(){
 	}
 	
 	function line29(){
-		addNewLogItem("comp", "Your are now Loged in");
+		addNewLogItem("comp", "Login Successful.");
 	}
 	
 	function line30(){
-		addNewLogItem("comp", "Have a nice day");
+		addNewLogItem("comp", "Have a nice day.");
 	}
 	
 	function line31(){
@@ -2847,15 +2843,15 @@ function FinalCutscenept2(){
 	}
 	
 	function line32(){
-		addNewLogItem("comp", "CONGRADULATIONS!");
+		addNewLogItem("comp", "CONGRATULATIONS!");
 	}
 	
 	function line33(){
-		addNewLogItem("comp", "You have compleated game one: Daffodil362");
+		addNewLogItem("important", "You have completed game one: Daffodil362");
 	}
 	
 	function line34(){
-		addNewLogItem("comp", "Your time: " + Time + " Minutes");
+		addNewLogItem("important", "Your time: " + Time + " Minutes");
 	}
 	
 	function line35(){
@@ -2867,7 +2863,7 @@ function FinalCutscenept2(){
 	}
 	
 	function line37(){
-		addNewLogItem("comp", "Story & Puzzle Design By: Jonathon McClendon");
+		addNewLogItem("comp", "Story & Puzzle Design: Jonathon McClendon");
 	}
 	
 	function line38(){
@@ -2875,7 +2871,7 @@ function FinalCutscenept2(){
 	}
 	
 	function line39(){
-		addNewLogItem("comp", "Coading Team:");
+		addNewLogItem("comp", "Coding Team:");
 	}
 	
 	function line40(){
@@ -2899,7 +2895,7 @@ function FinalCutscenept2(){
 	}
 	
 	function line45(){
-		addNewLogItem("comp", "Poem Witer: John McClendon");
+		addNewLogItem("comp", "Assistant Writer: John McClendon");
 	}
 	
 	function line46(){
@@ -2915,7 +2911,7 @@ function FinalCutscenept2(){
 	}
 	
 	function line49(){
-		addNewLogItem("comp", "Gretchen McClneodn");
+		addNewLogItem("comp", "Gretchen McClendon");
 	}
 	
 	function line50(){
@@ -2936,7 +2932,7 @@ function FinalCutscenept2(){
 	}
 	
 	function line54(){
-		addNewLogItem("comp", "Special Thanks To");
+		addNewLogItem("comp", "Special Thanks to:");
 	}
 	
 	function line55(){
@@ -2944,12 +2940,12 @@ function FinalCutscenept2(){
 	}
 	
 	function line56(){
-		addNewLogItem("comp", "Sorry for all the computers I ruined in my youth.");
-		addNewLogItem("comp", "Trying to take them apart and figure out how they work");
+		addNewLogItem("comp", "Sorry for all the computers I ruined in my youth");
+		addNewLogItem("comp", "trying to take them apart and figure out how they worked.");
 	}
 	
 	function line57(){
-		addNewLogItem("comp", "Johnson Family");
+		addNewLogItem("comp", "~ Johnson Family");
 	}
 	
 	function line58(){
