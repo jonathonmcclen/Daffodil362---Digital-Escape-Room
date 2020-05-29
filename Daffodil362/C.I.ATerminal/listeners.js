@@ -301,35 +301,35 @@ function checkPlayerInput() {
 			puzzle12Done();
 			hintCode = "207";
 
-		} else if (playerTXT == FileLokPuzzle1En){
+		} else if (playerTXT == FileLokPuzzle1En){ //puzzle 2 Shapes 1
 			FileLokPuzzle1();
 			hintCode = "208";
 
-		} else if (playerTXT == FileLokPuzzle2En){
+		} else if (playerTXT == FileLokPuzzle2En){ //puzzle 3 Shapes 2
 			FileLokPuzzle2();
 			hintCode = "209";
 
-		} else if (playerTXT == FileLokPuzzle3En){
+		} else if (playerTXT == FileLokPuzzle3En){ //puzzle 4 Fruit Salad
 			FileLokPuzzle3();
 			hintCode = "210";
 
-		} else if (playerTXT == FileLokPuzzle4En){
+		} else if (playerTXT == FileLokPuzzle4En){ //puzzle 5 Colors 2
 			FileLokPuzzle4();
 			hintCode = "211";
 
-		} else if (playerTXT == FileLokPuzzle5En){
+		} else if (playerTXT == FileLokPuzzle5En){ //puzzle 6 Twitter Hack Poem
 			FileLokPuzzle5();
 			hintCode = "212";
 
-		} else if (playerTXT == FileLokPuzzle6En){
+		} else if (playerTXT == FileLokPuzzle6En){ //puzzle 7 Helcopter Photo
 			FileLokPuzzle6();
 			hintCode = "213";
 
-		} else if (playerTXT == FileLokPuzzle7En){
+		} else if (playerTXT == FileLokPuzzle7En){ //puzzle 8 Phone number
 			FileLokPuzzle7();
 			hintCode = "214";
 
-		} else if (playerTXT == FileLokPuzzle8En){
+		} else if (playerTXT == FileLokPuzzle8En){ //puzzle 9  
 			FileLokPuzzle8();
 			hintCode = "215";
 
