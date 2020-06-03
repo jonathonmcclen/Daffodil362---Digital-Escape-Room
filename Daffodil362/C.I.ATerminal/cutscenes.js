@@ -664,7 +664,7 @@ function puzzle8Done(){
 	};
 	
 	function line3(){
-		addNewLogItem("comp", "SERVER IP: 19.087.1254");
+		addNewLogItem("comp", "SERVER IP: 19.087.125");
 	};
 	
 	function line4(){
