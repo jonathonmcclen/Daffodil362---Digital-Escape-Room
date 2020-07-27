@@ -84,9 +84,14 @@ function addNewLogItem(user, txt) {
 		document.getElementById("log").appendChild(btn);	
 		window.scrollTo(0, document.body.scrollHeight || document.documentElement.scrollHeight);
 		
+	} else if(user == "End") {
+		
+		var btn = document.createElement("h2");
+		btn.innerHTML = "C:\\User\\Input> " + txt;
+		btn.className = "End";
+		document.getElementById("log").appendChild(btn);	
+		window.scrollTo(0, document.body.scrollHeight || document.documentElement.scrollHeight);
 	}
-	
-	
 };
 
 function clearTxtBox(){
