@@ -19,8 +19,25 @@ var puzzle = 0;
 
 function checkPlayerInput() {
 	
+    //Music
+    if (playerTXT == "music") {
+        if (music_on) {
+            current_music.pause();
+            music_on = false;
+        }
+        else {
+            current_music.play();
+            music_on = true;
+        }
+        return;
+    }
+    
+    
 	if(section == 0 && puzzle == 0){
 		
+        if (music_on)
+            main_music.play();
+        
 		if (playerTXT == "guest"){
 			
 			section = 2;
@@ -435,6 +452,15 @@ function checkPlayerInput() {
 		} else if (puzzle == 18){
 			if (playerTXT == "https://54759-74729-89454-57570"){ // You Are Now Hacked
 			
+                //Intense music
+                if (music_on) {
+                    current_music.pause();
+                }
+                current_music = intense_music;
+                if (music_on) {
+                    current_music.play();
+                }
+                
 			var glitchAnim = setInterval(fadeGlitch, 10000);
 			document.getElementById("txt").maxLength = "6";
 			encryptedDone = true;
@@ -504,6 +530,10 @@ function checkPlayerInput() {
 		} else if (puzzle == 5){
 			if (playerTXT == "674931"){
 
+                //More glitches here
+                randomTextShift();
+                musicShift();
+                
 				finalCutscene();
 				puzzle = 6;
 

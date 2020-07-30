@@ -2374,6 +2374,7 @@ function finalCutscene(){
 	
 	function line10(){
 		fadein("finalInstruction", "in");
+        endExtraGlitches();
 	};
 	
 	
@@ -3028,4 +3029,58 @@ function FinalCutscenept2(){
 
 
 
-	
+//Extra glitches
+
+var randomTextShiftInterval;
+
+function randomTextShift() {
+    
+    randomTextShiftInterval = setInterval(function() {
+        var h2_elems = document.querySelectorAll('h2');
+        var index = Math.floor(Math.random() * h2_elems.length);
+        
+        if (Math.floor(Math.random() * 2) == 0) {
+            let originalLineHeight = h2_elems[index].style.lineHeight
+            h2_elems[index].style.lineHeight = '10px';
+
+            setTimeout(() => h2_elems[index].style.lineHeight = originalLineHeight, Math.floor(Math.random() * 1000));
+        }
+        else {
+            let originalHTML = h2_elems[index].innerHTML;
+            let htmlIndex = Math.floor(Math.random() * originalHTML.length);
+            h2_elems[index].innerHTML = originalHTML.substring(0, htmlIndex) + '&nbsp&nbsp&nbsp&nbsp' + originalHTML.substring(htmlIndex);
+            
+            setTimeout(() => h2_elems[index].innerHTML = originalHTML, Math.floor(Math.random() * 1000))
+        }
+    }, 200);
+    
+}
+
+function musicShift() {
+    var current_wait = 0;
+    for (let i = 0; i < 9; i++) {
+        let wait = Math.floor(Math.random() * 500) + 200;
+        setTimeout(function() {
+            current_music.playbackRate += (Math.floor(Math.random() * 3) - 1) / 10;
+        }, wait + current_wait);
+        current_wait += wait;
+    }
+    
+    setTimeout(function() {
+        current_music.playbackRate = 0.5;
+    }, current_wait + 1000);
+}
+
+
+function endExtraGlitches() {
+    clearInterval(randomTextShiftInterval);
+    let musicFadeInterval = setInterval(function() {
+        if (current_music.volume > 0.1) {
+            current_music.volume -= 0.05;
+        }
+        else {
+            current_music.pause();
+            clearInterval(musicFadeInterval);
+        }
+    }, 100);
+}
