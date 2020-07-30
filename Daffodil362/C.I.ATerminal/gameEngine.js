@@ -1,3 +1,19 @@
+//Sounds
+var button_beep_src = "https://cia-9d562a98.s3.us-west-1.amazonaws.com/GameAssets/SoundFX/Daffodil362KeyPress.wav";
+var main_music_src = 'https://cia-9d562a98.s3.us-west-1.amazonaws.com/GameAssets/SoundFX/Daffodil362MainMusic.wav';
+var intense_music_src = "sounds/bensound-epic.mp3"
+
+var main_music = document.createElement('audio');
+main_music.src = main_music_src;
+main_music.loop = true;
+
+var intense_music = document.createElement('audio');
+intense_music.src = intense_music_src;
+intense_music.loop = true;
+
+var music_on = true;
+var current_music = main_music;
+
 
 //Users
 var playerTag = "";
@@ -28,7 +44,6 @@ window.onload = function(){
 	
 	setInterval(terminalAnim, 7000);
 	setInterval(AddMinute, 60000);
-	
 
 };
 
@@ -101,6 +116,12 @@ function clearTxtBox(){
 //  PLAYER PRESSED ENTER
 function keyPressed(evt) {
 //console.log(evt.keyCode);
+    
+    let button_beep = document.createElement('audio');
+    button_beep.src = button_beep_src;
+    button_beep.play();
+
+    
 	if(evt.keyCode == ENTER) {
 		ENTER_DOWN = true;
 		grabSub();
@@ -116,3 +137,5 @@ function keyReleased(evt) {
 		ENTER_DOWN = false;
 	} 
 };
+
+
