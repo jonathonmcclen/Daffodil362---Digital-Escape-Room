@@ -1,3 +1,10 @@
+//Added utilities (Fiverr)
+var allowFlicker = true;
+var glitchAnim;
+var ready_for_input_sound = document.createElement('audio');
+ready_for_input_sound.src = "sounds/ready-for-input.mp3";
+
+
 // JavaScript Document
 const alabasterTerminalURL = "https://s3.us-west-1.amazonaws.com/15.908.75-f8065564/AlabasterTerminal/gamev2.0.html";
 
@@ -33,6 +40,7 @@ function login1Done(){
 	
 	function line3(){
 		addNewLogItem("comp", "Please enter your password");
+        ready_for_input_sound.play();
 	};
 	
 	setTimeout(line1, 2000);
@@ -84,6 +92,7 @@ function login2Done(){
 
 	function line10(){
 		addNewLogItem("comp", "287601, 876012, 760128, _ _ _ _ _ _");
+        ready_for_input_sound.play();
 	};
 	
 	setTimeout(line4, 8000);
@@ -115,6 +124,7 @@ function puzzle1Done() {
 	
 	function line3(){
 		addNewLogItem("comp", "431842, 243184, 424318, _ _ _ _ _ _");
+        ready_for_input_sound.play();
 	};
 	
 	setTimeout(line1, 7000);
@@ -161,6 +171,7 @@ function puzzle2Done() {
 	
 	function line12(){
 		addNewLogItem("comp", "TYPE REFERENCE NUMBERS IN ORDER THEN PRESS ENTER");
+        ready_for_input_sound.play();
 	};
 	
 	
@@ -219,6 +230,7 @@ function puzzle3Done() {
 	
 	function line12(){
 		addNewLogItem("comp", "TYPE REFERENCE NUMBERS IN ORDER THEN PRESS ENTER");
+        ready_for_input_sound.play();
 	};
 	
 	
@@ -272,6 +284,7 @@ function puzzle4Done() {
 	
 	function line8(){
 		addNewLogItem("comp", "LogLine#6>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>__REFERENCE#_6___");
+        ready_for_input_sound.play();
 	};
 	
 	setTimeout(line1, 7000);
@@ -322,6 +335,7 @@ function puzzle5Done() {
 	
 	function line8(){
 		addNewLogItem("comp", "LogLine#1>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>__REFERENCE#_0___");
+        ready_for_input_sound.play();
 	};
 	
 	setTimeout(line1, 7000);
@@ -369,6 +383,7 @@ function puzzle6Done () {
 	
 	function line8(){
 		addNewLogItem("comp", "LogLine#6>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>____REFERENCE#_6___");
+        ready_for_input_sound.play();
 	};
 	
 	setTimeout(line1, 7000);
@@ -420,6 +435,7 @@ function puzzle16Done () {
 	
 	function line8(){
 		addNewLogItem("comp", "LogLine#6>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>____REFERENCE#_5___");
+        ready_for_input_sound.play();
 	};
 	
 	setTimeout(line1, 7000);
@@ -471,6 +487,7 @@ function puzzle17Done () {
 	
 	function line8(){
 		addNewLogItem("comp", ">>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>____REREFERENCE#_5___<<<<<<<<<<<<<<<<<<<______Too_Far_______LogLine#1");
+        ready_for_input_sound.play();
 	};
 	
 	setTimeout(line1, 7000);
@@ -537,6 +554,7 @@ function puzzle18Done () {
 	
 	function line12(){
 		addNewLogItem("comp", "Add 7");
+        ready_for_input_sound.play();
 	};
 	
 	setTimeout(line1, 7000);
@@ -595,6 +613,7 @@ function LoggedIn() {
 	
 	function line9(){
 		divider();
+        ready_for_input_sound.play();
 	};
 	
 	setTimeout(line1, 7000);
@@ -637,6 +656,7 @@ function puzzle7Done() {
 	
 	function line6(){
 		divider();
+        ready_for_input_sound.play();
 	};
 	
 	setTimeout(line1, 5000);
@@ -681,6 +701,7 @@ function puzzle8Done(){
 	
 	function line7(){
 		divider();
+        ready_for_input_sound.play();
 	};
 	
 	
@@ -734,6 +755,7 @@ function puzzle9Done(){
 	
 	function line9(){
 		divider();
+        ready_for_input_sound.play();
 	};
 	
 	
@@ -791,6 +813,7 @@ function puzzle10Done(){
 	
 	function line9(){
 		divider();
+        ready_for_input_sound.play();
 	};
 	
 	
@@ -842,6 +865,7 @@ function puzzle11Done(){
 	
 	function line8(){
 		divider();
+        ready_for_input_sound.play();
 	};
 	
 	setTimeout(line1, 9000);
@@ -933,6 +957,7 @@ function puzzle12Done(){
 	
 	function line19(){
 		divider();
+        ready_for_input_sound.play();
 	};
 	
 	
@@ -986,6 +1011,7 @@ function puzzle13Done(){
 	
 	function line6(){
 		divider();
+        ready_for_input_sound.play();
 	};
 	
 	setTimeout(line1, 9000);
@@ -1037,6 +1063,7 @@ function puzzle14Done(){
 	
 	function line9(){
 		divider();
+        ready_for_input_sound.play();
 	};
 	
 	setTimeout(line1, 9000);
@@ -1089,6 +1116,7 @@ function puzzle15Done(){
 	
 	function line9(){
 		divider();
+        ready_for_input_sound.play();
 	};
 	
 	setTimeout(line1, 9000);
@@ -1129,6 +1157,7 @@ function ExampleFail(){
 	
 	function line6(){
 		divider();
+        ready_for_input_sound.play();
 	};
 	
 	setTimeout(line1, 9000);
@@ -1175,6 +1204,7 @@ function cutsceneHacked(){
 	
 	function line8(){
 		divider();
+        ready_for_input_sound.play();
 	};
 	
 	setTimeout(line1, 9000);
@@ -1220,6 +1250,7 @@ function FileLokPuzzle1(){
 	
 	function line7(){
 		divider();
+        ready_for_input_sound.play();
 	};
 	
 	setTimeout(line1, 9000);
@@ -1262,6 +1293,7 @@ function FileLokPuzzle2(){
 	
 	function line7(){
 		divider();
+        ready_for_input_sound.play();
 	};
 	
 	setTimeout(line1, 9000);
@@ -1304,6 +1336,7 @@ function FileLokPuzzle3(){
 	
 	function line7(){
 		divider();
+        ready_for_input_sound.play();
 	};
 	
 	setTimeout(line1, 9000);
@@ -1346,6 +1379,7 @@ function FileLokPuzzle4(){
 	
 	function line7(){
 		divider();
+        ready_for_input_sound.play();
 	};
 	
 	setTimeout(line1, 9000);
@@ -1388,6 +1422,7 @@ function FileLokPuzzle5(){
 	
 	function line7(){
 		divider();
+        ready_for_input_sound.play();
 	};
 	
 	setTimeout(line1, 9000);
@@ -1430,6 +1465,7 @@ function FileLokPuzzle6(){
 	
 	function line7(){
 		divider();
+        ready_for_input_sound.play();
 	};
 	
 	setTimeout(line1, 9000);
@@ -1472,6 +1508,7 @@ function FileLokPuzzle7(){
 	
 	function line7(){
 		divider();
+        ready_for_input_sound.play();
 	};
 	
 	setTimeout(line1, 9000);
@@ -1514,6 +1551,7 @@ function FileLokPuzzle8(){
 	
 	function line7(){
 		divider();
+        ready_for_input_sound.play();
 	};
 	
 	setTimeout(line1, 9000);
@@ -1570,6 +1608,7 @@ function Section6Puzzle1(){
 	
 	function line9(){
 		addNewLogItem("comp", "LogLine#3>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>____REFERENCE#_8___<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______");
+        ready_for_input_sound.play();
 	}
 	
 	setTimeout(line1, 9000);
@@ -1623,6 +1662,7 @@ function Section6Puzzle2(){
 	
 	function line9(){
 		addNewLogItem("comp", "LogLine#5>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>____REFERENCE#_3___<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______");
+        ready_for_input_sound.play();
 	};
 
 	
@@ -1677,6 +1717,7 @@ function Section6Puzzle3(){
 	
 	function line9(){
 		addNewLogItem("comp", "LogLine#1>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>____REFERENCE#_3___<<<<<<<<<<<<<<<<<<<______Too_Far_______");
+        ready_for_input_sound.play();
 	};
 
 	
@@ -1731,6 +1772,7 @@ function Section6Puzzle4(){
 	
 	function line9(){
 		addNewLogItem("comp", "REFERENCE#9>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>______LogLine#=______<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______");
+        ready_for_input_sound.play();
 	};
 
 	
@@ -1757,6 +1799,7 @@ function repeatInstructions() {
 	
 	function line2(){
 		addNewLogItem("comp", "Enter URL to hack or decrypt:");
+        ready_for_input_sound.play();
 	};
 	
 	setTimeout(line1, 500);
@@ -1868,6 +1911,7 @@ function hack(ID){
 	function line15(){
 		var elmnt = document.getElementById("temp");
 		elmnt.id = ID;
+        ready_for_input_sound.play();
 	};
 	
 	setTimeout(line1, 1000);
@@ -2100,11 +2144,17 @@ function download(ID,what){
 
 function flicker(){
 	function line1(){
-		hideEverything();
+        if (allowFlicker) {
+		  hideEverything();
+            current_music.volume = 0;
+        }
 	};
 	
 	function line2(){
-		showEverything();
+        if (allowFlicker) {
+		  showEverything();
+            current_music.volume = 1;
+        }
 	};
 	
 	setTimeout(line1, 100);
@@ -2319,6 +2369,7 @@ function decryptFail(){
 	
 	function line5(){
 		divider();
+        ready_for_input_sound.play();
 	};
 	
 	setTimeout(line1, 0);
@@ -2334,6 +2385,16 @@ function finalCutscene(){
 	
 	function line1(){
 		flicker();// animation stops at 1400
+        
+        //Intense music
+        if (music_on) {
+            current_music.pause();
+        }
+        current_music = intense_music;
+        if (music_on) {
+            current_music.play();
+        }
+        
 	};
 	
 	function line2(){
@@ -2361,6 +2422,15 @@ function finalCutscene(){
 	function line7(){
 		var element = document.getElementById("AlabasterHeader")
 		element.classList.remove("hidden");
+        
+        //Alabaster music
+        if (music_on) {
+            current_music.pause();
+        }
+        current_music = alabaster_music;
+        if (music_on) {
+            current_music.play();
+        }
 	};
 	
 	function line8(){
@@ -2374,7 +2444,6 @@ function finalCutscene(){
 	
 	function line10(){
 		fadein("finalInstruction", "in");
-        endExtraGlitches();
 	};
 	
 	
@@ -2785,7 +2854,10 @@ function FinalCutscenept2(){
 	document.getElementById("txt").style.display = "none";
 	
 	function line19(){
-		flicker();// animation stops at 1400
+		//flicker();// animation stops at 1400
+        clearInterval(glitchAnim);
+        endExtraGlitches();
+        //allowFlicker = false;
 	};
 	
 	function line20(){
@@ -2793,14 +2865,12 @@ function FinalCutscenept2(){
 	};
 	
 	function line21(){
-		flicker();
+		//flicker();
 		var element = document.getElementById("AlabasterHeader")
 		element.classList.add("hidden");
 		
 		var element = document.getElementById("credits")
 		element.classList.remove("hidden");
-		
-		clearInterval(glitchAnim);
 	};
 	
 	function line22(){
@@ -3036,21 +3106,25 @@ var randomTextShiftInterval;
 function randomTextShift() {
     
     randomTextShiftInterval = setInterval(function() {
-        var h2_elems = document.querySelectorAll('h2');
+        var h2_elems = document.querySelectorAll('h2.log-item');
         var index = Math.floor(Math.random() * h2_elems.length);
         
-        if (Math.floor(Math.random() * 2) == 0) {
-            let originalLineHeight = h2_elems[index].style.lineHeight
-            h2_elems[index].style.lineHeight = '10px';
+        if (h2_elems.length > 0) {
+        
+            if (Math.floor(Math.random() * 2) == 0) {
+                let originalLineHeight = h2_elems[index].style.lineHeight
+                h2_elems[index].style.lineHeight = '10px';
 
-            setTimeout(() => h2_elems[index].style.lineHeight = originalLineHeight, Math.floor(Math.random() * 1000));
-        }
-        else {
-            let originalHTML = h2_elems[index].innerHTML;
-            let htmlIndex = Math.floor(Math.random() * originalHTML.length);
-            h2_elems[index].innerHTML = originalHTML.substring(0, htmlIndex) + '&nbsp&nbsp&nbsp&nbsp' + originalHTML.substring(htmlIndex);
+                setTimeout(() => h2_elems[index].style.lineHeight = originalLineHeight, Math.floor(Math.random() * 1000));
+            }
+            else {
+                let originalHTML = h2_elems[index].innerHTML;
+                let htmlIndex = Math.floor(Math.random() * originalHTML.length);
+                h2_elems[index].innerHTML = originalHTML.substring(0, htmlIndex) + '&nbsp&nbsp&nbsp&nbsp' + originalHTML.substring(htmlIndex);
+
+                setTimeout(() => h2_elems[index].innerHTML = originalHTML, Math.floor(Math.random() * 1000))
+            }
             
-            setTimeout(() => h2_elems[index].innerHTML = originalHTML, Math.floor(Math.random() * 1000))
         }
     }, 200);
     

@@ -451,17 +451,8 @@ function checkPlayerInput() {
 			}
 		} else if (puzzle == 18){
 			if (playerTXT == "https://54759-74729-89454-57570"){ // You Are Now Hacked
-			
-                //Intense music
-                if (music_on) {
-                    current_music.pause();
-                }
-                current_music = intense_music;
-                if (music_on) {
-                    current_music.play();
-                }
                 
-			var glitchAnim = setInterval(fadeGlitch, 10000);
+			glitchAnim = setInterval(fadeGlitch, 10000);
 			document.getElementById("txt").maxLength = "6";
 			encryptedDone = true;
 			cutsceneHacked();
