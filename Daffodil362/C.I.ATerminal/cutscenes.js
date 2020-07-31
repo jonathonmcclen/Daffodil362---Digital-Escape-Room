@@ -87,11 +87,11 @@ function login2Done(){
 	};
 	
 	function line9(){
-		addNewLogItem("comp","Complete The Sequence");
+		addNewLogItem("comp", "287601, 876012, 760128, _ _ _ _ _ _");
 	};
 
 	function line10(){
-		addNewLogItem("comp", "287601, 876012, 760128, _ _ _ _ _ _");
+		addNewLogItem("comp","Complete The Sequence");
         ready_for_input_sound.play();
 	};
 	
@@ -119,11 +119,11 @@ function puzzle1Done() {
 	};
 	
 	function line2(){
-		addNewLogItem("comp","Complete The Sequence");
+		addNewLogItem("comp", "431842, 243184, 424318, _ _ _ _ _ _");
 	};
 	
 	function line3(){
-		addNewLogItem("comp", "431842, 243184, 424318, _ _ _ _ _ _");
+		addNewLogItem("comp","Complete The Sequence");
         ready_for_input_sound.play();
 	};
 	
@@ -131,6 +131,7 @@ function puzzle1Done() {
 	setTimeout(line2, 9000);
 	setTimeout(line3, 11000);
 };
+
 function puzzle2Done() {
 	
 	Success();
@@ -259,32 +260,32 @@ function puzzle4Done() {
 	};
 	
 	function line2(){
-		addNewLogItem("comp", "LOG LINES TOO LONG TYPE REFRENCE NUMBERS THEN PRESS ENTER");
-	};
-	
-	function line3(){
 		addNewLogItem("comp", "LogLine#1>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>__REFERENCE#_2___");
 	};
 	
-	function line4(){
+	function line3(){
 		addNewLogItem("comp", "LogLine#2>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>__REFERENCE#_0___");
 	};
 	
-	function line5(){
+	function line4(){
 		addNewLogItem("comp", "LogLine#3>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>__REFERENEC#_3___");
 	};
 	
-	function line6(){
+	function line5(){
 		addNewLogItem("comp", "LogLine#4>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>__REFERENCE#_8___");
 	};
 	
-	function line7(){
+	function line6(){
 		addNewLogItem("comp", "LogLine#5>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>__REFERENCE#_9___");
 	};
 	
-	function line8(){
+	function line7(){
 		addNewLogItem("comp", "LogLine#6>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>__REFERENCE#_6___");
         ready_for_input_sound.play();
+	};
+	
+	function line8(){
+		addNewLogItem("comp", "LOG LINES TOO LONG TYPE REFRENCE NUMBERS THEN PRESS ENTER");
 	};
 	
 	setTimeout(line1, 7000);
@@ -310,32 +311,32 @@ function puzzle5Done() {
 	};
 	
 	function line2(){
-		addNewLogItem("comp", "LOG LINES TOO LONG TYPE REFRENCE NUMBERS THEN PRESS ENTER");
-	};
-	
-	function line3(){
 		addNewLogItem("comp", "LogLine#6>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>__REFERENCE#_9___");
 	};
 	
-	function line4(){
+	function line3(){
 		addNewLogItem("comp", "LogLine#5>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>__REFERENCE#_4___");
 	};
 	
-	function line5(){
+	function line4(){
 		addNewLogItem("comp", "LogLine#4>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>__REFERENCE#_6___");
 	};
 	
-	function line6(){
+	function line5(){
 		addNewLogItem("comp", "LogLine#3>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>__REFERENCE#_8___");
 	};
 	
-	function line7(){
+	function line6(){
 		addNewLogItem("comp", "LogLine#2>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>__REFERENCE#_1___");
 	};
 	
-	function line8(){
+	function line7(){
 		addNewLogItem("comp", "LogLine#1>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>__REFERENCE#_0___");
         ready_for_input_sound.play();
+	};
+	
+	function line8(){
+		addNewLogItem("comp", "LOG LINES TOO LONG TYPE REFRENCE NUMBERS THEN PRESS ENTER");
 	};
 	
 	setTimeout(line1, 7000);
