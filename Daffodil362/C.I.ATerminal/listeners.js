@@ -384,6 +384,10 @@ function checkPlayerInput() {
 				hintCode = "210";
 				puzzle = 13;
 
+			} else if(playerTXT == FileLokPuzzle6En){
+				
+				TwitterFailSafe();
+				
 			} else {
 				
 				decryptFail();

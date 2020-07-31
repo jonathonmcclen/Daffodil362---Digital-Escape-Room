@@ -2,7 +2,7 @@
 var allowFlicker = true;
 var glitchAnim;
 var ready_for_input_sound = document.createElement('audio');
-ready_for_input_sound.src = "sounds/ready-for-input.mp3";
+ready_for_input_sound.src = "https://cia-9d562a98.s3.us-west-1.amazonaws.com/GameAssets/SoundFX/Daffodil362Ready.wav";
 
 
 // JavaScript Document
@@ -1167,6 +1167,46 @@ function ExampleFail(){
 	setTimeout(line5, 11000);
 	setTimeout(line6, 11500);
 
+};
+
+function TwitterFailSafe() {
+	
+	function line1(){
+		addNewLogItem("comp", "ERROR");
+	};
+	
+	function line2(){
+		addNewLogItem("comp", "STEP SKIPPED");
+	};
+	
+	function line3(){
+		addNewLogItem("comp","Re-Read The Riddle");
+	};
+	
+	function line4(){
+		addNewLogItem("comp","See if you can HACK IT");
+	};
+	
+	function line5(){
+		divider();
+	};
+	
+	function line6(){
+		addNewLogItem("comp", "ENTER URL TO HACK OR DECRYPT:");
+	};
+	
+	function line7(){
+		divider();
+        ready_for_input_sound.play();
+	};
+	
+	setTimeout(line1, 9000);
+	setTimeout(line2, 9500);
+	setTimeout(line3, 10000);
+	setTimeout(line4, 10500);
+	setTimeout(line5, 11000);
+	setTimeout(line6, 11500);
+	setTimeout(line7, 12000);	
 };
 
 function cutsceneHacked(){
@@ -2990,7 +3030,7 @@ function FinalCutscenept2(){
 	}
 	
 	function line51(){
-		addNewLogItem("comp", "Scott Rickles");
+		addNewLogItem("comp", "Jay Dallen");
 	}
 	
 	function line52(){
