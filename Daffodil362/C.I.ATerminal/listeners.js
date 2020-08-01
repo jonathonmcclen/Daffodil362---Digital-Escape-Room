@@ -441,6 +441,10 @@ function checkPlayerInput() {
                 
                 success_sound.play();
 
+			} else if(playerTXT == FileLokPuzzle6En){
+				
+				TwitterFailSafe();
+				
 			} else {
 				
 				decryptFail();

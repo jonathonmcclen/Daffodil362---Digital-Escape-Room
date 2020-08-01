@@ -1,7 +1,7 @@
 //Sounds
 var button_beep_src = "https://cia-9d562a98.s3.us-west-1.amazonaws.com/GameAssets/SoundFX/Daffodil362KeyPress.wav";
 var main_music_src = 'https://cia-9d562a98.s3.us-west-1.amazonaws.com/GameAssets/SoundFX/Daffodil362MainMusic.wav';
-var intense_music_src = "sounds/bensound-epic.mp3";
+var intense_music_src = "https://cia-9d562a98.s3.us-west-1.amazonaws.com/GameAssets/SoundFX/Daffodil362Reeboot.wav";
 var alabaster_music_src = "sounds/bensound-evolution.mp3";
 
 var main_music = document.createElement('audio');
