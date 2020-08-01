@@ -64,7 +64,7 @@ function grabSub() {
 	playerTXT = document.getElementById("txt").value;
 };
 
-function addNewLogItem(user, txt) {
+function addNewLogItem(user, txt, blue=false) {
 	if(user == "player"){
 		
 		var btn = document.createElement("h2");
@@ -118,6 +118,8 @@ function addNewLogItem(user, txt) {
 		document.getElementById("log").appendChild(btn);	
 		window.scrollTo(0, document.body.scrollHeight || document.documentElement.scrollHeight);
 	}
+    if (blue)
+        btn.style.color = 'blue';
 };
 
 function clearTxtBox(){
@@ -136,7 +138,8 @@ function keyPressed(evt) {
 	if(evt.keyCode == ENTER) {
 		ENTER_DOWN = true;
 		grabSub();
-		addNewLogItem("player",playerTXT);
+        if (section != 3 || puzzle != 6)
+		  addNewLogItem("player",playerTXT);
 		checkPlayerInput();
 		clearTxtBox();
 	}
@@ -150,3 +153,36 @@ function keyReleased(evt) {
 };
 
 
+//Moving button
+
+var URL = "http://example.com";
+
+function doMovingButton() {
+    var moving_button = document.createElement('button');
+    document.body.appendChild(moving_button);
+    moving_button.style.position = "absolute";
+    moving_button.style.top = "50%";
+    moving_button.style.right = "50%";
+    moving_button.style.width = "60px";
+    moving_button.style.height = "40px";
+    moving_button.innerHTML = "Test Button";
+    
+    var times_hovered = 0;
+    
+    moving_button.onmouseover = function() {
+        
+        if (times_hovered < 4) {
+            let new_x = 200 + Math.floor(Math.random() * (window.innerWidth - 200));
+            let new_y = 200 + Math.floor(Math.random() * (window.innerHeight - 200));
+            moving_button.style.top = new_y + "px";
+            moving_button.style.right = new_x + "px";
+            times_hovered++;
+        }
+        else if (times_hovered == 4) {
+            moving_button.onclick = function() {
+                window.location = URL;
+            }
+        }
+    }
+    
+}

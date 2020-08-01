@@ -4,6 +4,14 @@ var glitchAnim;
 var ready_for_input_sound = document.createElement('audio');
 ready_for_input_sound.src = "sounds/ready-for-input.mp3";
 
+var success_sound = document.createElement('audio');
+success_sound.src = 'sounds/success.mp3';
+
+var failure_sound = document.createElement('audio');
+failure_sound.src = 'sounds/failure.mp3';
+
+var typing_animation;
+
 
 // JavaScript Document
 const alabasterTerminalURL = "https://s3.us-west-1.amazonaws.com/15.908.75-f8065564/AlabasterTerminal/gamev2.0.html";
@@ -2037,86 +2045,86 @@ function decrypt(ID){
 
 };
 
-function download(ID,what){
+function download(ID,what, blue=false){
 	
 	function line1(){
-		addNewLogItem("comp", "Downloading:" + what);
+		addNewLogItem("comp", "Downloading:" + what, blue);
 	};
 	
 	function line2(){
-		addNewLogItem("loading", " █2%");
+		addNewLogItem("loading", " █2%", blue);
 	};
 	
 	function line3(){
 		var elmnt = document.getElementById("temp");
 		elmnt.remove();
-		addNewLogItem("loading", " ██5%");
+		addNewLogItem("loading", " ██5%", blue);
 	};
 	
 	function line4(){
 		var elmnt = document.getElementById("temp");
 		elmnt.remove();
-		addNewLogItem("loading", " ████7%");
+		addNewLogItem("loading", " ████7%", blue);
 	};
 	
 	function line5(){
 		var elmnt = document.getElementById("temp");
 		elmnt.remove();
-		addNewLogItem("loading", " █████9%");
+		addNewLogItem("loading", " █████9%", blue);
 	};
 	
 	function line6(){
 		var elmnt = document.getElementById("temp");
 		elmnt.remove();
-		addNewLogItem("loading", " ██████10%");
+		addNewLogItem("loading", " ██████10%", blue);
 	};
 	
 	function line7(){
 		var elmnt = document.getElementById("temp");
 		elmnt.remove();
-		addNewLogItem("loading", " ███████12%");
+		addNewLogItem("loading", " ███████12%", blue);
 	};
 	
 	function line8(){
 		var elmnt = document.getElementById("temp");
 		elmnt.remove();
-		addNewLogItem("loading", " ████████17%");
+		addNewLogItem("loading", " ████████17%", blue);
 	};
 	
 	function line9(){
 		var elmnt = document.getElementById("temp");
 		elmnt.remove();
-		addNewLogItem("loading", " █████████19%");
+		addNewLogItem("loading", " █████████19%", blue);
 	};
 	
 	function line10(){
 		var elmnt = document.getElementById("temp");
 		elmnt.remove();
-		addNewLogItem("loading", " ████████████25%");
+		addNewLogItem("loading", " ████████████25%", blue);
 	};
 	
 	function line11(){
 		var elmnt = document.getElementById("temp");
 		elmnt.remove();
-		addNewLogItem("loading", " ██████████████████45%");
+		addNewLogItem("loading", " ██████████████████45%", blue);
 	};
 	
 	function line12(){
 		var elmnt = document.getElementById("temp");
 		elmnt.remove();
-		addNewLogItem("loading", " ████████████████████████50%");
+		addNewLogItem("loading", " ████████████████████████50%", blue);
 	};
 	
 	function line13(){
 		var elmnt = document.getElementById("temp");
 		elmnt.remove();
-		addNewLogItem("loading", " ██████████████████████████████████████75%");
+		addNewLogItem("loading", " ██████████████████████████████████████75%", blue);
 	};
 	
 	function line14(){
 		var elmnt = document.getElementById("temp");
 		elmnt.remove();
-		addNewLogItem("loading", " ██████████████████████████████████████████████████100%");
+		addNewLogItem("loading", " ██████████████████████████████████████████████████100%", blue);
 	};
 	
 	function line15(){
@@ -2353,6 +2361,7 @@ function boot(){
 function decryptFail(){
 	function line1(){
 		addNewLogItem("comp", "FAIL");
+        failure_sound.play();
 	};
 	
 	function line2(){
@@ -2780,75 +2789,75 @@ function FinalCutscenept2(){
 		element.classList.add("hidden");
 		var element = document.getElementById("finalInstruction")
 		element.classList.add("hidden");
-		download("downlaod1","Secret#1")
+		download("downlaod1","Secret#1", true)
 	};
 	
 	function line2(){
-		download("downlaod2","Hacking 1st-3rd Level Security")
+		download("downlaod2","Hacking 1st-3rd Level Security", true)
 	};
 	
 	function line3(){
-		download("downlaod3","Downloading operator files")
+		download("downlaod3","Downloading operator files", true)
 	};
 	
 	function line4(){
-		download("downlaod4","Obtaining operative names")
+		download("downlaod4","Obtaining operative names", true)
 	};
 	
 	function line5(){
-		download("downlaod5","Secret #5")
+		download("downlaod5","Secret #5", true)
 	};
 	
 	function line6(){
-		download("downlaod6","Making Cookies")
+		download("downlaod6","Making Cookies", true)
 	};
 	
 	function line7(){
-		download("downlaod7","Secret #7")
+		download("downlaod7","Secret #7", true)
 	};
 	
 	function line8(){
-		download("downlaod7","Secret #8")
+		download("downlaod7","Secret #8", true)
 	};
 	
 	function line9(){
-		download("downlaod7","Secret #9")
+		download("downlaod7","Secret #9", true)
 	};
 	
 	function line10(){
-		download("downlaod1","Secret #1")
+		download("downlaod1","Secret #1", true)
 	};
 	
 	function line11(){
-		download("downlaod2","Secret #2")
+		download("downlaod2","Secret #2", true)
 	};
 	
 	function line12(){
-		download("downlaod3","Secret #3")
+		download("downlaod3","Secret #3", true)
 	};
 	
 	function line13(){
-		download("downlaod4","Secret#4")
+		download("downlaod4","Secret#4", true)
 	};
 	
 	function line14(){
-		download("downlaod5","Secret #5")
+		download("downlaod5","Secret #5", true)
 	};
 	
 	function line15(){
-		download("downlaod6","Secret#6")
+		download("downlaod6","Secret#6", true)
 	};
 	
 	function line16(){
-		download("downlaod7","Secret#7")
+		download("downlaod7","Secret#7", true)
 	};
 	
 	function line17(){
-		download("downlaod7","Secret #8")
+		download("downlaod7","Secret #8", true)
 	};
 	
 	function line18(){
-		download("downlaod7","Secret #9")
+		download("downlaod7","Secret #9", true)
 	};
 	
 	document.getElementById("txt").style.display = "none";
@@ -3157,4 +3166,32 @@ function endExtraGlitches() {
             clearInterval(musicFadeInterval);
         }
     }, 100);
+}
+
+//Typing animation
+function startTypingAnimation() {
+    var typing_log_item = document.createElement("h2");
+    typing_log_item.className = "log-item";
+    typing_log_item.innerHTML = "Typing";
+    document.getElementById("log").appendChild(typing_log_item);	
+    window.scrollTo(0, document.body.scrollHeight || document.documentElement.scrollHeight);
+    
+    typing_log_item.innerHTML = "Typing";
+        setTimeout(() => typing_log_item.innerHTML = "Typing.", 400);
+        setTimeout(() => typing_log_item.innerHTML = "Typing..", 800);
+        setTimeout(() => typing_log_item.innerHTML = "Typing...", 1200);
+    
+    typing_animation = setInterval(function() {
+        typing_log_item.innerHTML = "Typing";
+        setTimeout(() => typing_log_item.innerHTML = "Typing.", 400);
+        setTimeout(() => typing_log_item.innerHTML = "Typing..", 800);
+        setTimeout(() => typing_log_item.innerHTML = "Typing...", 1200);
+    }, 1600);
+    
+    return typing_log_item
+}
+
+function endTypingAnimation(typing_log_item) {
+    clearInterval(typing_animation);
+    document.getElementById("log").removeChild(typing_log_item);
 }
