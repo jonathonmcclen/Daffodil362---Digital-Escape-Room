@@ -32,6 +32,19 @@ function checkPlayerInput() {
         return;
     }
     
+    //Typing animation
+    if (playerTXT == "typing") {
+        let typing_log_item = startTypingAnimation();
+        setTimeout(() => endTypingAnimation(typing_log_item), 3000);
+        return;
+    }
+    
+    //Moving button
+    if (playerTXT == "button") {
+        doMovingButton();
+        return;
+    }
+    
     
 	if(section == 0 && puzzle == 0){
 		
@@ -77,6 +90,8 @@ function checkPlayerInput() {
 				puzzle1Done();
 				hintCode = "102";
 				puzzle = 2;
+                
+                success_sound.play();
 			
 			} else if (playerTXT == "hint"){
 			
@@ -92,6 +107,8 @@ function checkPlayerInput() {
 				puzzle2Done();
 				hintCode = "103";
 				puzzle = 3;
+                
+                success_sound.play();
 			
 			} else if (playerTXT == "hint"){
 			
@@ -108,6 +125,8 @@ function checkPlayerInput() {
 				puzzle3Done();
 				hintCode = "104";
 				puzzle = 4;
+                
+                success_sound.play();
 			
 			} else if (playerTXT == "hint"){
 			
@@ -124,6 +143,8 @@ function checkPlayerInput() {
 				puzzle4Done();
 				hintCode = "105";
 				puzzle = 5;
+                
+                success_sound.play();
 			
 			} else if (playerTXT == "hint"){
 			
@@ -140,6 +161,8 @@ function checkPlayerInput() {
 				puzzle5Done();
 				hintCode = "106";
 				puzzle = 6;
+                
+                success_sound.play();
 
 			} else if (playerTXT == "hint"){
 			
@@ -156,6 +179,8 @@ function checkPlayerInput() {
 				puzzle6Done();
 				hintCode = "107";
 				puzzle = 7;
+                
+                success_sound.play();
 			
 			} else if (playerTXT == "hint"){
 			
@@ -174,6 +199,8 @@ function checkPlayerInput() {
 				puzzle16Done();
 				hintCode = "108";
 				puzzle = 8;
+                
+                success_sound.play();
 
 			} else if (playerTXT == "hint"){
 			
@@ -192,6 +219,8 @@ function checkPlayerInput() {
 				puzzle17Done();
 				hintCode = "109";
 				puzzle = 9;
+                
+                success_sound.play();
 
 			} else if (playerTXT == "hint"){
 			
@@ -210,6 +239,8 @@ function checkPlayerInput() {
 				puzzle18Done();
 				hintCode = "110";
 				puzzle = 10;
+                
+                success_sound.play();
 			
 			} else if (playerTXT == "hint"){
 			
@@ -230,6 +261,8 @@ function checkPlayerInput() {
 				hintCode = "201";
 				puzzle = 1;
 				section = 2;
+                
+                success_sound.play();
 			
 			} else if (playerTXT == "hint"){
 			
@@ -255,6 +288,8 @@ function checkPlayerInput() {
 
 				puzzle15Done();
 				puzzle = 2;
+                
+                success_sound.play();
 			
 			} else {
 					decryptFail();
@@ -264,6 +299,8 @@ function checkPlayerInput() {
 			
 				puzzle7Done();
 				puzzle = 3;
+                
+                success_sound.play();
 			
 			} else {
 				
@@ -276,6 +313,8 @@ function checkPlayerInput() {
 				puzzle8Done();
 				hintCode = "202";
 				puzzle = 4;
+                
+                success_sound.play();
 
 			} else {
 				
@@ -288,6 +327,8 @@ function checkPlayerInput() {
 				puzzle9Done();
 				hintCode = "203";
 				puzzle = 5;
+                
+                success_sound.play();
 
 			} else {
 				
@@ -300,6 +341,8 @@ function checkPlayerInput() {
 			puzzle10Done();
 			hintCode = "204";
 			puzzle = 6;
+                
+                success_sound.play();
 
 			} else {
 				
@@ -312,6 +355,8 @@ function checkPlayerInput() {
 				puzzle11Done();
 				hintCode = "205";
 				puzzle = 7;
+                
+                success_sound.play();
 				
 			} else {
 				
@@ -324,6 +369,8 @@ function checkPlayerInput() {
 			puzzle12Done();
 				puzzle = 8;
 			//Part of an FileLok Puzzle does not need to change hint
+                
+                success_sound.play();
 
 			} else {
 				
@@ -336,6 +383,8 @@ function checkPlayerInput() {
 				FileLokPuzzle1();
 				hintCode = "206";
 				puzzle = 9;
+                
+                success_sound.play();
 
 			} else {
 				
@@ -348,6 +397,8 @@ function checkPlayerInput() {
 				FileLokPuzzle2();
 				hintCode = "207";
 				puzzle = 10;
+                
+                success_sound.play();
 
 			} else {
 				
@@ -359,6 +410,8 @@ function checkPlayerInput() {
 			FileLokPuzzle3();
 			hintCode = "208";
 			puzzle = 11;
+                
+                success_sound.play();
 
 			} else {
 				
@@ -371,6 +424,8 @@ function checkPlayerInput() {
 				FileLokPuzzle4();
 				hintCode = "209";
 				puzzle = 12;
+                
+                success_sound.play();
 
 			} else {
 				
@@ -383,7 +438,13 @@ function checkPlayerInput() {
 				FileLokPuzzle5();
 				hintCode = "210";
 				puzzle = 13;
+                
+                success_sound.play();
 
+			} else if(playerTXT == FileLokPuzzle6En){
+				
+				TwitterFailSafe();
+				
 			} else {
 				
 				decryptFail();
@@ -395,6 +456,8 @@ function checkPlayerInput() {
 			puzzle14Done();
 			puzzle = 14;
 			//Part of an FileLok Puzzle does not need to change hint
+                
+                success_sound.play();
 
 			} else {
 				
@@ -407,6 +470,8 @@ function checkPlayerInput() {
 				FileLokPuzzle6();
 				hintCode = "211";
 				puzzle = 15;
+                
+                success_sound.play();
 
 			} else {
 				
@@ -421,6 +486,8 @@ function checkPlayerInput() {
 				//Gives you 3124
 				//3124 Gives you FileLokPuzzle8En
 				puzzle = 16;
+                
+                success_sound.play();
 
 			} else {
 				
@@ -433,6 +500,8 @@ function checkPlayerInput() {
 				FileLokPuzzle8();
 				hintCode = "213";
 				puzzle = 17;
+                
+                success_sound.play();
 
 			} else {
 				
@@ -445,23 +514,16 @@ function checkPlayerInput() {
 			puzzle13Done();
 			hintCode = "214";
 				puzzle = 18;
+                
+                success_sound.play();
 
 			} else {	
 				decryptFail();	
 			}
 		} else if (puzzle == 18){
 			if (playerTXT == "https://54759-74729-89454-57570"){ // You Are Now Hacked
-			
-                //Intense music
-                if (music_on) {
-                    current_music.pause();
-                }
-                current_music = intense_music;
-                if (music_on) {
-                    current_music.play();
-                }
                 
-			var glitchAnim = setInterval(fadeGlitch, 10000);
+			glitchAnim = setInterval(fadeGlitch, 10000);
 			document.getElementById("txt").maxLength = "6";
 			encryptedDone = true;
 			cutsceneHacked();
@@ -469,6 +531,8 @@ function checkPlayerInput() {
 			hintCode = "301";
 			section = 3;
 			puzzle = 1;
+                
+                success_sound.play();
 
 			} else {
 				decryptFail();	
@@ -481,6 +545,8 @@ function checkPlayerInput() {
 				Section6Puzzle1();
 				hintCode = "302";
 			   puzzle = 2;
+               
+               success_sound.play();
 				
 				
 			} else {
@@ -492,6 +558,8 @@ function checkPlayerInput() {
 				Section6Puzzle2();
 				puzzle = 3;
 				hintCode = "303";
+                
+                success_sound.play();
 				
 
 			} else if (playerTXT == "hint"){
@@ -507,6 +575,8 @@ function checkPlayerInput() {
 				Section6Puzzle3();
 				puzzle = 4;
 				hintCode = "304";
+                
+                success_sound.play();
 
 			} else if (playerTXT == "hint"){
 
@@ -521,6 +591,8 @@ function checkPlayerInput() {
 				Section6Puzzle4();
 				puzzle = 5;
 				hintCode = "305";
+                
+                success_sound.play();
 
 			} else if (playerTXT == "hint"){
 				addNewLogItem("important", "Hint Code: " + hintCode);
@@ -536,6 +608,8 @@ function checkPlayerInput() {
                 
 				finalCutscene();
 				puzzle = 6;
+                
+                success_sound.play();
 
 			} else if (playerTXT == "hint"){
 				addNewLogItem("important", "Hint Code: " + hintCode);
@@ -547,7 +621,9 @@ function checkPlayerInput() {
 			if (playerTXT == ""){
 				
 				section = 4;
+                clearInterval(randomTextShiftInterval);
 				FinalCutscenept2();
+                
 				
 			} else {
 			incorrectSub();
@@ -562,4 +638,5 @@ function divider() {
 
 function incorrectSub() {
 	addNewLogItem("comp", "Command Submission " + "\"" + playerTXT + "\"" + " NOT recognized");
+    failure_sound.play();
 };

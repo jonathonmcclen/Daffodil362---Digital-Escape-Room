@@ -1,7 +1,8 @@
 //Sounds
 var button_beep_src = "https://cia-9d562a98.s3.us-west-1.amazonaws.com/GameAssets/SoundFX/Daffodil362KeyPress.wav";
 var main_music_src = 'https://cia-9d562a98.s3.us-west-1.amazonaws.com/GameAssets/SoundFX/Daffodil362MainMusic.wav';
-var intense_music_src = "sounds/bensound-epic.mp3"
+var intense_music_src = "https://cia-9d562a98.s3.us-west-1.amazonaws.com/GameAssets/SoundFX/Daffodil362Reeboot.wav";
+var alabaster_music_src = "sounds/bensound-evolution.mp3";
 
 var main_music = document.createElement('audio');
 main_music.src = main_music_src;
@@ -10,6 +11,10 @@ main_music.loop = true;
 var intense_music = document.createElement('audio');
 intense_music.src = intense_music_src;
 intense_music.loop = true;
+
+var alabaster_music = document.createElement('audio');
+alabaster_music.src = alabaster_music_src;
+alabaster_music.loop = true;
 
 var music_on = true;
 var current_music = main_music;
@@ -59,10 +64,11 @@ function grabSub() {
 	playerTXT = document.getElementById("txt").value;
 };
 
-function addNewLogItem(user, txt) {
+function addNewLogItem(user, txt, blue=false) {
 	if(user == "player"){
 		
 		var btn = document.createElement("h2");
+        btn.className = "log-item";
 		btn.innerHTML = "C:\\User\\Input> " + txt;
 		document.getElementById("log").appendChild(btn);	
 		window.scrollTo(0, document.body.scrollHeight || document.documentElement.scrollHeight);
@@ -70,6 +76,7 @@ function addNewLogItem(user, txt) {
 	} else if(user == "comp") {
 		
 		var btn = document.createElement("h2");
+        btn.className = "log-item";
 		btn.innerHTML = "C: Output> " + txt;
 		document.getElementById("log").appendChild(btn);	
 		window.scrollTo(0, document.body.scrollHeight || document.documentElement.scrollHeight);
@@ -77,6 +84,7 @@ function addNewLogItem(user, txt) {
 	} else if(user == "") {
 		
 		var btn = document.createElement("h2");
+        btn.className = "log-item";
 		btn.innerHTML = txt;
 		document.getElementById("log").appendChild(btn);	
 		window.scrollTo(0, document.body.scrollHeight || document.documentElement.scrollHeight);
@@ -84,6 +92,7 @@ function addNewLogItem(user, txt) {
 	} else if(user == "loading") {
 		
 		var btn = document.createElement("h2");
+        btn.className = "log-item";
 		btn.innerHTML = txt;
 		btn.className = "temp";
 		btn.id = "temp";
@@ -94,6 +103,7 @@ function addNewLogItem(user, txt) {
 	} else if(user == "important") {
 		
 		var btn = document.createElement("h2");
+        btn.className = "log-item";
 		btn.innerHTML = txt;
 		btn.className = "important";
 		document.getElementById("log").appendChild(btn);	
@@ -102,11 +112,14 @@ function addNewLogItem(user, txt) {
 	} else if(user == "End") {
 		
 		var btn = document.createElement("h2");
+        btn.className = "log-item";
 		btn.innerHTML = "C:\\User\\Input> " + txt;
 		btn.className = "End";
 		document.getElementById("log").appendChild(btn);	
 		window.scrollTo(0, document.body.scrollHeight || document.documentElement.scrollHeight);
 	}
+    if (blue)
+        btn.style.color = 'blue';
 };
 
 function clearTxtBox(){
@@ -125,7 +138,8 @@ function keyPressed(evt) {
 	if(evt.keyCode == ENTER) {
 		ENTER_DOWN = true;
 		grabSub();
-		addNewLogItem("player",playerTXT);
+        if (section != 3 || puzzle != 6)
+		  addNewLogItem("player",playerTXT);
 		checkPlayerInput();
 		clearTxtBox();
 	}
@@ -139,3 +153,36 @@ function keyReleased(evt) {
 };
 
 
+//Moving button
+
+var URL = "http://example.com";
+
+function doMovingButton() {
+    var moving_button = document.createElement('button');
+    document.body.appendChild(moving_button);
+    moving_button.style.position = "absolute";
+    moving_button.style.top = "50%";
+    moving_button.style.right = "50%";
+    moving_button.style.width = "60px";
+    moving_button.style.height = "40px";
+    moving_button.innerHTML = "Test Button";
+    
+    var times_hovered = 0;
+    
+    moving_button.onmouseover = function() {
+        
+        if (times_hovered < 4) {
+            let new_x = 200 + Math.floor(Math.random() * (window.innerWidth - 200));
+            let new_y = 200 + Math.floor(Math.random() * (window.innerHeight - 200));
+            moving_button.style.top = new_y + "px";
+            moving_button.style.right = new_x + "px";
+            times_hovered++;
+        }
+        else if (times_hovered == 4) {
+            moving_button.onclick = function() {
+                window.location = URL;
+            }
+        }
+    }
+    
+}
