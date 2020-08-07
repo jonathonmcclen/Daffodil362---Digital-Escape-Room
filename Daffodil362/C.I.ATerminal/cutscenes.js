@@ -5,10 +5,10 @@ var ready_for_input_sound = document.createElement('audio');
 ready_for_input_sound.src = "https://cia-9d562a98.s3.us-west-1.amazonaws.com/GameAssets/SoundFX/Daffodil362Ready.wav";
 
 var success_sound = document.createElement('audio');
-success_sound.src = 'sounds/success.mp3';
+success_sound.src = 'https://cia-9d562a98.s3.us-west-1.amazonaws.com/GameAssets/SoundFX/Daffodil362SuccessNEW.wav';
 
 var failure_sound = document.createElement('audio');
-failure_sound.src = 'sounds/failure.mp3';
+failure_sound.src = 'https://cia-9d562a98.s3.us-west-1.amazonaws.com/GameAssets/SoundFX/Daffodil362Failure.wav';
 
 var typing_animation;
 
@@ -17,29 +17,31 @@ var typing_animation;
 const alabasterTerminalURL = "https://s3.us-west-1.amazonaws.com/15.908.75-f8065564/AlabasterTerminal/gamev2.0.html";
 
 
-const URLPuzzleOne = "https://daffodil362.com/Puzzles/ScreenSizetoobig";
-const URLPuzzleTwo = "https://daffodil362.com/Puzzles/Screensizetoosmall";
+const URLPuzzleOne = "https://escroomgames.com/Games/Daffodil362/Puzzles/ScreenSizetoobig";
+const URLPuzzleTwo = "https://escroomgames.com/Games/Daffodil362/Puzzles/ScreenSizetoosmall";
 
 const URLPuzzleFive = "https://www.google.com/maps/@33.7751473,-118.0572065,3a,75y,353.4h,77.36t/data=!3m6!1e1!3m4!1sX1ApixJvHniChL9lnJyiuw!2e0!7i16384!8i8192";
 
 const URLPuzzleSix = "https://daffodil362.com/Puzzles/Wordrotator";
 
-const FileLokPuzzle1De = "https://daffodil362.com/Puzzles/FileLokV2/FileLokPuzzle1";
-const FileLokPuzzle2De = "https://daffodil362.com/Puzzles/FileLokV2/FileLokPuzzle2";
-const FileLokPuzzle3De = "https://daffodil362.com/Puzzles/FileLokV2/FileLokPuzzle3";
-const FileLokPuzzle4De = "https://daffodil362.com/Puzzles/FileLokV2/FileLokPuzzle4";
-const FileLokPuzzle5De = "https://daffodil362.com/Puzzles/FileLokV2/FileLokPuzzle5";
-const FileLokPuzzle6De = "https://daffodil362.com/Puzzles/FileLokV2/FileLokPuzzle6";
-const FileLokPuzzle7De = "https://daffodil362.com/Puzzles/FileLokV2/FileLokPuzzle7";
-const FileLokPuzzle8De = "https://daffodil362.com/Puzzles/FileLokV2/FileLokPuzzle8";
+const FileLokPuzzle1De = "https://escroomgames.com/Games/Daffodil362/Puzzles/FileLokV2/FileLokPuzzle1";
+const FileLokPuzzle2De = "https://escroomgames.com/Games/Daffodil362/Puzzles/FileLokV2/FileLokPuzzle2";
+const FileLokPuzzle3De = "https://escroomgames.com/Games/Daffodil362/Puzzles/FileLokV2/FileLokPuzzle3";
+const FileLokPuzzle4De = "https://escroomgames.com/Games/Daffodil362/Puzzles/FileLokV2/FileLokPuzzle4";
+const FileLokPuzzle5De = "https://escroomgames.com/Games/Daffodil362/Puzzles/FileLokV2/FileLokPuzzle5";
+const FileLokPuzzle6De = "https://escroomgames.com/Games/Daffodil362/Puzzles/FileLokV2/FileLokPuzzle6";
+const FileLokPuzzle7De = "https://escroomgames.com/Games/Daffodil362/Puzzles/FileLokV2/FileLokPuzzle7";
+const FileLokPuzzle8De = "https://escroomgames.com/Games/Daffodil362/Puzzles/FileLokV2/FileLokPuzzle8";
 
 //-------------------------------------------------
 
 //Section 1/ INTRO
 function login1Done(){
+	inputAllowed = false;
 	
 	function line1(){
 		addNewLogItem("comp", "User " + "\"" + playerUsername + "\"" + " recognized");
+		
 	};
 	
 	function line2(){
@@ -48,7 +50,7 @@ function login1Done(){
 	
 	function line3(){
 		addNewLogItem("comp", "Please enter your password");
-        ready_for_input_sound.play();
+        Ready_For_Input();
 	};
 	
 	setTimeout(line1, 2000);
@@ -57,6 +59,7 @@ function login1Done(){
 };
 
 function login2Done(){
+	inputAllowed = false;
 	
 	function line1(){
 		addNewLogItem("comp", "Command Entry Recognized");
@@ -100,7 +103,7 @@ function login2Done(){
 
 	function line10(){
 		addNewLogItem("comp","Complete The Sequence");
-        ready_for_input_sound.play();
+        Ready_For_Input();
 	};
 	
 	setTimeout(line4, 8000);
@@ -115,6 +118,7 @@ function login2Done(){
 
 //Section 2
 function puzzle1Done() {
+	inputAllowed = false;
 	
 	Success();
 	
@@ -132,7 +136,7 @@ function puzzle1Done() {
 	
 	function line3(){
 		addNewLogItem("comp","Complete The Sequence");
-        ready_for_input_sound.play();
+        Ready_For_Input();
 	};
 	
 	setTimeout(line1, 7000);
@@ -141,6 +145,7 @@ function puzzle1Done() {
 };
 
 function puzzle2Done() {
+	inputAllowed = false;
 	
 	Success();
 	
@@ -180,7 +185,7 @@ function puzzle2Done() {
 	
 	function line12(){
 		addNewLogItem("comp", "TYPE REFERENCE NUMBERS IN ORDER THEN PRESS ENTER");
-        ready_for_input_sound.play();
+        Ready_For_Input();
 	};
 	
 	
@@ -197,6 +202,7 @@ function puzzle2Done() {
 
 };
 function puzzle3Done() {
+	inputAllowed = false;
 	
 	
 	Success();
@@ -239,7 +245,7 @@ function puzzle3Done() {
 	
 	function line12(){
 		addNewLogItem("comp", "TYPE REFERENCE NUMBERS IN ORDER THEN PRESS ENTER");
-        ready_for_input_sound.play();
+        Ready_For_Input();
 	};
 	
 	
@@ -256,6 +262,7 @@ function puzzle3Done() {
 };
 
 function puzzle4Done() {
+	inputAllowed = false;
 	
 	Success();
 	
@@ -289,11 +296,12 @@ function puzzle4Done() {
 	
 	function line7(){
 		addNewLogItem("comp", "LogLine#6>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>__REFERENCE#_6___");
-        ready_for_input_sound.play();
+        
 	};
 	
 	function line8(){
 		addNewLogItem("comp", "LOG LINES TOO LONG TYPE REFRENCE NUMBERS THEN PRESS ENTER");
+		Ready_For_Input();
 	};
 	
 	setTimeout(line1, 7000);
@@ -307,6 +315,7 @@ function puzzle4Done() {
 };
 
 function puzzle5Done() {
+	inputAllowed = false;
 	
 	Success();
 	
@@ -340,11 +349,12 @@ function puzzle5Done() {
 	
 	function line7(){
 		addNewLogItem("comp", "LogLine#1>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>__REFERENCE#_0___");
-        ready_for_input_sound.play();
+       
 	};
 	
 	function line8(){
 		addNewLogItem("comp", "LOG LINES TOO LONG TYPE REFRENCE NUMBERS THEN PRESS ENTER");
+		Ready_For_Input();
 	};
 	
 	setTimeout(line1, 7000);
@@ -358,6 +368,7 @@ function puzzle5Done() {
 };
 
 function puzzle6Done () {
+	inputAllowed = false;
 	Success();
 	
 	//Animation starts at 5000ms
@@ -367,32 +378,32 @@ function puzzle6Done () {
 	};
 	
 	function line2(){
-		addNewLogItem("comp", "LOG LINES TOO LONG TYPE REFERENCE NUMBERS THEN PRESS ENTER");
-	};
-	
-	function line3(){
 		addNewLogItem("comp", "LogLine#1>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>____REFERENCE#_5___<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______");
 	};
 	
-	function line4(){
+	function line3(){
 		addNewLogItem("comp", "LogLine#2>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>____REFERENCE#_0___<<<<<<<<<<<<<<<<<<<______Too_Far_______");
 	};
 	
-	function line5(){
+	function line4(){
 		addNewLogItem("comp", "LogLine#3>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>____REFERENCE#_2___<<<<<<<<<<<<<<<<<<<______Too_Far_______");
 	};
 	
-	function line6(){
+	function line5(){
 		addNewLogItem("comp", "LogLine#4>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>____REFERENECE#_8___<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______");
 	};
 	
-	function line7(){
+	function line6(){
 		addNewLogItem("comp", "LogLine#5>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>____REFERENCE#_3___");
 	};
 	
+	function line7(){
+		addNewLogItem("comp", "LogLine#6>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>____REFERENCE#_6___"); 
+	};
+	
 	function line8(){
-		addNewLogItem("comp", "LogLine#6>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>____REFERENCE#_6___");
-        ready_for_input_sound.play();
+		addNewLogItem("comp", "LOG LINES TOO LONG TYPE REFERENCE NUMBERS THEN PRESS ENTER");
+		Ready_For_Input();
 	};
 	
 	setTimeout(line1, 7000);
@@ -407,6 +418,7 @@ function puzzle6Done () {
 };
 
 function puzzle16Done () {
+	inputAllowed = false;
 	
 	Success();
 	
@@ -419,32 +431,32 @@ function puzzle16Done () {
 	};
 	
 	function line2(){
-		addNewLogItem("comp", "LOG LINES TOO LONG TYPE REFRENCE NUMBERS THEN PRESS ENTER");
-	};
-	
-	function line3(){
 		addNewLogItem("comp", "LogLine#1>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>____REFERENCE#_1___<<<<<<<<<<<<<<<<<<<______Too_Far_______");
 	};
 	
-	function line4(){
+	function line3(){
 		addNewLogItem("comp", "LogLine#4>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>____REFERENCE#_9___<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______");
 	};
 	
-	function line5(){
+	function line4(){
 		addNewLogItem("comp", "LogLine#5>>>>>>>>>>>>>>>>>>>___REFERENC#_5___>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>___CODE_TOO_LONG__");
 	};
 	
-	function line6(){
+	function line5(){
 		addNewLogItem("comp", "LogLine#3>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>____REFERENCE#_3___<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______");
 	};
 	
-	function line7(){
+	function line6(){
 		addNewLogItem("comp", "LogLine#2>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>____REFERENCE#_6___<<<<<<<<<<<<<<<<<<<______Too_Far_______");
 	};
 	
-	function line8(){
+	function line7(){
 		addNewLogItem("comp", "LogLine#6>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>____REFERENCE#_5___");
-        ready_for_input_sound.play();
+	};
+	
+	function line8(){
+		addNewLogItem("comp", "LOG LINES TOO LONG TYPE REFRENCE NUMBERS THEN PRESS ENTER");
+		Ready_For_Input();
 	};
 	
 	setTimeout(line1, 7000);
@@ -459,6 +471,7 @@ function puzzle16Done () {
 };
 
 function puzzle17Done () {
+	inputAllowed = false;
 	
 	Success();
 	
@@ -471,32 +484,32 @@ function puzzle17Done () {
 	};
 	
 	function line2(){
-		addNewLogItem("comp", "LOG LINES TOO LONG TYPE REFERENCE NUMBERS THEN PRESS ENTER");
-	};
-	
-	function line3(){
 		addNewLogItem("comp", ">>>>>>>>>>>>>>>>>>>___REFERENCE#_9___>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>___CODE_TOO_LONG__LogLine#2");
 	};
 	
-	function line4(){
+	function line3(){
 		addNewLogItem("comp", ">>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>____REFERENCE#_8___LogLine#4");
 	};
 	
-	function line5(){
+	function line4(){
 		addNewLogItem("comp", ">>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>____REFERENCE#_0___<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______LogLine#3");
 	};
 	
-	function line6(){
+	function line5(){
 		addNewLogItem("comp", ">>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>____REFERAENC#_4___<<<<<<<<<<<<<<<<<<<______Too_Far_______LogLine#6");
 	};
 	
-	function line7(){
+	function line6(){
 		addNewLogItem("comp", ">>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>____REFERENCE#_6___<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______LogLine#5");
 	};
 	
+	function line7(){
+		addNewLogItem("comp", ">>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>____REREFERENCE#_5___<<<<<<<<<<<<<<<<<<<______Too_Far_______LogLine#1");  
+	};
+	
 	function line8(){
-		addNewLogItem("comp", ">>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>____REREFERENCE#_5___<<<<<<<<<<<<<<<<<<<______Too_Far_______LogLine#1");
-        ready_for_input_sound.play();
+		addNewLogItem("comp", "LOG LINES TOO LONG TYPE REFERENCE NUMBERS THEN PRESS ENTER");
+		Ready_For_Input();
 	};
 	
 	setTimeout(line1, 7000);
@@ -511,6 +524,7 @@ function puzzle17Done () {
 };
 
 function puzzle18Done () {
+	inputAllowed = false;
 	Success();
 	
 	//Animation starts at 5000ms
@@ -563,7 +577,7 @@ function puzzle18Done () {
 	
 	function line12(){
 		addNewLogItem("comp", "Add 7");
-        ready_for_input_sound.play();
+        Ready_For_Input();
 	};
 	
 	setTimeout(line1, 7000);
@@ -584,6 +598,7 @@ function puzzle18Done () {
 
 // SECTION 3
 function LoggedIn() {
+	inputAllowed = false;
 	Success();
 	
 	//Animation starts at 5000ms
@@ -622,7 +637,7 @@ function LoggedIn() {
 	
 	function line9(){
 		divider();
-        ready_for_input_sound.play();
+        Ready_For_Input();
 	};
 	
 	setTimeout(line1, 7000);
@@ -638,6 +653,7 @@ function LoggedIn() {
 };
 
 function puzzle7Done() {
+	inputAllowed = false;
 	
 	hack("loding1");
 	
@@ -645,6 +661,7 @@ function puzzle7Done() {
 	
 	function line1(){
 		addNewLogItem("comp", "COMPLETE");
+		success_sound.play();
 	};
 	
 	function line2(){
@@ -665,7 +682,7 @@ function puzzle7Done() {
 	
 	function line6(){
 		divider();
-        ready_for_input_sound.play();
+        Ready_For_Input();
 	};
 	
 	setTimeout(line1, 5000);
@@ -678,6 +695,7 @@ function puzzle7Done() {
 };
 
 function puzzle8Done(){
+	inputAllowed = false;
 	
 	
 	decrypt("decrypt1");
@@ -686,6 +704,7 @@ function puzzle8Done(){
 	
 	function line1(){
 		addNewLogItem("comp", "COMPLETE");
+		success_sound.play();
 	};
 	
 	function line2(){
@@ -710,7 +729,7 @@ function puzzle8Done(){
 	
 	function line7(){
 		divider();
-        ready_for_input_sound.play();
+        Ready_For_Input();
 	};
 	
 	
@@ -724,6 +743,7 @@ function puzzle8Done(){
 };
 
 function puzzle9Done(){
+	inputAllowed = false;
 	
 	
 	decrypt("decrypt2");
@@ -732,6 +752,7 @@ function puzzle9Done(){
 	
 	function line1(){
 		addNewLogItem("comp", "COMPLETE");
+		success_sound.play();
 	};
 	
 	function line2(){
@@ -764,7 +785,7 @@ function puzzle9Done(){
 	
 	function line9(){
 		divider();
-        ready_for_input_sound.play();
+        Ready_For_Input();
 	};
 	
 	
@@ -782,6 +803,7 @@ function puzzle9Done(){
 };
 
 function puzzle10Done(){
+	inputAllowed = false;
 	
 	
 	decrypt("decrypt3");
@@ -790,6 +812,7 @@ function puzzle10Done(){
 	
 	function line1(){
 		addNewLogItem("comp", "COMPLETE");
+		success_sound.play();
 	};
 	
 	function line2(){
@@ -822,7 +845,7 @@ function puzzle10Done(){
 	
 	function line9(){
 		divider();
-        ready_for_input_sound.play();
+        Ready_For_Input();
 	};
 	
 	
@@ -838,6 +861,7 @@ function puzzle10Done(){
 };
 
 function puzzle11Done(){
+	inputAllowed = false;
 	
 	
 	decrypt("decrypt4");
@@ -846,6 +870,7 @@ function puzzle11Done(){
 	
 	function line1(){
 		addNewLogItem("comp", "COMPLETE");
+		success_sound.play();
 	};
 	
 	function line2(){
@@ -874,7 +899,7 @@ function puzzle11Done(){
 	
 	function line8(){
 		divider();
-        ready_for_input_sound.play();
+        Ready_For_Input();
 	};
 	
 	setTimeout(line1, 9000);
@@ -889,7 +914,7 @@ function puzzle11Done(){
 };
 
 function puzzle12Done(){
-	
+	inputAllowed = false;
 	
 	hack("hack4");
 	
@@ -897,6 +922,7 @@ function puzzle12Done(){
 	
 	function line1(){
 		addNewLogItem("comp", "COMPLETE");
+		success_sound.play();
 	};
 	
 	function line2(){
@@ -953,7 +979,7 @@ function puzzle12Done(){
 	};
 	
 	function line16(){
-		addNewLogItem("important", "https://daffodil362.com/Email-2");
+		addNewLogItem("important", "https://escroomgames.com/Games/Daffodil362/Email-2");
 	};
 	
 	function line17(){
@@ -966,7 +992,7 @@ function puzzle12Done(){
 	
 	function line19(){
 		divider();
-        ready_for_input_sound.play();
+        Ready_For_Input();
 	};
 	
 	
@@ -992,6 +1018,7 @@ function puzzle12Done(){
 	
 };
 function puzzle13Done(){
+	inputAllowed = false;
 	
 	
 	decrypt("decrypt5");
@@ -1000,6 +1027,7 @@ function puzzle13Done(){
 	
 	function line1(){
 		addNewLogItem("comp", "COMPLETE");
+		success_sound.play();
 	};
 	
 	function line2(){
@@ -1020,7 +1048,7 @@ function puzzle13Done(){
 	
 	function line6(){
 		divider();
-        ready_for_input_sound.play();
+        Ready_For_Input();
 	};
 	
 	setTimeout(line1, 9000);
@@ -1032,7 +1060,7 @@ function puzzle13Done(){
 };
 
 function puzzle14Done(){
-	
+	inputAllowed = false;
 	
 	hack("hack4");
 	
@@ -1040,6 +1068,7 @@ function puzzle14Done(){
 	
 	function line1(){
 		addNewLogItem("comp", "COMPLETE");
+		success_sound.play();
 	};
 	
 	function line2(){
@@ -1072,7 +1101,7 @@ function puzzle14Done(){
 	
 	function line9(){
 		divider();
-        ready_for_input_sound.play();
+        Ready_For_Input();
 	};
 	
 	setTimeout(line1, 9000);
@@ -1087,12 +1116,15 @@ function puzzle14Done(){
 	
 };
 function puzzle15Done(){
+	inputAllowed = false;
+	
 	decrypt("decrypt6");
 	
 	//Animation starst at 9000ms
 	
 	function line1(){
 		addNewLogItem("comp", "COMPLETE");
+		success_sound.play();
 	};
 	
 	function line2(){
@@ -1125,7 +1157,7 @@ function puzzle15Done(){
 	
 	function line9(){
 		divider();
-        ready_for_input_sound.play();
+        Ready_For_Input();
 	};
 	
 	setTimeout(line1, 9000);
@@ -1166,7 +1198,7 @@ function ExampleFail(){
 	
 	function line6(){
 		divider();
-        ready_for_input_sound.play();
+        Ready_For_Input();
 	};
 	
 	setTimeout(line1, 9000);
@@ -1206,7 +1238,7 @@ function TwitterFailSafe() {
 	
 	function line7(){
 		divider();
-        ready_for_input_sound.play();
+        Ready_For_Input();
 	};
 	
 	setTimeout(line1, 9000);
@@ -1253,7 +1285,7 @@ function cutsceneHacked(){
 	
 	function line8(){
 		divider();
-        ready_for_input_sound.play();
+        Ready_For_Input();
 	};
 	
 	setTimeout(line1, 9000);
@@ -1275,6 +1307,7 @@ function FileLokPuzzle1(){
 	
 	function line1(){
 		addNewLogItem("comp", "COMPLETE");
+		success_sound.play();
 	};
 	
 	function line2(){
@@ -1299,7 +1332,7 @@ function FileLokPuzzle1(){
 	
 	function line7(){
 		divider();
-        ready_for_input_sound.play();
+        Ready_For_Input();
 	};
 	
 	setTimeout(line1, 9000);
@@ -1318,6 +1351,7 @@ function FileLokPuzzle2(){
 	
 	function line1(){
 		addNewLogItem("comp", "COMPLETE");
+		success_sound.play();
 	};
 	
 	function line2(){
@@ -1342,7 +1376,7 @@ function FileLokPuzzle2(){
 	
 	function line7(){
 		divider();
-        ready_for_input_sound.play();
+        Ready_For_Input();
 	};
 	
 	setTimeout(line1, 9000);
@@ -1361,6 +1395,7 @@ function FileLokPuzzle3(){
 	
 	function line1(){
 		addNewLogItem("comp", "COMPLETE");
+		success_sound.play();
 	};
 	
 	function line2(){
@@ -1385,7 +1420,7 @@ function FileLokPuzzle3(){
 	
 	function line7(){
 		divider();
-        ready_for_input_sound.play();
+        Ready_For_Input();
 	};
 	
 	setTimeout(line1, 9000);
@@ -1404,6 +1439,7 @@ function FileLokPuzzle4(){
 	
 	function line1(){
 		addNewLogItem("comp", "COMPLETE");
+		success_sound.play();
 	};
 	
 	function line2(){
@@ -1428,7 +1464,7 @@ function FileLokPuzzle4(){
 	
 	function line7(){
 		divider();
-        ready_for_input_sound.play();
+        Ready_For_Input();
 	};
 	
 	setTimeout(line1, 9000);
@@ -1447,6 +1483,7 @@ function FileLokPuzzle5(){
 	
 	function line1(){
 		addNewLogItem("comp", "COMPLETE");
+		success_sound.play();
 	};
 	
 	function line2(){
@@ -1471,7 +1508,7 @@ function FileLokPuzzle5(){
 	
 	function line7(){
 		divider();
-        ready_for_input_sound.play();
+        Ready_For_Input();
 	};
 	
 	setTimeout(line1, 9000);
@@ -1490,6 +1527,7 @@ function FileLokPuzzle6(){
 	
 	function line1(){
 		addNewLogItem("comp", "COMPLETE");
+		success_sound.play();
 	};
 	
 	function line2(){
@@ -1514,7 +1552,7 @@ function FileLokPuzzle6(){
 	
 	function line7(){
 		divider();
-        ready_for_input_sound.play();
+        Ready_For_Input();
 	};
 	
 	setTimeout(line1, 9000);
@@ -1533,6 +1571,7 @@ function FileLokPuzzle7(){
 	
 	function line1(){
 		addNewLogItem("comp", "COMPLETE");
+		success_sound.play();
 	};
 	
 	function line2(){
@@ -1557,7 +1596,7 @@ function FileLokPuzzle7(){
 	
 	function line7(){
 		divider();
-        ready_for_input_sound.play();
+        Ready_For_Input();
 	};
 	
 	setTimeout(line1, 9000);
@@ -1576,6 +1615,7 @@ function FileLokPuzzle8(){
 	
 	function line1(){
 		addNewLogItem("comp", "COMPLETE");
+		success_sound.play();
 	};
 	
 	function line2(){
@@ -1600,7 +1640,7 @@ function FileLokPuzzle8(){
 	
 	function line7(){
 		divider();
-        ready_for_input_sound.play();
+        Ready_For_Input();
 	};
 	
 	setTimeout(line1, 9000);
@@ -1657,7 +1697,7 @@ function Section6Puzzle1(){
 	
 	function line9(){
 		addNewLogItem("comp", "LogLine#3>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>____REFERENCE#_8___<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______");
-        ready_for_input_sound.play();
+        Ready_For_Input();
 	}
 	
 	setTimeout(line1, 9000);
@@ -1711,7 +1751,7 @@ function Section6Puzzle2(){
 	
 	function line9(){
 		addNewLogItem("comp", "LogLine#5>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>____REFERENCE#_3___<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______");
-        ready_for_input_sound.play();
+        Ready_For_Input();
 	};
 
 	
@@ -1766,7 +1806,7 @@ function Section6Puzzle3(){
 	
 	function line9(){
 		addNewLogItem("comp", "LogLine#1>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>____REFERENCE#_3___<<<<<<<<<<<<<<<<<<<______Too_Far_______");
-        ready_for_input_sound.play();
+        Ready_For_Input();
 	};
 
 	
@@ -1821,7 +1861,7 @@ function Section6Puzzle4(){
 	
 	function line9(){
 		addNewLogItem("comp", "REFERENCE#9>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>______LogLine#=______<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______");
-        ready_for_input_sound.play();
+        Ready_For_Input();
 	};
 
 	
@@ -1848,7 +1888,7 @@ function repeatInstructions() {
 	
 	function line2(){
 		addNewLogItem("comp", "Enter URL to hack or decrypt:");
-        ready_for_input_sound.play();
+        Ready_For_Input();
 	};
 	
 	setTimeout(line1, 500);
@@ -1860,6 +1900,7 @@ function Success(){
 	
 	function line1(){
 		addNewLogItem("comp", "SUCCESS");
+		success_sound.play();
 	};
 	
 	function line2(){
@@ -1960,7 +2001,6 @@ function hack(ID){
 	function line15(){
 		var elmnt = document.getElementById("temp");
 		elmnt.id = ID;
-        ready_for_input_sound.play();
 	};
 	
 	setTimeout(line1, 1000);
@@ -2419,7 +2459,7 @@ function decryptFail(){
 	
 	function line5(){
 		divider();
-        ready_for_input_sound.play();
+        Ready_For_Input();
 	};
 	
 	setTimeout(line1, 0);
@@ -2430,6 +2470,8 @@ function decryptFail(){
 }
 
 function finalCutscene(){
+	
+	inputAllowed = false;
 	
 	document.getElementById("txt").style.display = "none";
 	
@@ -2494,6 +2536,7 @@ function finalCutscene(){
 	
 	function line10(){
 		fadein("finalInstruction", "in");
+		inputAllowed = true;
 	};
 	
 	
@@ -2824,6 +2867,7 @@ function fadeGlitch(){
 };
 
 function FinalCutscenept2(){
+	inputAllowed = false;
 	
 	function line1(){
 		var element = document.getElementById("glitch")
@@ -2846,7 +2890,7 @@ function FinalCutscenept2(){
 	};
 	
 	function line5(){
-		download("downlaod5","Secret #5", true)
+		download("downlaod5","Grandma's Secret Recipe", true)
 	};
 	
 	function line6(){
@@ -2854,51 +2898,51 @@ function FinalCutscenept2(){
 	};
 	
 	function line7(){
-		download("downlaod7","Secret #7", true)
+		download("downlaod7","Beaming Player", true)
 	};
 	
 	function line8(){
-		download("downlaod7","Secret #8", true)
+		download("downlaod7","loaction of CODE NAME: Rabit's Foot", true)
 	};
 	
 	function line9(){
-		download("downlaod7","Secret #9", true)
+		download("downlaod7","Santa's Workshop Cordinates", true)
 	};
 	
 	function line10(){
-		download("downlaod1","Secret #1", true)
+		download("downlaod1","WiFi Password", true)
 	};
 	
 	function line11(){
-		download("downlaod2","Secret #2", true)
+		download("downlaod2","JFK Assasination", true)
 	};
 	
 	function line12(){
-		download("downlaod3","Secret #3", true)
+		download("downlaod3","Downloading Covid-19 Vaccine", true)
 	};
 	
 	function line13(){
-		download("downlaod4","Secret#4", true)
+		download("downlaod4","Nordstroms Cupon Codes", true)
 	};
 	
 	function line14(){
-		download("downlaod5","Secret #5", true)
+		download("downlaod5","Minecraft", true)
 	};
 	
 	function line15(){
-		download("downlaod6","Secret#6", true)
+		download("downlaod6","The Atist Flower's New Album", true)
 	};
 	
 	function line16(){
-		download("downlaod7","Secret#7", true)
+		download("downlaod7","Unlocking Back Door", true)
 	};
 	
 	function line17(){
-		download("downlaod7","Secret #8", true)
+		download("downlaod7","Opening Back Door", true)
 	};
 	
 	function line18(){
-		download("downlaod7","Secret #9", true)
+		download("downlaod7","Closing Back Door, So We Dont Let The Secrets Out", true)
 	};
 	
 	document.getElementById("txt").style.display = "none";
@@ -2915,7 +2959,7 @@ function FinalCutscenept2(){
 	};
 	
 	function line21(){
-		//flicker();
+		flicker();
 		var element = document.getElementById("AlabasterHeader")
 		element.classList.add("hidden");
 		
@@ -3048,6 +3092,11 @@ function FinalCutscenept2(){
 		addNewLogItem("comp", "Aaron Rickles");
 	}
 	
+	function line52B(){
+		
+		addNewLogItem("comp", "Scott Rickles");
+	}
+	
 	function line53(){
 		divider();
 	}
@@ -3106,42 +3155,44 @@ function FinalCutscenept2(){
 	setTimeout(line22, 68000);
 	setTimeout(line23, 69000);
 	setTimeout(line24, 70000);
-	setTimeout(line25, 75000);
-	setTimeout(line26, 80000);
-	setTimeout(line27, 85000);
-	setTimeout(line28, 90000);
-	setTimeout(line29, 95000);
-	setTimeout(line30, 100000);
-	setTimeout(line31, 105000);
-	setTimeout(line32, 110000);
-	setTimeout(line33, 115000);
-	setTimeout(line34, 120000);
-	setTimeout(line35, 125000);
-	setTimeout(line36, 130000);
-	setTimeout(line37, 135000);
-	setTimeout(line38, 140000);
-	setTimeout(line39, 145000);
-	setTimeout(line40, 150000);
-	setTimeout(line41, 155000);
-	setTimeout(line42, 160000);
-	setTimeout(line43, 165000);
-	setTimeout(line44, 170000);
-	setTimeout(line45, 175000);
-	setTimeout(line46, 180000);
-	setTimeout(line47, 185000);
-	setTimeout(line48, 190000);
-	setTimeout(line49, 195000);
-	setTimeout(line50, 200000);
-	setTimeout(line51, 205000);
-	setTimeout(line52, 210000);
-	setTimeout(line53, 215000);
-	setTimeout(line54, 220000);
-	setTimeout(line55, 225000);
-	setTimeout(line56, 230000);
-	setTimeout(line57, 235000);
-	setTimeout(line58, 240000);
-	setTimeout(line59, 245000);
-	setTimeout(line60, 250000);
+	setTimeout(line25, 71500);
+	setTimeout(line26, 72000);
+	setTimeout(line27, 73000);
+	setTimeout(line28, 74000);
+	setTimeout(line29, 75000);
+	setTimeout(line30, 76000);
+	
+	setTimeout(line31, 77000);
+	setTimeout(line32, 78000);
+	setTimeout(line33, 79000);
+	setTimeout(line34, 80000);
+	setTimeout(line35, 81000);
+	setTimeout(line36, 82000);
+	setTimeout(line37, 83000);
+	setTimeout(line38, 84000);
+	setTimeout(line39, 85000);
+	setTimeout(line40, 86000);
+	setTimeout(line41, 87000);
+	setTimeout(line42, 88000);
+	setTimeout(line43, 89000);
+	setTimeout(line44, 90000);
+	setTimeout(line45, 91000);
+	setTimeout(line46, 92000);
+	setTimeout(line47, 93000);
+	setTimeout(line48, 94000);
+	setTimeout(line49, 95000);
+	setTimeout(line50, 96000);
+	setTimeout(line51, 97000);
+	setTimeout(line52, 98000);
+	setTimeout(line52b, 99000);
+	setTimeout(line53, 100000);
+	setTimeout(line54, 101000);
+	setTimeout(line55, 102000);
+	setTimeout(line56, 103000);
+	setTimeout(line57, 104000);
+	setTimeout(line58, 105000);
+	setTimeout(line59, 106000);
+	setTimeout(line60, 107000);
 
 	
 	// need 40 seconds or 40,000 milaseconds
@@ -3211,6 +3262,7 @@ function endExtraGlitches() {
 
 //Typing animation
 function startTypingAnimation() {
+	
     var typing_log_item = document.createElement("h2");
     typing_log_item.className = "log-item";
     typing_log_item.innerHTML = "Typing";
@@ -3232,7 +3284,115 @@ function startTypingAnimation() {
     return typing_log_item
 }
 
+function typingAnim(type) {
+	
+    var typing_log_item = document.createElement("h2");
+    typing_log_item.className = "log-item";
+    typing_log_item.innerHTML = type;
+    document.getElementById("log").appendChild(typing_log_item);	
+    window.scrollTo(0, document.body.scrollHeight || document.documentElement.scrollHeight);
+    
+    typing_log_item.innerHTML = type;
+        setTimeout(() => typing_log_item.innerHTML = type + ".", 400);
+        setTimeout(() => typing_log_item.innerHTML = type + "..", 800);
+        setTimeout(() => typing_log_item.innerHTML = type + "...", 1200);
+    
+    typing_animation = setInterval(function() {
+        typing_log_item.innerHTML = type;
+        setTimeout(() => typing_log_item.innerHTML = type + ".", 400);
+        setTimeout(() => typing_log_item.innerHTML = type + "..", 800);
+        setTimeout(() => typing_log_item.innerHTML = type + "...", 1200);
+    }, 1600);
+    
+    return typing_log_item
+	
+}
+
+function Ready_For_Input(){
+	inputAllowed = true;
+	ready_for_input_sound.play();
+}
+
 function endTypingAnimation(typing_log_item) {
     clearInterval(typing_animation);
     document.getElementById("log").removeChild(typing_log_item);
+}
+
+function TestingGuestAnim(){
+	inputAllowed = false;
+	
+	function line1(){
+		addNewLogItem("comp", "Guest User Recognized");
+		
+	};
+	
+	function line2(){
+		addNewLogItem("comp", "Welcome " + "Guest");
+	};
+	
+	function line3(){
+		addNewLogItem("comp", "Please enter your password");
+        Ready_For_Input();
+	};
+	
+	setTimeout(line1, 2000);
+	setTimeout(line2, 4000);
+	setTimeout(line3, 6000);
+	
+}
+
+function GuestLoggedIn(){
+	inputAllowed = false;
+	
+	function line1(){
+		addNewLogItem("comp", "Guest Password Correct");
+	};
+	
+	function line1(){
+		addNewLogItem("comp", "Login Successful for Guest user");
+	};
+	
+	function line2(){
+		addNewLogItem("comp", "Your C.I.A terminal is now capable of Hacking and Decrypting URLs");
+	};
+	
+	function line3(){
+		addNewLogItem("comp", "ENCRYPTED URLs look like this:");
+	};
+	
+	function line4(){
+		addNewLogItem("comp", "*** EXAMPLE **** https://75896-29742-69504-22231");
+	};
+
+	function line5(){
+		addNewLogItem("comp", "All DECRYPTED URls can be used in a browser to visit web pages.");
+	};
+	
+	function line6(){
+		addNewLogItem("comp", "ENCRYPTED URL's MUST be DECRYPTED before pasting into browser address window.");
+	};
+	
+	function line7(){
+		divider();
+	};
+	
+	function line8(){
+		addNewLogItem("comp", "ENTER URL TO HACK OR DECYRYPT:");
+	};
+	
+	function line9(){
+		divider();
+        Ready_For_Input();
+	};
+	
+	setTimeout(line1, 7000);
+	setTimeout(line2, 9000);
+	setTimeout(line3, 11000);
+	setTimeout(line4, 13000);
+	setTimeout(line5, 15000);
+	setTimeout(line6, 13000);
+	setTimeout(line7, 15000 );
+	setTimeout(line8, 15500);
+	setTimeout(line9, 16000);
+	
 }

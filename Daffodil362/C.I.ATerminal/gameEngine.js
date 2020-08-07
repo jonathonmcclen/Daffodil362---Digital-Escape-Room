@@ -2,7 +2,7 @@
 var button_beep_src = "https://cia-9d562a98.s3.us-west-1.amazonaws.com/GameAssets/SoundFX/Daffodil362KeyPress.wav";
 var main_music_src = 'https://cia-9d562a98.s3.us-west-1.amazonaws.com/GameAssets/SoundFX/Daffodil362MainMusic.wav';
 var intense_music_src = "https://cia-9d562a98.s3.us-west-1.amazonaws.com/GameAssets/SoundFX/Daffodil362Reeboot.wav";
-var alabaster_music_src = "sounds/bensound-evolution.mp3";
+var alabaster_music_src = "https://cia-9d562a98.s3.us-west-1.amazonaws.com/GameAssets/SoundFX/Daffodil362EndMusic.wav";
 
 var main_music = document.createElement('audio');
 main_music.src = main_music_src;
@@ -18,6 +18,8 @@ alabaster_music.loop = true;
 
 var music_on = true;
 var current_music = main_music;
+
+var inputAllowed = true;
 
 
 //Users
@@ -119,7 +121,7 @@ function addNewLogItem(user, txt, blue=false) {
 		window.scrollTo(0, document.body.scrollHeight || document.documentElement.scrollHeight);
 	}
     if (blue)
-        btn.style.color = 'blue';
+        btn.style.color = '#3B7ECF';
 };
 
 function clearTxtBox(){
@@ -128,23 +130,31 @@ function clearTxtBox(){
 
 //  PLAYER PRESSED ENTER
 function keyPressed(evt) {
-//console.log(evt.keyCode);
-    
-    let button_beep = document.createElement('audio');
+	
+	//console.log(evt.keyCode);
+	
+	let button_beep = document.createElement('audio');
     button_beep.src = button_beep_src;
-    button_beep.play();
+	button_beep.play();
+	
+	if(inputAllowed){
+	   
 
     
-	if(evt.keyCode == ENTER) {
-		ENTER_DOWN = true;
-		grabSub();
-        if (section != 3 || puzzle != 6)
-		  addNewLogItem("player",playerTXT);
-		checkPlayerInput();
-		clearTxtBox();
+		if(evt.keyCode == ENTER) {
+			ENTER_DOWN = true;
+			grabSub();
+			if (section != 3 || puzzle != 6)
+		  	addNewLogItem("player",playerTXT);
+			checkPlayerInput();
+			clearTxtBox();
+		}
 	}
 };
+
+
 // PLAYER RELEASED ENTER
+
 function keyReleased(evt) {
 	//console.log(evt.keyCode);
 	if(evt.keyCode == ENTER) {

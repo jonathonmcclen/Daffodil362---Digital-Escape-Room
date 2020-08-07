@@ -1,3 +1,7 @@
+//SOUNDS
+var button_beep_src = "https://cia-9d562a98.s3.us-west-1.amazonaws.com/GameAssets/SoundFX/Daffodil362KeyPress.wav";
+
+
 
 //Users
 var playerTag = "";
@@ -5,6 +9,7 @@ var computerTag = "";
 var playerUsername = "";
 var playerPassword = "";
 
+var inputAllowed = true;
 
 // PLAYER & COMPUTER SUBMITIONS
 var playerTXT = "";
@@ -71,14 +76,21 @@ function clearTxtBox(){
 
 //  PLAYER PRESSED ENTER
 function keyPressed(evt) {
-//console.log(evt.keyCode);
-	if(evt.keyCode == ENTER) {
-		ENTER_DOWN = true;
-		grabSub();
-		addNewLogItem("player",playerTXT);
-		checkPlayerInput();
-		clearTxtBox();
-		console.log('txtbox cleared')
+	
+	let button_beep = document.createElement('audio');
+    button_beep.src = button_beep_src;
+	button_beep.play();
+	
+	if(inputAllowed){
+	
+		//console.log(evt.keyCode);
+		if(evt.keyCode == ENTER) {
+			ENTER_DOWN = true;
+			grabSub();
+			addNewLogItem("player",playerTXT);
+			checkPlayerInput();
+			clearTxtBox();
+		}
 	}
 };
 // PLAYER RELEASED ENTER
@@ -88,3 +100,5 @@ function keyReleased(evt) {
 		ENTER_DOWN = false;
 	} 
 };
+
+
