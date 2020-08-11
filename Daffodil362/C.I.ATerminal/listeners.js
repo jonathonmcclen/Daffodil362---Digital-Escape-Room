@@ -600,14 +600,84 @@ function checkPlayerInput() {
 				incorrectSub();
 			}
 		} else if (puzzle == 5){
-			if (playerTXT == "674931"){
+            if (playerTXT == "674931"){
+                
+                Section6Puzzle5();
+                puzzle = 6;
+                //NEED HINT CODE
+                
+                success_sound.play();
+            } else if (playerTXT == "hint"){
+				addNewLogItem("important", "Hint Code: " + hintCode);
+			} else {
+				incorrectSub();
+			}
+        }
+        else if (puzzle == 6){
+            if (playerTXT == "386307"){
+                
+                Section6Puzzle6();
+                puzzle = 7;
+                //NEED HINT CODE
+                
+                success_sound.play();
+            } else if (playerTXT == "hint"){
+				addNewLogItem("important", "Hint Code: " + hintCode);
+			} else {
+				incorrectSub();
+			}
+        }
+        else if (puzzle == 7){
+            if (playerTXT == "371338"){
+                
+                Section6Puzzle7();
+                puzzle = 8;
+                //NEED HINT CODE
+                
+                success_sound.play();
+            } else if (playerTXT == "hint"){
+				addNewLogItem("important", "Hint Code: " + hintCode);
+			} else {
+				incorrectSub();
+			}
+        }
+        else if (puzzle == 8){
+            if (playerTXT == "429578"){
+                
+                Section6Puzzle8();
+                puzzle = 9;
+                //NEED HINT CODE
+                
+                success_sound.play();
+            } else if (playerTXT == "hint"){
+				addNewLogItem("important", "Hint Code: " + hintCode);
+			} else {
+				incorrectSub();
+			}
+        }
+        else if (puzzle == 9){
+            if (playerTXT == "724985"){
+                
+                Section6Puzzle9();
+                puzzle = 10;
+                //NEED HINT CODE
+                
+                success_sound.play();
+            } else if (playerTXT == "hint"){
+				addNewLogItem("important", "Hint Code: " + hintCode);
+			} else {
+				incorrectSub();
+			}
+        }
+        else if (puzzle == 10) {
+			if (playerTXT == "860743"){
 
                 //More glitches here
                 randomTextShift();
                 musicShift();
                 
 				finalCutscene();
-				puzzle = 6;
+				puzzle = 11;
                 
                 success_sound.play();
 
@@ -616,10 +686,14 @@ function checkPlayerInput() {
 			} else {
 				incorrectSub();
 			}
-	} else if (puzzle == 6){
+	   } 
+        else if (puzzle == 11){
 			playerTXT = "";
 			if (playerTXT == ""){
 				
+                //remove player entry
+                document.getElementById("log").removeChild(document.getElementById("log").firstChild);
+                
 				section = 4;
                 clearInterval(randomTextShiftInterval);
 				FinalCutscenept2();
