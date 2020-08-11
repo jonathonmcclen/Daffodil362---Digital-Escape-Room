@@ -1,8 +1,6 @@
 //SOUNDS
 var button_beep_src = "https://cia-9d562a98.s3.us-west-1.amazonaws.com/GameAssets/SoundFX/Daffodil362KeyPress.wav";
 
-
-
 //Users
 var playerTag = "";
 var computerTag = "";
