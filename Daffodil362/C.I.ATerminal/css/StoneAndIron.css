@@ -71,3 +71,19 @@ h3{
 	font-family: consolas, Charcoal, sans-serif; 
 	white-space: nowrap;	
 }
+
+
+/* URLS */
+
+a.URL {
+    display: inline;
+    color: #018600; 
+	font-family: consolas, Charcoal, sans-serif; 
+	white-space: nowrap;
+    font-size: 1.5em;
+}
+
+a.hovered-URL {
+    color: black;
+    background-color: #018600;
+}
