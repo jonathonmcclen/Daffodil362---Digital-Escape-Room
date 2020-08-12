@@ -78,6 +78,7 @@ function login2Done(){
 	setTimeout(line3, 6000);
 	
 	function line4(){
+		playFailSound(1000, 3);
 		addNewLogItem("comp","ERROR ERROR ERROR ERROR ERROR ERROR ERROR ERROR");
 	};
 	
@@ -1179,6 +1180,7 @@ function puzzle15Done(){
 };
 
 function ExampleFail(){
+	inputAllowed = false;
 	decrypt("decrypt7");
 	
 	//Animation starst at 9000ms
@@ -1218,6 +1220,7 @@ function ExampleFail(){
 };
 
 function TwitterFailSafe() {
+	inputAllowed = false;
 	
 	function line1(){
 		addNewLogItem("comp", "ERROR");
@@ -1258,11 +1261,13 @@ function TwitterFailSafe() {
 };
 
 function cutsceneHacked(){
+	inputAllowed = false;
 	decrypt("decrypt8");
 	flicker();
 	//Animation starst at 9000ms
 	
 	function line1(){
+		playFailSound(1800, 3);
 		addNewLogItem("comp", "ERROR ERROR ERROR ERROR ERROR ERROR ERROR ERROR ERROR ERROR ");
 	};
 	
@@ -1308,6 +1313,7 @@ function cutsceneHacked(){
 //SECTION 4 WAS FILE LOK AND TWITTER HACKS
 
 function FileLokPuzzle1(){
+	inputAllowed = false;
 	decrypt("decrypt9");
 	
 	//Animation starst at 9000ms
@@ -1353,6 +1359,8 @@ function FileLokPuzzle1(){
 };
 
 function FileLokPuzzle2(){
+	
+	inputAllowed = false;
 	decrypt("decrypt10");
 	
 	//Animation starst at 9000ms
@@ -1398,6 +1406,7 @@ function FileLokPuzzle2(){
 };
 
 function FileLokPuzzle3(){
+	inputAllowed = false;
 	decrypt("decrypt11");
 	
 	//Animation starst at 9000ms
@@ -1443,6 +1452,7 @@ function FileLokPuzzle3(){
 };
 
 function FileLokPuzzle4(){
+	inputAllowed = false;
 	decrypt("decrypt12");
 	
 	//Animation starst at 9000ms
@@ -1488,6 +1498,7 @@ function FileLokPuzzle4(){
 };
 
 function FileLokPuzzle5(){
+	inputAllowed = false;
 	decrypt("decrypt13");
 	
 	//Animation starst at 9000ms
@@ -1533,6 +1544,7 @@ function FileLokPuzzle5(){
 };
 
 function FileLokPuzzle6(){
+	inputAllowed = false;
 	decrypt("decrypt14");
 	
 	//Animation starst at 9000ms
@@ -1578,6 +1590,7 @@ function FileLokPuzzle6(){
 };
 
 function FileLokPuzzle7(){
+	inputAllowed = false;
 	decrypt("decrypt15");
 	
 	//Animation starst at 9000ms
@@ -1623,6 +1636,7 @@ function FileLokPuzzle7(){
 };
 
 function FileLokPuzzle8(){
+	inputAllowed = false;
 	decrypt("decrypt16");
 	
 	//Animation starst at 9000ms
@@ -1673,6 +1687,7 @@ function FileLokPuzzle8(){
 //SECTION 6
 
 function Section6Puzzle1(){
+	inputAllowed = false;
 	Success();
 	flicker();
 
@@ -1727,6 +1742,7 @@ function Section6Puzzle1(){
 };
 
 function Section6Puzzle2(){
+	inputAllowed = false;
 	Success();
 	flicker();
 
@@ -1782,6 +1798,7 @@ function Section6Puzzle2(){
 };
 
 function Section6Puzzle3(){
+	inputAllowed = false;
 	Success();
 	flicker();
 
@@ -1837,6 +1854,7 @@ function Section6Puzzle3(){
 };
 
 function Section6Puzzle4(){
+	inputAllowed = false;
 	Success();
 	flicker();
 
@@ -1893,6 +1911,7 @@ function Section6Puzzle4(){
 
 
 function Section6Puzzle5(){
+	inputAllowed = false;
 	Success();
 	flicker();
 
@@ -1932,7 +1951,7 @@ function Section6Puzzle5(){
 	
 	function line9(){
 		addNewLogItem("comp", "LogLine#5>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>___REFERAENC#_◆____<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______");
-        ready_for_input_sound.play();
+        Ready_For_Input();
 	};
 
 	
@@ -1948,6 +1967,7 @@ function Section6Puzzle5(){
 };
 
 function Section6Puzzle6(){
+	inputAllowed = false;
 	Success();
 	flicker();
 
@@ -1987,7 +2007,7 @@ function Section6Puzzle6(){
 	
 	function line9(){
 		addNewLogItem("comp", "LogLine#◆>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>___REFERAENC#_◆____<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______");
-        ready_for_input_sound.play();
+        Ready_For_Input();
 	};
 
 	
@@ -2003,6 +2023,7 @@ function Section6Puzzle6(){
 };
 
 function Section6Puzzle7(){
+	inputAllowed = false;
 	Success();
 	flicker();
 
@@ -2042,7 +2063,7 @@ function Section6Puzzle7(){
 	
 	function line9(){
 		addNewLogItem("comp", "LogLine#5>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>___REFERAENC#_=____<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______");
-        ready_for_input_sound.play();
+        Ready_For_Input();
 	};
 
 	
@@ -2058,6 +2079,7 @@ function Section6Puzzle7(){
 };
 
 function Section6Puzzle8(){
+	inputAllowed = false;
 	Success();
 	flicker();
 
@@ -2097,7 +2119,7 @@ function Section6Puzzle8(){
 	
 	function line9(){
 		addNewLogItem("comp", "LogLine#Orange>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>___REFERAENC#_-____<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______");
-        ready_for_input_sound.play();
+        Ready_For_Input();
 	};
 
 	
@@ -2113,6 +2135,7 @@ function Section6Puzzle8(){
 };
 
 function Section6Puzzle9(){
+	inputAllowed = false;
 	Success();
 	flicker();
 
@@ -2152,7 +2175,7 @@ function Section6Puzzle9(){
 	
 	function line9(){
 		addNewLogItem("comp", "REFERAENC#_●_>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>______LogLine#purple______<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______");
-        ready_for_input_sound.play();
+        Ready_For_Input();
 	};
 
 	
@@ -2166,290 +2189,13 @@ function Section6Puzzle9(){
 	setTimeout(line8, 12500);
 	setTimeout(line9, 13000);
 };
-
-
-
-function Section6Puzzle5(){
-	Success();
-	flicker();
-
-	//Animation starst at 9000ms
-	
-	function line1(){
-		addNewLogItem("comp", "ERROR 6/10");
-	};
-	
-	function line2(){
-		addNewLogItem("comp", "ORDER: 364521");
-	};
-	
-	function line3(){
-		addNewLogItem("comp", "LOG LINES TOO LONG TYPE REFERENCE NUMBERS THEN PRESS ENTER");
-	};
-	
-	function line4(){
-		addNewLogItem("comp", "LogLine#4>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>___REFERAENC#_◉____<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______");
-	};
-	
-	function line5(){
-		addNewLogItem("comp", "LogLine#2>>>>>>>>>>>>>>>>>>>___REFERAENC#_◧___>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>___CODE_TOO_LONG__");
-	};
-	
-	function line6(){
-		addNewLogItem("comp", "LogLine#6>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>___REFERAENC#_=____");
-	};
-	
-	function line7(){
-		addNewLogItem("comp", "LogLine#3>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>___REFERAENC#_◆____<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______");
-	};
-	
-	function line8(){
-		addNewLogItem("comp", "LogLine#1>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>___REFERAENC#_●____<<<<<<<<<<<<<<<<<<<______Too_Far_______");
-	};
-	
-	function line9(){
-		addNewLogItem("comp", "LogLine#5>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>___REFERAENC#_◆____<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______");
-        ready_for_input_sound.play();
-	};
-
-	
-	setTimeout(line1, 9000);
-	setTimeout(line2, 9500);
-	setTimeout(line3, 10000);
-	setTimeout(line4, 10500);
-	setTimeout(line5, 11000);
-	setTimeout(line6, 11500);
-	setTimeout(line7, 12000);
-	setTimeout(line8, 12500);
-	setTimeout(line9, 13000);
-};
-
-function Section6Puzzle6(){
-	Success();
-	flicker();
-
-	//Animation starst at 9000ms
-	
-	function line1(){
-		addNewLogItem("comp", "ERROR 7/10");
-	};
-	
-	function line2(){
-		addNewLogItem("comp", "ORDER: ■◉▲+◆◭");
-	};
-	
-	function line3(){
-		addNewLogItem("comp", "LOG LINES TOO LONG TYPE REFERENCE NUMBERS THEN PRESS ENTER");
-	};
-	
-	function line4(){
-		addNewLogItem("comp", "LogLine#▲>>>>>>>>>>>>>>>>>>>___REFERAENC#_■___>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>___CODE_TOO_LONG__");
-	};
-	
-	function line5(){
-		addNewLogItem("comp", "LogLine#■>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>___REFERAENC#_◆____<<<<<<<<<<<<<<<<<<<______Too_Far_______");
-	};
-	
-	function line6(){
-		addNewLogItem("comp", "LogLine#+>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>___REFERAENC#_◆____<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______");
-	};
-	
-	function line7(){
-		addNewLogItem("comp", "LogLine#◭>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>___REFERAENC#_=____");
-	};
-	
-	function line8(){
-		addNewLogItem("comp", "LogLine#◉>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>___REFERAENC#_●____<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______");
-	};
-	
-	function line9(){
-		addNewLogItem("comp", "LogLine#◆>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>___REFERAENC#_◆____<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______");
-        ready_for_input_sound.play();
-	};
-
-	
-	setTimeout(line1, 9000);
-	setTimeout(line2, 9500);
-	setTimeout(line3, 10000);
-	setTimeout(line4, 10500);
-	setTimeout(line5, 11000);
-	setTimeout(line6, 11500);
-	setTimeout(line7, 12000);
-	setTimeout(line8, 12500);
-	setTimeout(line9, 13000);
-};
-
-function Section6Puzzle7(){
-	Success();
-	flicker();
-
-	//Animation starst at 9000ms
-	
-	function line1(){
-		addNewLogItem("comp", "ERROR 8/10");
-	};
-	
-	function line2(){
-		addNewLogItem("comp", "ORDER: ◉▲◆◭■+");
-	};
-	
-	function line3(){
-		addNewLogItem("comp", "LOG LINES TOO LONG TYPE REFERENCE NUMBERS THEN PRESS ENTER");
-	};
-	
-	function line4(){
-		addNewLogItem("comp", "LogLine#4>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>___REFERAENC#_+____");
-	};
-	
-	function line5(){
-		addNewLogItem("comp", "LogLine#2>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>___REFERAENC#_▲____<<<<<<<<<<<<<<<<<<<______Too_Far_______");
-	};
-	
-	function line6(){
-		addNewLogItem("comp", "LogLine#1>>>>>>>>>>>>>>>>>>>___REFERAENC#_●___>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>___CODE_TOO_LONG__");
-	};
-	
-	function line7(){
-		addNewLogItem("comp", "LogLine#3>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>___REFERAENC#_-____<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______");
-	};
-	
-	function line8(){
-		addNewLogItem("comp", "LogLine#6>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>___REFERAENC#_◭____<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______");
-	};
-	
-	function line9(){
-		addNewLogItem("comp", "LogLine#5>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>___REFERAENC#_=____<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______");
-        ready_for_input_sound.play();
-	};
-
-	
-	setTimeout(line1, 9000);
-	setTimeout(line2, 9500);
-	setTimeout(line3, 10000);
-	setTimeout(line4, 10500);
-	setTimeout(line5, 11000);
-	setTimeout(line6, 11500);
-	setTimeout(line7, 12000);
-	setTimeout(line8, 12500);
-	setTimeout(line9, 13000);
-};
-
-function Section6Puzzle8(){
-	Success();
-	flicker();
-
-	//Animation starst at 9000ms
-	
-	function line1(){
-		addNewLogItem("comp", "ERROR 9/10");
-	};
-	
-	function line2(){
-		addNewLogItem("comp", "ORDER: ▲=-+◆◧");
-	};
-	
-	function line3(){
-		addNewLogItem("comp", "LOG LINES TOO LONG TYPE REFERENCE NUMBERS THEN PRESS ENTER");
-	};
-	
-	function line4(){
-		addNewLogItem("comp", "LogLine#White>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>___REFERAENC#_=____<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______");
-	};
-	
-	function line5(){
-		addNewLogItem("comp", "LogLine#Green>>>>>>>>>>>>>>>>>>>___REFERAENC#_●___>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>___CODE_TOO_LONG__");
-	};
-	
-	function line6(){
-		addNewLogItem("comp", "LogLine#purple>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>___REFERAENC#_+____");
-	};
-	
-	function line7(){
-		addNewLogItem("comp", "LogLine#Yellow>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>___REFERAENC#_▲____<<<<<<<<<<<<<<<<<<<______Too_Far_______");
-	};
-	
-	function line8(){
-		addNewLogItem("comp", "LogLine#Silver>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>___REFERAENC#_◭____<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______");
-	};
-	
-	function line9(){
-		addNewLogItem("comp", "LogLine#Orange>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>___REFERAENC#_-____<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______");
-        ready_for_input_sound.play();
-	};
-
-	
-	setTimeout(line1, 9000);
-	setTimeout(line2, 9500);
-	setTimeout(line3, 10000);
-	setTimeout(line4, 10500);
-	setTimeout(line5, 11000);
-	setTimeout(line6, 11500);
-	setTimeout(line7, 12000);
-	setTimeout(line8, 12500);
-	setTimeout(line9, 13000);
-};
-
-function Section6Puzzle9(){
-	Success();
-	flicker();
-
-	//Animation starst at 9000ms
-	
-	function line1(){
-		addNewLogItem("comp", "ERROR 10/10");
-	};
-	
-	function line2(){
-		addNewLogItem("comp", "ORDER: ■◉=◧+◆");
-	};
-	
-	function line3(){
-		addNewLogItem("comp", "LOG LINES TOO LONG TYPE REFERENCE NUMBERS THEN PRESS ENTER");
-	};
-	
-	function line4(){
-		addNewLogItem("comp", "REFERAENC#_◆_>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>______LogLine#White______<<<<<<<<<<<<<<<<<<<______Too_Far_______");
-	};
-	
-	function line5(){
-		addNewLogItem("comp", "REFERAENC#_◭_>>>>>>>>>>>>>>>>>>>_____LogLine#Orange______>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>___CODE_TOO_LONG__");
-	};
-	
-	function line6(){
-		addNewLogItem("comp", "REFERAENC#_=_>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>______LogLine#Blue______<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______");
-	};
-	
-	function line7(){
-		addNewLogItem("comp", "REFERAENC#_◧_>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>______LogLine#Yellow______");
-	};
-	
-	function line8(){
-		addNewLogItem("comp", "REFERAENC#_◉_>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>______LogLine#Brown______<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______");
-	};
-	
-	function line9(){
-		addNewLogItem("comp", "REFERAENC#_●_>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>______LogLine#purple______<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______");
-        ready_for_input_sound.play();
-	};
-
-	
-	setTimeout(line1, 9000);
-	setTimeout(line2, 9500);
-	setTimeout(line3, 10000);
-	setTimeout(line4, 10500);
-	setTimeout(line5, 11000);
-	setTimeout(line6, 11500);
-	setTimeout(line7, 12000);
-	setTimeout(line8, 12500);
-	setTimeout(line9, 13000);
-};
-
 
 
 //FINAL SECTION 
 
 
 function repeatInstructions() {
+	inputAllowed = false;
 	
 	function line1(){
 		divider();
@@ -2466,6 +2212,7 @@ function repeatInstructions() {
 };
 
 function Success(){
+	inputAllowed = false;
 	
 	function line1(){
 		addNewLogItem("comp", "SUCCESS");
@@ -3887,7 +3634,6 @@ function endTypingAnimation(typing_log_item) {
     document.getElementById("log").removeChild(typing_log_item);
 }
 
-<<<<<<< HEAD
 function TestingGuestAnim(){
 	inputAllowed = false;
 	
@@ -3967,9 +3713,6 @@ function GuestLoggedIn(){
 	
 }
 
-
-=======
->>>>>>> 625c9170ce0b3fd67274c092a3c73ba4ab380f92
 //URLs
 
 function showURL(href) {
@@ -3996,14 +3739,10 @@ function showURL(href) {
 //Fail sound function
 
 function playFailSound(ms_between, num_plays) {
-    let fail_sound = document.createElement('audio');
-    fail_sound.src = 'sounds/failure.mp3';
-    fail_sound.play();
+    failure_sound.play();
     for (let i = 1; i < num_plays; i++) {
         setTimeout(function() {
-            let fail_sound = document.createElement('audio');
-            fail_sound.src = 'sounds/failure.mp3';
-            fail_sound.play();
+            failure_sound.play();
         }, ms_between * i);
     }
 }

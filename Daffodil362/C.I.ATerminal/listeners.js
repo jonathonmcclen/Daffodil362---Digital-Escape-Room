@@ -611,7 +611,7 @@ function checkPlayerInput() {
                 
                 Section6Puzzle5();
                 puzzle = 6;
-                //NEED HINT CODE
+                hintCode = "305";
                 
                 success_sound.play();
             } else if (playerTXT == "hint"){
@@ -625,7 +625,7 @@ function checkPlayerInput() {
                 
                 Section6Puzzle6();
                 puzzle = 7;
-                //NEED HINT CODE
+                hintCode = "307";
                 
                 success_sound.play();
             } else if (playerTXT == "hint"){
@@ -639,7 +639,7 @@ function checkPlayerInput() {
                 
                 Section6Puzzle7();
                 puzzle = 8;
-                //NEED HINT CODE
+                hintCode = "308";
                 
                 success_sound.play();
             } else if (playerTXT == "hint"){
@@ -653,7 +653,7 @@ function checkPlayerInput() {
                 
                 Section6Puzzle8();
                 puzzle = 9;
-                //NEED HINT CODE
+                hintCode = "309";
                 
                 success_sound.play();
             } else if (playerTXT == "hint"){
@@ -667,7 +667,7 @@ function checkPlayerInput() {
                 
                 Section6Puzzle9();
                 puzzle = 10;
-                //NEED HINT CODE
+                hintCode = "310";
                 
                 success_sound.play();
             } else if (playerTXT == "hint"){
