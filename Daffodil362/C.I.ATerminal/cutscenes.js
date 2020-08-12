@@ -616,7 +616,8 @@ function LoggedIn() {
 	};
 	
 	function line4(){
-		addNewLogItem("comp", "*** EXAMPLE **** https://75896-29742-69504-22231");
+		addNewLogItem("comp", "*** EXAMPLE ****");
+        showURL("https://75896-29742-69504-22231");
 	};
 
 	function line5(){
@@ -768,7 +769,8 @@ function puzzle9Done(){
 	};
 	
 	function line5(){
-		addNewLogItem("comp", "DECRYPTED URL: " + URLPuzzleOne); // 6502735770
+		addNewLogItem("comp", "DECRYPTED URL: "); // 6502735770
+        showURL(URLPuzzleOne);
 	};
 	
 	function line6(){
@@ -828,7 +830,8 @@ function puzzle10Done(){
 	};
 	
 	function line5(){
-		addNewLogItem("comp", "DECRYPTED URL: " + URLPuzzleTwo); //9235613951
+		addNewLogItem("comp", "DECRYPTED URL: "); //9235613951
+        showURL(URLPuzzleTwo);
 	};
 	
 	function line6(){
@@ -878,7 +881,8 @@ function puzzle11Done(){
 	};
 	
 	function line3(){
-		addNewLogItem("comp", "DECRYPTED URL: https://twitter.com/Anonymo00841943");
+		addNewLogItem("comp", "DECRYPTED URL:");
+        showURL("https://twitter.com/Anonymo00841943");
 	};
 	
 	function line4(){
@@ -979,7 +983,8 @@ function puzzle12Done(){
 	};
 	
 	function line16(){
-		addNewLogItem("important", "https://escroomgames.com/Games/Daffodil362/Email-2");
+		//addNewLogItem("important", "https://daffodil362.com/Email-2");
+        showURL("https://daffodil362.com/Email-2");
 	};
 	
 	function line17(){
@@ -1035,7 +1040,8 @@ function puzzle13Done(){
 	};
 	
 	function line3(){
-		addNewLogItem("comp", "Decrypted URL: " + URLPuzzleFive);
+		addNewLogItem("comp", "Decrypted URL: ");
+        showURL(URLPuzzleFive);
 	};
 	
 	function line4(){
@@ -1132,7 +1138,8 @@ function puzzle15Done(){
 	};
 	
 	function line3(){
-		addNewLogItem("comp", "Decrypted URL: " + alabasterTerminalURL);
+		addNewLogItem("comp", "Decrypted URL: ");
+        showURL(alabasterTerminalURL);
 	};
 	
 	function line4(){
@@ -1315,7 +1322,8 @@ function FileLokPuzzle1(){
 	};
 	
 	function line3(){
-		addNewLogItem("comp", "Decrypted URL: " + FileLokPuzzle1De);
+		addNewLogItem("comp", "Decrypted URL: ");
+        showURL(FileLokPuzzle1De);
 	};
 	
 	function line4(){
@@ -1359,7 +1367,8 @@ function FileLokPuzzle2(){
 	};
 	
 	function line3(){
-		addNewLogItem("comp", "Decrypted URL: " + FileLokPuzzle2De);
+		addNewLogItem("comp", "Decrypted URL: ");
+        showURL(FileLokPuzzle2De);
 	};
 	
 	function line4(){
@@ -1404,6 +1413,7 @@ function FileLokPuzzle3(){
 	
 	function line3(){
 		addNewLogItem("comp", "Decrypted URL: " + FileLokPuzzle3De);
+        showURL(FileLokPuzzle3De);
 	};
 	
 	function line4(){
@@ -1447,7 +1457,8 @@ function FileLokPuzzle4(){
 	};
 	
 	function line3(){
-		addNewLogItem("comp", "Decrypted URL: " + FileLokPuzzle4De);
+		addNewLogItem("comp", "Decrypted URL: ");
+        showURL(FileLokPuzzle4De);
 	};
 	
 	function line4(){
@@ -1491,7 +1502,8 @@ function FileLokPuzzle5(){
 	};
 	
 	function line3(){
-		addNewLogItem("comp", "Decrypted URL: " + FileLokPuzzle5De);
+		addNewLogItem("comp", "Decrypted URL: ");
+        showURL(FileLokPuzzle5De);
 	};
 	
 	function line4(){
@@ -1535,7 +1547,8 @@ function FileLokPuzzle6(){
 	};
 	
 	function line3(){
-		addNewLogItem("comp", "Decrypted URL: " + FileLokPuzzle6De);
+		addNewLogItem("comp", "Decrypted URL: ");
+        showURL(FileLokPuzzle6De);
 	};
 	
 	function line4(){
@@ -1579,7 +1592,8 @@ function FileLokPuzzle7(){
 	};
 	
 	function line3(){
-		addNewLogItem("comp", "Decrypted URL: " + FileLokPuzzle7De);
+		addNewLogItem("comp", "Decrypted URL: ");
+        showURL(FileLokPuzzle7De);
 	};
 	
 	function line4(){
@@ -1623,7 +1637,8 @@ function FileLokPuzzle8(){
 	};
 	
 	function line3(){
-		addNewLogItem("comp", "Decrypted URL: " + FileLokPuzzle8De);
+		addNewLogItem("comp", "Decrypted URL: ");
+        showURL(FileLokPuzzle8De);
 	};
 	
 	function line4(){
@@ -1664,7 +1679,7 @@ function Section6Puzzle1(){
 	//Animation starst at 9000ms
 	
 	function line1(){
-		addNewLogItem("comp", "ERROR 2/5");
+		addNewLogItem("comp", "ERROR 2/10");
 	};
 	
 	function line2(){
@@ -1718,7 +1733,7 @@ function Section6Puzzle2(){
 	//Animation starst at 9000ms
 	
 	function line1(){
-		addNewLogItem("comp", "ERROR 3/5");
+		addNewLogItem("comp", "ERROR 3/10");
 	};
 	
 	function line2(){
@@ -1773,7 +1788,7 @@ function Section6Puzzle3(){
 	//Animation starst at 9000ms
 	
 	function line1(){
-		addNewLogItem("comp", "ERROR 4/5");
+		addNewLogItem("comp", "ERROR 4/10");
 	};
 	
 	function line2(){
@@ -1828,7 +1843,7 @@ function Section6Puzzle4(){
 	//Animation starst at 9000ms
 	
 	function line1(){
-		addNewLogItem("comp", "ERROR 5/5");
+		addNewLogItem("comp", "ERROR 5/10");
 	};
 	
 	function line2(){
@@ -1875,6 +1890,283 @@ function Section6Puzzle4(){
 	setTimeout(line8, 12500);
 	setTimeout(line9, 13000);
 };
+
+
+function Section6Puzzle5(){
+	Success();
+	flicker();
+
+	//Animation starst at 9000ms
+	
+	function line1(){
+		addNewLogItem("comp", "ERROR 6/10");
+	};
+	
+	function line2(){
+		addNewLogItem("comp", "ORDER: 364521");
+	};
+	
+	function line3(){
+		addNewLogItem("comp", "LOG LINES TOO LONG TYPE REFERENCE NUMBERS THEN PRESS ENTER");
+	};
+	
+	function line4(){
+		addNewLogItem("comp", "LogLine#4>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>___REFERAENC#_◉____<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______");
+	};
+	
+	function line5(){
+		addNewLogItem("comp", "LogLine#2>>>>>>>>>>>>>>>>>>>___REFERAENC#_◧___>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>___CODE_TOO_LONG__");
+	};
+	
+	function line6(){
+		addNewLogItem("comp", "LogLine#6>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>___REFERAENC#_=____");
+	};
+	
+	function line7(){
+		addNewLogItem("comp", "LogLine#3>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>___REFERAENC#_◆____<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______");
+	};
+	
+	function line8(){
+		addNewLogItem("comp", "LogLine#1>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>___REFERAENC#_●____<<<<<<<<<<<<<<<<<<<______Too_Far_______");
+	};
+	
+	function line9(){
+		addNewLogItem("comp", "LogLine#5>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>___REFERAENC#_◆____<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______");
+        ready_for_input_sound.play();
+	};
+
+	
+	setTimeout(line1, 9000);
+	setTimeout(line2, 9500);
+	setTimeout(line3, 10000);
+	setTimeout(line4, 10500);
+	setTimeout(line5, 11000);
+	setTimeout(line6, 11500);
+	setTimeout(line7, 12000);
+	setTimeout(line8, 12500);
+	setTimeout(line9, 13000);
+};
+
+function Section6Puzzle6(){
+	Success();
+	flicker();
+
+	//Animation starst at 9000ms
+	
+	function line1(){
+		addNewLogItem("comp", "ERROR 7/10");
+	};
+	
+	function line2(){
+		addNewLogItem("comp", "ORDER: ■◉▲+◆◭");
+	};
+	
+	function line3(){
+		addNewLogItem("comp", "LOG LINES TOO LONG TYPE REFERENCE NUMBERS THEN PRESS ENTER");
+	};
+	
+	function line4(){
+		addNewLogItem("comp", "LogLine#▲>>>>>>>>>>>>>>>>>>>___REFERAENC#_■___>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>___CODE_TOO_LONG__");
+	};
+	
+	function line5(){
+		addNewLogItem("comp", "LogLine#■>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>___REFERAENC#_◆____<<<<<<<<<<<<<<<<<<<______Too_Far_______");
+	};
+	
+	function line6(){
+		addNewLogItem("comp", "LogLine#+>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>___REFERAENC#_◆____<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______");
+	};
+	
+	function line7(){
+		addNewLogItem("comp", "LogLine#◭>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>___REFERAENC#_=____");
+	};
+	
+	function line8(){
+		addNewLogItem("comp", "LogLine#◉>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>___REFERAENC#_●____<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______");
+	};
+	
+	function line9(){
+		addNewLogItem("comp", "LogLine#◆>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>___REFERAENC#_◆____<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______");
+        ready_for_input_sound.play();
+	};
+
+	
+	setTimeout(line1, 9000);
+	setTimeout(line2, 9500);
+	setTimeout(line3, 10000);
+	setTimeout(line4, 10500);
+	setTimeout(line5, 11000);
+	setTimeout(line6, 11500);
+	setTimeout(line7, 12000);
+	setTimeout(line8, 12500);
+	setTimeout(line9, 13000);
+};
+
+function Section6Puzzle7(){
+	Success();
+	flicker();
+
+	//Animation starst at 9000ms
+	
+	function line1(){
+		addNewLogItem("comp", "ERROR 8/10");
+	};
+	
+	function line2(){
+		addNewLogItem("comp", "ORDER: ◉▲◆◭■+");
+	};
+	
+	function line3(){
+		addNewLogItem("comp", "LOG LINES TOO LONG TYPE REFERENCE NUMBERS THEN PRESS ENTER");
+	};
+	
+	function line4(){
+		addNewLogItem("comp", "LogLine#4>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>___REFERAENC#_+____");
+	};
+	
+	function line5(){
+		addNewLogItem("comp", "LogLine#2>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>___REFERAENC#_▲____<<<<<<<<<<<<<<<<<<<______Too_Far_______");
+	};
+	
+	function line6(){
+		addNewLogItem("comp", "LogLine#1>>>>>>>>>>>>>>>>>>>___REFERAENC#_●___>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>___CODE_TOO_LONG__");
+	};
+	
+	function line7(){
+		addNewLogItem("comp", "LogLine#3>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>___REFERAENC#_-____<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______");
+	};
+	
+	function line8(){
+		addNewLogItem("comp", "LogLine#6>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>___REFERAENC#_◭____<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______");
+	};
+	
+	function line9(){
+		addNewLogItem("comp", "LogLine#5>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>___REFERAENC#_=____<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______");
+        ready_for_input_sound.play();
+	};
+
+	
+	setTimeout(line1, 9000);
+	setTimeout(line2, 9500);
+	setTimeout(line3, 10000);
+	setTimeout(line4, 10500);
+	setTimeout(line5, 11000);
+	setTimeout(line6, 11500);
+	setTimeout(line7, 12000);
+	setTimeout(line8, 12500);
+	setTimeout(line9, 13000);
+};
+
+function Section6Puzzle8(){
+	Success();
+	flicker();
+
+	//Animation starst at 9000ms
+	
+	function line1(){
+		addNewLogItem("comp", "ERROR 9/10");
+	};
+	
+	function line2(){
+		addNewLogItem("comp", "ORDER: ▲=-+◆◧");
+	};
+	
+	function line3(){
+		addNewLogItem("comp", "LOG LINES TOO LONG TYPE REFERENCE NUMBERS THEN PRESS ENTER");
+	};
+	
+	function line4(){
+		addNewLogItem("comp", "LogLine#White>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>___REFERAENC#_=____<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______");
+	};
+	
+	function line5(){
+		addNewLogItem("comp", "LogLine#Green>>>>>>>>>>>>>>>>>>>___REFERAENC#_●___>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>___CODE_TOO_LONG__");
+	};
+	
+	function line6(){
+		addNewLogItem("comp", "LogLine#purple>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>___REFERAENC#_+____");
+	};
+	
+	function line7(){
+		addNewLogItem("comp", "LogLine#Yellow>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>___REFERAENC#_▲____<<<<<<<<<<<<<<<<<<<______Too_Far_______");
+	};
+	
+	function line8(){
+		addNewLogItem("comp", "LogLine#Silver>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>___REFERAENC#_◭____<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______");
+	};
+	
+	function line9(){
+		addNewLogItem("comp", "LogLine#Orange>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>___REFERAENC#_-____<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______");
+        ready_for_input_sound.play();
+	};
+
+	
+	setTimeout(line1, 9000);
+	setTimeout(line2, 9500);
+	setTimeout(line3, 10000);
+	setTimeout(line4, 10500);
+	setTimeout(line5, 11000);
+	setTimeout(line6, 11500);
+	setTimeout(line7, 12000);
+	setTimeout(line8, 12500);
+	setTimeout(line9, 13000);
+};
+
+function Section6Puzzle9(){
+	Success();
+	flicker();
+
+	//Animation starst at 9000ms
+	
+	function line1(){
+		addNewLogItem("comp", "ERROR 10/10");
+	};
+	
+	function line2(){
+		addNewLogItem("comp", "ORDER: ■◉=◧+◆");
+	};
+	
+	function line3(){
+		addNewLogItem("comp", "LOG LINES TOO LONG TYPE REFERENCE NUMBERS THEN PRESS ENTER");
+	};
+	
+	function line4(){
+		addNewLogItem("comp", "REFERAENC#_◆_>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>______LogLine#White______<<<<<<<<<<<<<<<<<<<______Too_Far_______");
+	};
+	
+	function line5(){
+		addNewLogItem("comp", "REFERAENC#_◭_>>>>>>>>>>>>>>>>>>>_____LogLine#Orange______>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>___CODE_TOO_LONG__");
+	};
+	
+	function line6(){
+		addNewLogItem("comp", "REFERAENC#_=_>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>______LogLine#Blue______<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______");
+	};
+	
+	function line7(){
+		addNewLogItem("comp", "REFERAENC#_◧_>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>______LogLine#Yellow______");
+	};
+	
+	function line8(){
+		addNewLogItem("comp", "REFERAENC#_◉_>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>______LogLine#Brown______<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______");
+	};
+	
+	function line9(){
+		addNewLogItem("comp", "REFERAENC#_●_>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>______LogLine#purple______<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______");
+        ready_for_input_sound.play();
+	};
+
+	
+	setTimeout(line1, 9000);
+	setTimeout(line2, 9500);
+	setTimeout(line3, 10000);
+	setTimeout(line4, 10500);
+	setTimeout(line5, 11000);
+	setTimeout(line6, 11500);
+	setTimeout(line7, 12000);
+	setTimeout(line8, 12500);
+	setTimeout(line9, 13000);
+};
+
 
 
 //FINAL SECTION 
@@ -3395,4 +3687,43 @@ function GuestLoggedIn(){
 	setTimeout(line8, 15500);
 	setTimeout(line9, 16000);
 	
+}
+
+
+//URLs
+
+function showURL(href) {
+    
+    let a = document.createElement('a');
+    a.href = href;
+    a.target = "_blank"
+    a.className = "URL";
+    a.innerHTML = "<b>" + href + "</b>";
+    
+    a.onmouseover = function() {
+        a.className = "URL hovered-URL";
+    }
+    
+    a.onmouseout = function() {
+        a.className = "URL";
+    }
+    
+    document.getElementById("log").appendChild(a);	
+    window.scrollTo(0, document.body.scrollHeight || document.documentElement.scrollHeight);
+    
+}
+
+//Fail sound function
+
+function playFailSound(ms_between, num_plays) {
+    let fail_sound = document.createElement('audio');
+    fail_sound.src = 'sounds/failure.mp3';
+    fail_sound.play();
+    for (let i = 1; i < num_plays; i++) {
+        setTimeout(function() {
+            let fail_sound = document.createElement('audio');
+            fail_sound.src = 'sounds/failure.mp3';
+            fail_sound.play();
+        }, ms_between * i);
+    }
 }
