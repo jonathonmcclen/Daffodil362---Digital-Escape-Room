@@ -66,7 +66,7 @@ function login2Done(){
 	};
 	
 	function line2(){
-		addNewLogItem("comp", "Logging in..." );
+		typingAnim("Logging in",2000,"FAILED",true);
 	};
 	
 	function line3(){
@@ -103,7 +103,7 @@ function login2Done(){
 	};
 
 	function line10(){
-		addNewLogItem("comp","Complete The Sequence");
+		addNewLogItem("comp","Complete The Sequence Then Press ENTER");
         Ready_For_Input();
 	};
 	
@@ -136,7 +136,7 @@ function puzzle1Done() {
 	};
 	
 	function line3(){
-		addNewLogItem("comp","Complete The Sequence");
+		addNewLogItem("comp","Complete The Sequence Then Press ENTER");
         Ready_For_Input();
 	};
 	
@@ -1421,7 +1421,7 @@ function FileLokPuzzle3(){
 	};
 	
 	function line3(){
-		addNewLogItem("comp", "Decrypted URL: " + FileLokPuzzle3De);
+		addNewLogItem("comp", "Decrypted URL: ");
         showURL(FileLokPuzzle3De);
 	};
 	
@@ -1701,34 +1701,37 @@ function Section6Puzzle1(){
 		addNewLogItem("comp", "ORDER: 254361");
 	};
 	
-	function line3(){
-		addNewLogItem("comp", "LOG LINES TOO LONG TYPE REFERENCE NUMBERS THEN PRESS ENTER");
-	};
 	
-	function line4(){
+	
+	function line3(){
 		addNewLogItem("comp", "LogLine#5>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>____REFERENCE#_8___<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______");
 	};
 	
-	function line5(){
+	function line4(){
 		addNewLogItem("comp", "LogLine#6>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>____REFERENCE#_3___<<<<<<<<<<<<<<<<<<<______Too_Far_______");
 	};
 	
-	function line6(){
+	function line5(){
 		addNewLogItem("comp", "LogLine#2>>>>>>>>>>>>>>>>>>>___REFERENCE#_2___>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>___CODE_TOO_LONG__");
 	};
 	
-	function line7(){
+	function line6(){
 		addNewLogItem("comp", "LogLine#4>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>____REFERENCE#_2___");
 	};
 	
-	function line8(){
+	function line7(){
 		addNewLogItem("comp", "LogLine#1>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>____REFERENCE#_7___<<<<<<<<<<<<<<<<<<<______Too_Far_______");
 	};
 	
-	function line9(){
+	function line8(){
 		addNewLogItem("comp", "LogLine#3>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>____REFERENCE#_8___<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______");
-        Ready_For_Input();
-	}
+        
+	};
+	
+	function line9(){
+		addNewLogItem("comp", "LOG LINES TOO LONG TYPE REFERENCE NUMBERS THEN PRESS ENTER");
+		Ready_For_Input();
+	};
 	
 	setTimeout(line1, 9000);
 	setTimeout(line2, 9500);
@@ -1756,33 +1759,35 @@ function Section6Puzzle2(){
 		addNewLogItem("comp", "ORDER: 46 snow 521, 146 snow 52, 2146 snow 5, _ _ _ _ _ _");
 	};
 	
-	function line3(){
-		addNewLogItem("comp", "LOG LINES OUT OF ORDER /& TOO LONG. TYPE REFERENCE NUMBERS THEN PRESS ENTER");
-	};
 	
-	function line4(){
+	
+	function line3(){
 		addNewLogItem("comp", "LogLine#3>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_REFERENCE#_Green__<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______");
 	};
 	
-	function line5(){
+	function line4(){
 		addNewLogItem("comp", "LogLine#2>>>>>>>>>>>>>>>>>>>___REFERENCE#_7___>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>___CODE_TOO_LONG__");
 	};
 	
-	function line6(){
+	function line5(){
 		addNewLogItem("comp", "LogLine#1>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>____REFERENCE#_2___<<<<<<<<<<<<<<<<<<<______Too_Far_______");
 	};
 	
-	function line7(){
+	function line6(){
 		addNewLogItem("comp", "LogLine#4>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>____REFERENCE#_6___");
 	};
 	
-	function line8(){
+	function line7(){
 		addNewLogItem("comp", "LogLine#6>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>____REFERENCE#_7___<<<<<<<<<<<<<<<<<<<______Too_Far_______");
 	};
 	
+	function line8(){
+		addNewLogItem("comp", "LogLine#5>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>____REFERENCE#_3___<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______"); 
+	};
+	
 	function line9(){
-		addNewLogItem("comp", "LogLine#5>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>____REFERENCE#_3___<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______");
-        Ready_For_Input();
+		addNewLogItem("comp", "LOG LINES OUT OF ORDER /& TOO LONG. TYPE REFERENCE NUMBERS THEN PRESS ENTER");
+		Ready_For_Input();
 	};
 
 	
@@ -1812,33 +1817,36 @@ function Section6Puzzle3(){
 		addNewLogItem("comp", "ORDER: White White Orange Red Brown Blue");
 	};
 	
-	function line3(){
-		addNewLogItem("comp", "LOG LINES TOO LONG TYPE REFERNCE NUMBERS THEN PRESS ENTER");
-	};
 	
-	function line4(){
+	
+	function line3(){
 		addNewLogItem("comp", "LogLine#4>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>____REFERENCE#_0___");
 	};
 	
-	function line5(){
+	function line4(){
 		addNewLogItem("comp", "LogLine#2>>>>>>>>>>>>>>>>>>>___REFERENCE#_0___>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>___CODE_TOO_LONG__");
 	};
 	
-	function line6(){
+	function line5(){
 		addNewLogItem("comp", "LogLine#3>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>____REFERENCE#_7___<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______");
 	};
 	
-	function line7(){
+	function line6(){
 		addNewLogItem("comp", "LogLine#5>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>____REFERENCE#_4___<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______");
 	};
 	
-	function line8(){
+	function line7(){
 		addNewLogItem("comp", "LogLine#6>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>____REFERENEC#_9___<<<<<<<<<<<<<<<<<<<______Too_Far_______");
 	};
 	
-	function line9(){
+	function line8(){
 		addNewLogItem("comp", "LogLine#1>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>____REFERENCE#_3___<<<<<<<<<<<<<<<<<<<______Too_Far_______");
-        Ready_For_Input();
+        
+	};
+	
+	function line9(){
+		addNewLogItem("comp", "LOG LINES TOO LONG TYPE REFERNCE NUMBERS THEN PRESS ENTER");
+		Ready_For_Input();
 	};
 
 	
@@ -1868,33 +1876,36 @@ function Section6Puzzle4(){
 		addNewLogItem("comp", "ORDER: ◧◉▲=●■");
 	};
 	
-	function line3(){
-		addNewLogItem("comp", "LOG LINES TOO LONG TYPE REFERENCE NUMBERS THEN PRESS ENTER");
-	};
 	
-	function line4(){
+	
+	function line3(){
 		addNewLogItem("comp", "REFERENCE#1>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>______LogLine#■______<<<<<<<<<<<<<<<<<<<______Too_Far_______");
 	};
 	
-	function line5(){
+	function line4(){
 		addNewLogItem("comp", "REFERENCE#7>>>>>>>>>>>>>>>>>>>_____LogLine#◉______>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>___CODE_TOO_LONG__");
 	};
 	
-	function line6(){
+	function line5(){
 		addNewLogItem("comp", "REFERENCE#4>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>______LogLine#▲______<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______");
 	};
 	
-	function line7(){
+	function line6(){
 		addNewLogItem("comp", "REFERENCE#6>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>______LogLine#◧______");
 	};
 	
-	function line8(){
+	function line7(){
 		addNewLogItem("comp", "REFERENCE#3>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>______LogLine#●______<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______");
 	};
 	
-	function line9(){
+	function line8(){
 		addNewLogItem("comp", "REFERENCE#9>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>______LogLine#=______<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______");
-        Ready_For_Input();
+        
+	};
+	
+	function line9(){
+		addNewLogItem("comp", "LOG LINES TOO LONG TYPE REFERENCE NUMBERS THEN PRESS ENTER");\
+		Ready_For_Input();
 	};
 
 	
@@ -1925,33 +1936,35 @@ function Section6Puzzle5(){
 		addNewLogItem("comp", "ORDER: 364521");
 	};
 	
-	function line3(){
-		addNewLogItem("comp", "LOG LINES TOO LONG TYPE REFERENCE NUMBERS THEN PRESS ENTER");
-	};
 	
-	function line4(){
+	
+	function line3(){
 		addNewLogItem("comp", "LogLine#4>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>___REFERAENC#_◉____<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______");
 	};
 	
-	function line5(){
+	function line4(){
 		addNewLogItem("comp", "LogLine#2>>>>>>>>>>>>>>>>>>>___REFERAENC#_◧___>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>___CODE_TOO_LONG__");
 	};
 	
-	function line6(){
+	function line5(){
 		addNewLogItem("comp", "LogLine#6>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>___REFERAENC#_=____");
 	};
 	
-	function line7(){
+	function line6(){
 		addNewLogItem("comp", "LogLine#3>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>___REFERAENC#_◆____<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______");
 	};
 	
-	function line8(){
+	function line7(){
 		addNewLogItem("comp", "LogLine#1>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>___REFERAENC#_●____<<<<<<<<<<<<<<<<<<<______Too_Far_______");
 	};
 	
-	function line9(){
+	function line8(){
 		addNewLogItem("comp", "LogLine#5>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>___REFERAENC#_◆____<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______");
-        Ready_For_Input();
+	};
+	
+	function line9(){
+		addNewLogItem("comp", "LOG LINES TOO LONG TYPE REFERENCE NUMBERS THEN PRESS ENTER");
+		Ready_For_Input();
 	};
 
 	
@@ -1981,33 +1994,35 @@ function Section6Puzzle6(){
 		addNewLogItem("comp", "ORDER: ■◉▲+◆◭");
 	};
 	
-	function line3(){
-		addNewLogItem("comp", "LOG LINES TOO LONG TYPE REFERENCE NUMBERS THEN PRESS ENTER");
-	};
 	
-	function line4(){
+	
+	function line3(){
 		addNewLogItem("comp", "LogLine#▲>>>>>>>>>>>>>>>>>>>___REFERAENC#_■___>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>___CODE_TOO_LONG__");
 	};
 	
-	function line5(){
+	function line4(){
 		addNewLogItem("comp", "LogLine#■>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>___REFERAENC#_◆____<<<<<<<<<<<<<<<<<<<______Too_Far_______");
 	};
 	
-	function line6(){
+	function line5(){
 		addNewLogItem("comp", "LogLine#+>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>___REFERAENC#_◆____<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______");
 	};
 	
-	function line7(){
+	function line6(){
 		addNewLogItem("comp", "LogLine#◭>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>___REFERAENC#_=____");
 	};
 	
-	function line8(){
+	function line7(){
 		addNewLogItem("comp", "LogLine#◉>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>___REFERAENC#_●____<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______");
 	};
 	
-	function line9(){
+	function line8(){
 		addNewLogItem("comp", "LogLine#◆>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>___REFERAENC#_◆____<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______");
-        Ready_For_Input();
+	};
+	
+	function line9(){
+		addNewLogItem("comp", "LOG LINES TOO LONG TYPE REFERENCE NUMBERS THEN PRESS ENTER");
+		Ready_For_Input();
 	};
 
 	
@@ -2036,34 +2051,34 @@ function Section6Puzzle7(){
 	function line2(){
 		addNewLogItem("comp", "ORDER: ◉▲◆◭■+");
 	};
-	
+		
 	function line3(){
-		addNewLogItem("comp", "LOG LINES TOO LONG TYPE REFERENCE NUMBERS THEN PRESS ENTER");
-	};
-	
-	function line4(){
 		addNewLogItem("comp", "LogLine#4>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>___REFERAENC#_+____");
 	};
 	
-	function line5(){
+	function line4(){
 		addNewLogItem("comp", "LogLine#2>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>___REFERAENC#_▲____<<<<<<<<<<<<<<<<<<<______Too_Far_______");
 	};
 	
-	function line6(){
+	function line5(){
 		addNewLogItem("comp", "LogLine#1>>>>>>>>>>>>>>>>>>>___REFERAENC#_●___>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>___CODE_TOO_LONG__");
 	};
 	
-	function line7(){
+	function line6(){
 		addNewLogItem("comp", "LogLine#3>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>___REFERAENC#_-____<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______");
 	};
 	
-	function line8(){
+	function line7(){
 		addNewLogItem("comp", "LogLine#6>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>___REFERAENC#_◭____<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______");
 	};
 	
-	function line9(){
+	function line8(){
 		addNewLogItem("comp", "LogLine#5>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>___REFERAENC#_=____<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______");
-        Ready_For_Input();
+	};
+	
+	function line9(){
+		addNewLogItem("comp", "LOG LINES TOO LONG TYPE REFERENCE NUMBERS THEN PRESS ENTER");
+		Ready_For_Input();
 	};
 
 	
@@ -2093,33 +2108,35 @@ function Section6Puzzle8(){
 		addNewLogItem("comp", "ORDER: ▲=-+◆◧");
 	};
 	
-	function line3(){
-		addNewLogItem("comp", "LOG LINES TOO LONG TYPE REFERENCE NUMBERS THEN PRESS ENTER");
-	};
 	
-	function line4(){
+	
+	function line3(){
 		addNewLogItem("comp", "LogLine#White>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>___REFERAENC#_=____<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______");
 	};
 	
-	function line5(){
+	function line4(){
 		addNewLogItem("comp", "LogLine#Green>>>>>>>>>>>>>>>>>>>___REFERAENC#_●___>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>___CODE_TOO_LONG__");
 	};
 	
-	function line6(){
+	function line5(){
 		addNewLogItem("comp", "LogLine#purple>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>___REFERAENC#_+____");
 	};
 	
-	function line7(){
+	function line6(){
 		addNewLogItem("comp", "LogLine#Yellow>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>___REFERAENC#_▲____<<<<<<<<<<<<<<<<<<<______Too_Far_______");
 	};
 	
-	function line8(){
+	function line7(){
 		addNewLogItem("comp", "LogLine#Silver>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>___REFERAENC#_◭____<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______");
 	};
 	
-	function line9(){
+	function line8(){
 		addNewLogItem("comp", "LogLine#Orange>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>___REFERAENC#_-____<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______");
-        Ready_For_Input();
+	};
+	
+	function line9(){
+		addNewLogItem("comp", "LOG LINES TOO LONG TYPE REFERENCE NUMBERS THEN PRESS ENTER");
+		Ready_For_Input();
 	};
 
 	
@@ -2149,33 +2166,36 @@ function Section6Puzzle9(){
 		addNewLogItem("comp", "ORDER: ■◉=◧+◆");
 	};
 	
-	function line3(){
-		addNewLogItem("comp", "LOG LINES TOO LONG TYPE REFERENCE NUMBERS THEN PRESS ENTER");
-	};
 	
-	function line4(){
+	
+	function line3(){
 		addNewLogItem("comp", "REFERAENC#_◆_>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>______LogLine#White______<<<<<<<<<<<<<<<<<<<______Too_Far_______");
 	};
 	
-	function line5(){
+	function line4(){
 		addNewLogItem("comp", "REFERAENC#_◭_>>>>>>>>>>>>>>>>>>>_____LogLine#Orange______>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>___CODE_TOO_LONG__");
 	};
 	
-	function line6(){
+	function line5(){
 		addNewLogItem("comp", "REFERAENC#_=_>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>______LogLine#Blue______<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______");
 	};
 	
-	function line7(){
+	function line6(){
 		addNewLogItem("comp", "REFERAENC#_◧_>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>______LogLine#Yellow______");
 	};
 	
-	function line8(){
+	function line7(){
 		addNewLogItem("comp", "REFERAENC#_◉_>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>______LogLine#Brown______<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______");
 	};
 	
+	function line8(){
+		addNewLogItem("comp", "REFERAENC#_●_>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>______LogLine#purple______<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far______");
+       
+	};
+	
 	function line9(){
-		addNewLogItem("comp", "REFERAENC#_●_>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>______LogLine#purple______<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______");
-        Ready_For_Input();
+		addNewLogItem("comp", "LOG LINES TOO LONG TYPE REFERENCE NUMBERS THEN PRESS ENTER");
+		Ready_For_Input();
 	};
 
 	
@@ -3711,6 +3731,73 @@ function GuestLoggedIn(){
 	setTimeout(line8, 15500);
 	setTimeout(line9, 16000);
 	
+}
+
+
+//Text Animations
+
+function typingAnim(type, durationInMilliseconds,EndType,Keep) {
+	var typing_log_item = document.createElement("h2");
+	typing_log_item.className = "log-item";
+	typing_log_item.innerHTML = type;
+	document.getElementById("log").appendChild(typing_log_item);
+	window.scrollTo(0, document.body.scrollHeight || document.documentElement.scrollHeight);
+
+	var currentTime = 0,
+		intervalHandle = null,
+		timeoutHandle1 = null,
+		timeoutHandle2 = null,
+		timeoutHandle3 = null;
+
+	function stopAnimationIfTimeExceeded () {
+		if (currentTime >= durationInMilliseconds) {
+			clearTimeout(timeoutHandle1);
+			clearTimeout(timeoutHandle2);
+			clearTimeout(timeoutHandle3);
+			clearInterval(intervalHandle);
+			
+			if(Keep){
+				typing_log_item.innerHTML = EndType;
+			} else {
+				typing_log_item.remove();
+			}
+			
+			return true;
+		}
+		return false;
+	}
+
+	function playAnim() {
+		var isExceeded = stopAnimationIfTimeExceeded();
+		if (isExceeded) {
+			return;
+		}
+		
+		typing_log_item.innerHTML = type;
+		
+		timeoutHandle1 = setTimeout(() => {
+			currentTime += 400;
+			typing_log_item.innerHTML = type + ".";
+		}, 400);
+
+		timeoutHandle2 = setTimeout(() => {
+			currentTime += 400;
+			typing_log_item.innerHTML = type + "..";
+		}, 800);
+
+		timeoutHandle3 = setTimeout(() => {
+			currentTime += 400;
+			typing_log_item.innerHTML = type + "...";
+		}, 1200);
+	}
+	
+	playAnim();
+	intervalHandle = setInterval(function() {
+		currentTime += 400;
+		playAnim();
+	}, 1600);
+
+	return typing_log_item;
 }
 
 //URLs
