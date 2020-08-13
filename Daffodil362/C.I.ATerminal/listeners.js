@@ -599,8 +599,6 @@ function checkPlayerInput() {
 				puzzle = 5;
 				hintCode = "305";
                 
-               
-
 			} else if (playerTXT == "hint"){
 				addNewLogItem("important", "Hint Code: " + hintCode);
 			} else {
@@ -611,9 +609,8 @@ function checkPlayerInput() {
                 
                 Section6Puzzle5();
                 puzzle = 6;
-                hintCode = "305";
+                hintCode = "306";
                 
-                success_sound.play();
             } else if (playerTXT == "hint"){
 				addNewLogItem("important", "Hint Code: " + hintCode);
 			} else {
@@ -627,7 +624,6 @@ function checkPlayerInput() {
                 puzzle = 7;
                 hintCode = "307";
                 
-                success_sound.play();
             } else if (playerTXT == "hint"){
 				addNewLogItem("important", "Hint Code: " + hintCode);
 			} else {
@@ -641,7 +637,6 @@ function checkPlayerInput() {
                 puzzle = 8;
                 hintCode = "308";
                 
-                success_sound.play();
             } else if (playerTXT == "hint"){
 				addNewLogItem("important", "Hint Code: " + hintCode);
 			} else {
@@ -655,7 +650,6 @@ function checkPlayerInput() {
                 puzzle = 9;
                 hintCode = "309";
                 
-                success_sound.play();
             } else if (playerTXT == "hint"){
 				addNewLogItem("important", "Hint Code: " + hintCode);
 			} else {
@@ -669,7 +663,6 @@ function checkPlayerInput() {
                 puzzle = 10;
                 hintCode = "310";
                 
-                success_sound.play();
             } else if (playerTXT == "hint"){
 				addNewLogItem("important", "Hint Code: " + hintCode);
 			} else {
@@ -685,8 +678,6 @@ function checkPlayerInput() {
                 
 				finalCutscene();
 				puzzle = 11;
-                
-                success_sound.play();
 
 			} else if (playerTXT == "hint"){
 				addNewLogItem("important", "Hint Code: " + hintCode);
@@ -700,7 +691,7 @@ function checkPlayerInput() {
 				
                 //remove player entry
                 document.getElementById("log").removeChild(document.getElementById("log").firstChild);
-                
+                current_music.pause();
 				section = 4;
                 clearInterval(randomTextShiftInterval);
 				FinalCutscenept2();

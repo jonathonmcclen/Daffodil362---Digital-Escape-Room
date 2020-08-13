@@ -985,7 +985,7 @@ function puzzle12Done(){
 	
 	function line16(){
 		//addNewLogItem("important", "https://daffodil362.com/Email-2");
-        showURL("https://daffodil362.com/Email-2");
+        showURL("https://escroomgames.com/Games/Daffodil362/Email-2");
 	};
 	
 	function line17(){
@@ -1904,7 +1904,7 @@ function Section6Puzzle4(){
 	};
 	
 	function line9(){
-		addNewLogItem("comp", "LOG LINES TOO LONG TYPE REFERENCE NUMBERS THEN PRESS ENTER");\
+		addNewLogItem("comp", "LOG LINES TOO LONG TYPE REFERENCE NUMBERS THEN PRESS ENTER");
 		Ready_For_Input();
 	};
 
