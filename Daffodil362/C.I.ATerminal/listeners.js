@@ -228,11 +228,7 @@ function checkPlayerInput() {
 		
 		} 
 	} else if (section == 2){ // YOU ARE NOW LOGGED IN
-		if (playerTXT == "hint"){
-			
-			addNewLogItem("important", "Hint Code: " + hintCode);
-			
-		} else if (playerTXT == "https://75896-29742-69504-22231"){ //Encryped URL Example SERIOUSLY?
+		if (playerTXT == "https://75896-29742-69504-22231"){ //Encryped URL Example SERIOUSLY?
 			ExampleFail();
 			// No Hint for this just keep same hint
 		} else if (playerTXT == "https://675849-01928-565650-57039") {
@@ -250,12 +246,8 @@ function checkPlayerInput() {
 			}
 		} else if (puzzle == 2){
 			if (playerTXT == alabasterTerminalURL){ // Hack Alabaster terminal for Authenticationcode
-			
 				puzzle7Done();
 				puzzle = 3;
-                
-                
-			
 			} else {
 				
 				decryptFail();
@@ -498,8 +490,6 @@ function checkPlayerInput() {
 				hintCode = "302";
 				puzzle = 2;
 
-			} else if (playerTXT == "hint"){
-				addNewLogItem("important", "Hint Code: " + hintCode);
 			} else {
 				incorrectSub();
 			}
@@ -510,13 +500,6 @@ function checkPlayerInput() {
 				puzzle = 3;
 				hintCode = "303";
                 
-               
-				
-
-			} else if (playerTXT == "hint"){
-
-				addNewLogItem("important", "Hint Code: " + hintCode);
-
 			} else {
 				incorrectSub();
 			}
@@ -529,10 +512,6 @@ function checkPlayerInput() {
                 
                 
 
-			} else if (playerTXT == "hint"){
-
-				addNewLogItem("important", "Hint Code: " + hintCode);
-
 			} else {
 				incorrectSub();
 			}
@@ -543,8 +522,6 @@ function checkPlayerInput() {
 				puzzle = 5;
 				hintCode = "305";
                 
-			} else if (playerTXT == "hint"){
-				addNewLogItem("important", "Hint Code: " + hintCode);
 			} else {
 				incorrectSub();
 			}
@@ -555,9 +532,7 @@ function checkPlayerInput() {
                 puzzle = 6;
                 hintCode = "306";
                 
-            } else if (playerTXT == "hint"){
-				addNewLogItem("important", "Hint Code: " + hintCode);
-			} else {
+            } else {
 				incorrectSub();
 			}
         }
@@ -568,9 +543,7 @@ function checkPlayerInput() {
                 puzzle = 7;
                 hintCode = "307";
                 
-            } else if (playerTXT == "hint"){
-				addNewLogItem("important", "Hint Code: " + hintCode);
-			} else {
+            } else {
 				incorrectSub();
 			}
         }
@@ -581,9 +554,7 @@ function checkPlayerInput() {
                 puzzle = 8;
                 hintCode = "308";
                 
-            } else if (playerTXT == "hint"){
-				addNewLogItem("important", "Hint Code: " + hintCode);
-			} else {
+            } else {
 				incorrectSub();
 			}
         }
@@ -594,9 +565,7 @@ function checkPlayerInput() {
                 puzzle = 9;
                 hintCode = "309";
                 
-            } else if (playerTXT == "hint"){
-				addNewLogItem("important", "Hint Code: " + hintCode);
-			} else {
+            } else {
 				incorrectSub();
 			}
         }
@@ -607,9 +576,7 @@ function checkPlayerInput() {
                 puzzle = 10;
                 hintCode = "310";
                 
-            } else if (playerTXT == "hint"){
-				addNewLogItem("important", "Hint Code: " + hintCode);
-			} else {
+            } else {
 				incorrectSub();
 			}
         }
@@ -623,8 +590,6 @@ function checkPlayerInput() {
 				finalCutscene();
 				puzzle = 11;
 
-			} else if (playerTXT == "hint"){
-				addNewLogItem("important", "Hint Code: " + hintCode);
 			} else {
 				incorrectSub();
 			}
