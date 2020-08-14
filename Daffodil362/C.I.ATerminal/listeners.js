@@ -32,18 +32,9 @@ function checkPlayerInput() {
         return;
     }
 	
-	 if (playerTXT == "https://675849-01928-565650-57039") {
-        if (section == 2) {
-			PhotoEnhance();
-           if(puzzle != 5){
-			  
-		   }
-        }
-     }
-	
+	//FOR TESTING... OR CHEATING
 	if (playerTXT == "Test") {
-       
-		puzzle = 10;
+		puzzle = 1;
 		section = 3;
     }
     
@@ -53,8 +44,14 @@ function checkPlayerInput() {
         return;
     }
 	
+	//New Hint Function
+	if (playerTXT == "hint"){
+		addNewLogItem("important", "Hint Code: " + hintCode);
+		console.log("Hint " + hintCode);
+		return;
+	}
+	
 	//Actual Game
-    
 	if(section == 0 && puzzle == 0){
 		
         if (music_on)
@@ -65,10 +62,6 @@ function checkPlayerInput() {
 			section = 5;
 			puzzle = 5;
 			
-		} else if (playerTXT == "hint"){
-			
-			addNewLogItem("important", "Hint Code: " + hintCode);
-			
 		} else {
 			playerUsername = playerTXT;
 			puzzle = 1;
@@ -77,21 +70,11 @@ function checkPlayerInput() {
 		};
 
 	} else if(section == 0 && puzzle == 1){
-		
-		if (playerTXT == "hint"){
-			
-			addNewLogItem("important", "Hint Code: " + hintCode);
-			
-		} else {
-			
-			playerPassword = playerTXT;
-			login2Done(); // cutscenes.js
-			hintCode = "101";
-			section = 1;	
-			puzzle = 1;
-			
-		};
-		
+		playerPassword = playerTXT;
+		login2Done(); // cutscenes.js
+		hintCode = "101";
+		section = 1;	
+		puzzle = 1;
 	} else if(section == 1) { // AUTHENTICATION 1/10
 		if (puzzle == 1){
 			if (playerTXT == "601287"){
@@ -101,10 +84,6 @@ function checkPlayerInput() {
 				puzzle = 2;
                 
                 
-			
-			} else if (playerTXT == "hint"){
-			
-				addNewLogItem("important", "Hint Code: " + hintCode);
 			
 			} else {
 				incorrectSub();
@@ -118,10 +97,6 @@ function checkPlayerInput() {
 				puzzle = 3;
                 
                 
-			
-			} else if (playerTXT == "hint"){
-			
-				addNewLogItem("important", "Hint Code: " + hintCode);
 			
 			} else {
 				incorrectSub();
@@ -137,10 +112,6 @@ function checkPlayerInput() {
                 
               
 			
-			} else if (playerTXT == "hint"){
-			
-				addNewLogItem("important", "Hint Code: " + hintCode);
-			
 			} else {
 				incorrectSub();
 			}   
@@ -154,10 +125,6 @@ function checkPlayerInput() {
 				puzzle = 5;
                 
                 
-			
-			} else if (playerTXT == "hint"){
-			
-				addNewLogItem("important", "Hint Code: " + hintCode);
 			
 			} else {
 				incorrectSub();
@@ -173,10 +140,6 @@ function checkPlayerInput() {
                 
                 
 
-			} else if (playerTXT == "hint"){
-			
-				addNewLogItem("important", "Hint Code: " + hintCode);
-			
 			} else {
 
 				incorrectSub();
@@ -190,10 +153,6 @@ function checkPlayerInput() {
 				puzzle = 7;
                 
                
-			
-			} else if (playerTXT == "hint"){
-			
-				addNewLogItem("important", "Hint Code: " + hintCode);
 			
 			} else {
 
@@ -211,10 +170,6 @@ function checkPlayerInput() {
                 
                 
 
-			} else if (playerTXT == "hint"){
-			
-				addNewLogItem("important", "Hint Code: " + hintCode);
-			
 			} else {
 
 				incorrectSub();
@@ -231,10 +186,6 @@ function checkPlayerInput() {
                 
              
 
-			} else if (playerTXT == "hint"){
-			
-				addNewLogItem("important", "Hint Code: " + hintCode);
-			
 			} else {
 
 				incorrectSub();
@@ -250,10 +201,6 @@ function checkPlayerInput() {
 				puzzle = 10;
                 
                
-			
-			} else if (playerTXT == "hint"){
-			
-				addNewLogItem("important", "Hint Code: " + hintCode);
 			
 			} else {
 
@@ -273,10 +220,6 @@ function checkPlayerInput() {
                 
                
 			
-			} else if (playerTXT == "hint"){
-			
-				addNewLogItem("important", "Hint Code: " + hintCode);
-			
 			} else {
 
 				incorrectSub();
@@ -292,7 +235,9 @@ function checkPlayerInput() {
 		} else if (playerTXT == "https://75896-29742-69504-22231"){ //Encryped URL Example SERIOUSLY?
 			ExampleFail();
 			// No Hint for this just keep same hint
-		} else if( puzzle == 1){
+		} else if (playerTXT == "https://675849-01928-565650-57039") {
+			PhotoEnhance();
+     	} else if( puzzle == 1){
 			if (playerTXT == "https://57203-23423-76039-67239"){ // Start Email Alabaster Terminal
 
 				puzzle15Done();
@@ -532,16 +477,14 @@ function checkPlayerInput() {
 		} else if (puzzle == 18){
 			if (playerTXT == "https://54759-74729-89454-57570"){ // You Are Now Hacked
                 
-			glitchAnim = setInterval(fadeGlitch, 10000);
-			document.getElementById("txt").maxLength = "6";
-			encryptedDone = true;
-			cutsceneHacked();
-			Hacked = true;
-			hintCode = "301";
-			section = 3;
-			puzzle = 1;
-                
-               
+				glitchAnim = setInterval(fadeGlitch, 10000);
+				document.getElementById("txt").maxLength = "6";
+				encryptedDone = true;
+				cutsceneHacked();
+				Hacked = true;
+				hintCode = "301";
+				section = 3;
+				puzzle = 1;
 
 			} else {
 				decryptFail();	
@@ -553,11 +496,10 @@ function checkPlayerInput() {
 			
 				Section6Puzzle1();
 				hintCode = "302";
-			   puzzle = 2;
-               
-               
-				
-				
+				puzzle = 2;
+
+			} else if (playerTXT == "hint"){
+				addNewLogItem("important", "Hint Code: " + hintCode);
 			} else {
 				incorrectSub();
 			}
