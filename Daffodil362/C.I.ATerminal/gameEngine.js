@@ -138,9 +138,6 @@ function keyPressed(evt) {
 	button_beep.play();
 	
 	if(inputAllowed){
-	   
-
-    
 		if(evt.keyCode == ENTER) {
 			ENTER_DOWN = true;
 			grabSub();

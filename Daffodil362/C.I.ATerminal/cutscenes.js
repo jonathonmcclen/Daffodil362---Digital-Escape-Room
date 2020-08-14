@@ -3520,7 +3520,7 @@ function FinalCutscenept2(){
 	setTimeout(line50, 96000);
 	setTimeout(line51, 97000);
 	setTimeout(line52, 98000);
-	setTimeout(line52b, 99000);
+	setTimeout(line52B, 99000);
 	setTimeout(line53, 100000);
 	setTimeout(line54, 101000);
 	setTimeout(line55, 102000);

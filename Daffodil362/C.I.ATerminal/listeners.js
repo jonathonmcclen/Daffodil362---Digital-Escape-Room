@@ -31,19 +31,19 @@ function checkPlayerInput() {
         }
         return;
     }
-    
-    //Typing animation
-    if (playerTXT == "typing") {
-        let typing_log_item = startTypingAnimation();
-        setTimeout(() => endTypingAnimation(typing_log_item), 3000);
-        return;
-    }
 	
-	//Typing animation
-    if (playerTXT == "load") {
-        let typing_log_item = typingAnim(playerTXT);
-        setTimeout(() => endTypingAnimation(typing_log_item), 3000);
-        return;
+	 if (playerTXT == "https://675849-01928-565650-57039") {
+        if (section == 2) {
+           if(puzzle != 5){
+			   
+		   }
+        }
+     }
+	
+	if (playerTXT == "Test") {
+       
+		puzzle = 10;
+		section = 3;
     }
     
     //Moving button
@@ -51,7 +51,8 @@ function checkPlayerInput() {
         doMovingButton();
         return;
     }
-    
+	
+	//Actual Game
     
 	if(section == 0 && puzzle == 0){
 		
