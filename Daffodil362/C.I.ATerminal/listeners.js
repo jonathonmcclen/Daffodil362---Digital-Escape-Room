@@ -34,8 +34,9 @@ function checkPlayerInput() {
 	
 	 if (playerTXT == "https://675849-01928-565650-57039") {
         if (section == 2) {
+			PhotoEnhance();
            if(puzzle != 5){
-			   
+			  
 		   }
         }
      }

@@ -1686,6 +1686,10 @@ function FileLokPuzzle8(){
 //ENCRYPTION DONE
 //SECTION 6
 
+function PhotoEnhance(){
+	showURL("https://cia-9d562a98.s3.us-west-1.amazonaws.com/Destruction_At_The_Hands_Of_Your_Government");
+}
+
 function Section6Puzzle1(){
 	inputAllowed = false;
 	Success();
