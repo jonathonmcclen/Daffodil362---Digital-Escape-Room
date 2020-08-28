@@ -35,6 +35,32 @@ const FileLokPuzzle8De = "https://escroomgames.com/Games/Daffodil362/Puzzles/Fil
 
 //-------------------------------------------------
 
+
+function startGame(){
+	inputAllowed = false;
+	
+	function line1(){
+		addNewLogItem("comp", "Command Submission " + "\"" + playerTXT + "\"" + " recognized");
+		
+	};
+	
+	function line2(){
+		addNewLogItem("comp", "Please enter your Username");
+	};
+	
+	function line3(){
+		divider();
+		Ready_For_Input();
+	};
+	
+	
+	setTimeout(line1, 2000);
+	setTimeout(line2, 4000);
+	setTimeout(line3, 6000);
+	
+};
+
+
 //Section 1/ INTRO
 function login1Done(){
 	inputAllowed = false;

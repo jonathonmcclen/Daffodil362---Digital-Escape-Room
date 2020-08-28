@@ -14,6 +14,7 @@ var finalCut = true;
 var hintCode = "001";
 //-----------------------------------------------------------
 
+var path = "";
 var section = 0;
 var puzzle = 0;
 
@@ -37,12 +38,6 @@ function checkPlayerInput() {
 		puzzle = 1;
 		section = 3;
     }
-    
-    //Moving button
-    if (playerTXT == "button") {
-        doMovingButton();
-        return;
-    }
 	
 	//New Hint Function
 	if (playerTXT == "hint"){
@@ -51,6 +46,37 @@ function checkPlayerInput() {
 		return;
 	}
 	
+	if (playerTXT == "Login"){
+		path = "Daffodil362";
+		startGame();
+		return;
+	}
+	
+	if (playerTXT == "Unpack"){
+		path = "Unpack";
+		//Unpack Cutscene
+		return;
+	}
+	
+	if (playerTXT == "Locate"){
+		path = "Locate";
+		//Unpack Cutscene
+		return;
+	}
+	
+	if (playerTXT == "Download"){
+		path = "Download";
+		//Unpack Cutscene
+		return;
+	}
+	
+	
+	
+	
+	
+	
+	
+	if (path == "Daffodil362"){
 	//Actual Game
 	if(section == 0 && puzzle == 0){
 		
@@ -623,6 +649,8 @@ function checkPlayerInput() {
 			}
 		}
 	}
+	
+}
 };
 
 function divider() {
