@@ -2780,6 +2780,7 @@ function boot(){
 };
 
 function decryptFail(){
+	inputAllowed = false;
 	function line1(){
 		addNewLogItem("comp", "FAIL");
         failure_sound.play();
