@@ -48,8 +48,6 @@ window.onload = function(){
 	document.addEventListener('keyup', keyReleased);
 	
 	//var framerPerSecond = 0.50
-	
-	setInterval(terminalAnim, 7000);
 	setInterval(AddMinute, 60000);
 
 };

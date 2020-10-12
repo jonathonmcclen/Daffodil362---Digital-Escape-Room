@@ -46,7 +46,7 @@ function checkPlayerInput() {
 		return;
 	}
 	
-	if (playerTXT == "Login"){
+	if (playerTXT == "Login" || "login"){
 		path = "Daffodil362";
 		startGame();
 		return;
