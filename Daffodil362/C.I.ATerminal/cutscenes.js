@@ -1969,27 +1969,27 @@ function Section6Puzzle5(){
 	
 	
 	function line3(){
-		addNewLogItem("comp", "LogLine#4>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>___REFERAENC#_◉____<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______");
+		addNewLogItem("comp", "LogLine#4>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>___REFERENCE#_◉____<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______");
 	};
 	
 	function line4(){
-		addNewLogItem("comp", "LogLine#2>>>>>>>>>>>>>>>>>>>___REFERAENC#_◧___>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>___CODE_TOO_LONG__");
+		addNewLogItem("comp", "LogLine#2>>>>>>>>>>>>>>>>>>>___REFERENCE#_◧___>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>___CODE_TOO_LONG__");
 	};
 	
 	function line5(){
-		addNewLogItem("comp", "LogLine#6>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>___REFERAENC#_=____");
+		addNewLogItem("comp", "LogLine#6>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>___REFERAENCE#_=____");
 	};
 	
 	function line6(){
-		addNewLogItem("comp", "LogLine#3>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>___REFERAENC#_◆____<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______");
+		addNewLogItem("comp", "LogLine#3>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>___REFERENCE#_◆____<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______");
 	};
 	
 	function line7(){
-		addNewLogItem("comp", "LogLine#1>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>___REFERAENC#_●____<<<<<<<<<<<<<<<<<<<______Too_Far_______");
+		addNewLogItem("comp", "LogLine#1>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>___REFERENCE#_●____<<<<<<<<<<<<<<<<<<<______Too_Far_______");
 	};
 	
 	function line8(){
-		addNewLogItem("comp", "LogLine#5>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>___REFERAENC#_◆____<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______");
+		addNewLogItem("comp", "LogLine#5>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>___REFERENCE#_◆____<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______");
 	};
 	
 	function line9(){
@@ -2027,27 +2027,27 @@ function Section6Puzzle6(){
 	
 	
 	function line3(){
-		addNewLogItem("comp", "LogLine#▲>>>>>>>>>>>>>>>>>>>___REFERAENC#_■___>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>___CODE_TOO_LONG__");
+		addNewLogItem("comp", "LogLine#▲>>>>>>>>>>>>>>>>>>>___REFERENCE#_■___>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>___CODE_TOO_LONG__");
 	};
 	
 	function line4(){
-		addNewLogItem("comp", "LogLine#■>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>___REFERAENC#_◆____<<<<<<<<<<<<<<<<<<<______Too_Far_______");
+		addNewLogItem("comp", "LogLine#■>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>___REFERENCE#_◆____<<<<<<<<<<<<<<<<<<<______Too_Far_______");
 	};
 	
 	function line5(){
-		addNewLogItem("comp", "LogLine#+>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>___REFERAENC#_◆____<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______");
+		addNewLogItem("comp", "LogLine#+>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>___REFERENCE#_◆____<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______");
 	};
 	
 	function line6(){
-		addNewLogItem("comp", "LogLine#◭>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>___REFERAENC#_=____");
+		addNewLogItem("comp", "LogLine#◭>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>___REFERENCE#_=____");
 	};
 	
 	function line7(){
-		addNewLogItem("comp", "LogLine#◉>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>___REFERAENC#_●____<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______");
+		addNewLogItem("comp", "LogLine#◉>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>___REFERENCE#_●____<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______");
 	};
 	
 	function line8(){
-		addNewLogItem("comp", "LogLine#◆>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>___REFERAENC#_◆____<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______");
+		addNewLogItem("comp", "LogLine#◆>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>___REFERENCE#_◆____<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______");
 	};
 	
 	function line9(){
@@ -2083,27 +2083,27 @@ function Section6Puzzle7(){
 	};
 		
 	function line3(){
-		addNewLogItem("comp", "LogLine#4>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>___REFERAENC#_+____");
+		addNewLogItem("comp", "LogLine#4>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>___REFERENCE#_+____");
 	};
 	
 	function line4(){
-		addNewLogItem("comp", "LogLine#2>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>___REFERAENC#_▲____<<<<<<<<<<<<<<<<<<<______Too_Far_______");
+		addNewLogItem("comp", "LogLine#2>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>___REFERENCE#_▲____<<<<<<<<<<<<<<<<<<<______Too_Far_______");
 	};
 	
 	function line5(){
-		addNewLogItem("comp", "LogLine#1>>>>>>>>>>>>>>>>>>>___REFERAENC#_●___>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>___CODE_TOO_LONG__");
+		addNewLogItem("comp", "LogLine#1>>>>>>>>>>>>>>>>>>>___REFERENCE#_●___>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>___CODE_TOO_LONG__");
 	};
 	
 	function line6(){
-		addNewLogItem("comp", "LogLine#3>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>___REFERAENC#_-____<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______");
+		addNewLogItem("comp", "LogLine#3>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>___REFERENCE#_-____<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______");
 	};
 	
 	function line7(){
-		addNewLogItem("comp", "LogLine#6>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>___REFERAENC#_◭____<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______");
+		addNewLogItem("comp", "LogLine#6>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>___REFERENCE#_◭____<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______");
 	};
 	
 	function line8(){
-		addNewLogItem("comp", "LogLine#5>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>___REFERAENC#_=____<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______");
+		addNewLogItem("comp", "LogLine#5>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>___REFERENCE#_=____<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______");
 	};
 	
 	function line9(){
@@ -2141,27 +2141,27 @@ function Section6Puzzle8(){
 	
 	
 	function line3(){
-		addNewLogItem("comp", "LogLine#White>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>___REFERAENC#_=____<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______");
+		addNewLogItem("comp", "LogLine#White>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>___REFERENCE#_=____<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______");
 	};
 	
 	function line4(){
-		addNewLogItem("comp", "LogLine#Green>>>>>>>>>>>>>>>>>>>___REFERAENC#_●___>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>___CODE_TOO_LONG__");
+		addNewLogItem("comp", "LogLine#Green>>>>>>>>>>>>>>>>>>>___REFERENCE#_●___>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>___CODE_TOO_LONG__");
 	};
 	
 	function line5(){
-		addNewLogItem("comp", "LogLine#purple>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>___REFERAENC#_+____");
+		addNewLogItem("comp", "LogLine#purple>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>___REFERENCE#_+____");
 	};
 	
 	function line6(){
-		addNewLogItem("comp", "LogLine#Yellow>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>___REFERAENC#_▲____<<<<<<<<<<<<<<<<<<<______Too_Far_______");
+		addNewLogItem("comp", "LogLine#Yellow>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>___REFERENCE#_▲____<<<<<<<<<<<<<<<<<<<______Too_Far_______");
 	};
 	
 	function line7(){
-		addNewLogItem("comp", "LogLine#Silver>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>___REFERAENC#_◭____<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______");
+		addNewLogItem("comp", "LogLine#Silver>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>___REFERENCE#_◭____<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______");
 	};
 	
 	function line8(){
-		addNewLogItem("comp", "LogLine#Orange>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>___REFERAENC#_-____<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______");
+		addNewLogItem("comp", "LogLine#Orange>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>___REFERENCE#_-____<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______");
 	};
 	
 	function line9(){
@@ -2199,27 +2199,27 @@ function Section6Puzzle9(){
 	
 	
 	function line3(){
-		addNewLogItem("comp", "REFERAENC#_◆_>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>______LogLine#White______<<<<<<<<<<<<<<<<<<<______Too_Far_______");
+		addNewLogItem("comp", "REFERENCE#_◆_>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>______LogLine#White______<<<<<<<<<<<<<<<<<<<______Too_Far_______");
 	};
 	
 	function line4(){
-		addNewLogItem("comp", "REFERAENC#_◭_>>>>>>>>>>>>>>>>>>>_____LogLine#Orange______>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>___CODE_TOO_LONG__");
+		addNewLogItem("comp", "REFERENCE#_◭_>>>>>>>>>>>>>>>>>>>_____LogLine#Orange______>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>___CODE_TOO_LONG__");
 	};
 	
 	function line5(){
-		addNewLogItem("comp", "REFERAENC#_=_>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>______LogLine#Blue______<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______");
+		addNewLogItem("comp", "REFERENCE#_=_>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>______LogLine#Blue______<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______");
 	};
 	
 	function line6(){
-		addNewLogItem("comp", "REFERAENC#_◧_>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>______LogLine#Yellow______");
+		addNewLogItem("comp", "REFERENCE#_◧_>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>______LogLine#Yellow______");
 	};
 	
 	function line7(){
-		addNewLogItem("comp", "REFERAENC#_◉_>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>______LogLine#Brown______<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______");
+		addNewLogItem("comp", "REFERENCE#_◉_>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>_____KEEP_GOING____>>>>>>>>>>>>>>>>>>>______LogLine#Brown______<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______");
 	};
 	
 	function line8(){
-		addNewLogItem("comp", "REFERAENC#_●_>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>______LogLine#purple______<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far______");
+		addNewLogItem("comp", "REFERENCE#_●_>>>>>>>>>>>>>>>>>>>__CODE_TOO_LONG__>>>>>>>>>>>>>>>>>>>______LogLine#purple______<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far_______<<<<<<<<<<<<<<<<<<<______Too_Far______");
        
 	};
 	
