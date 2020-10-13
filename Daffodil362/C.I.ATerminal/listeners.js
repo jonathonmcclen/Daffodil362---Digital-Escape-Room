@@ -37,38 +37,20 @@ function checkPlayerInput() {
 	if (playerTXT == "Test") {
 		puzzle = 1;
 		section = 3;
-    }
+    };
 	
 	//New Hint Function
 	if (playerTXT == "hint"){
 		addNewLogItem("important", "Hint Code: " + hintCode);
 		console.log("Hint " + hintCode);
 		return;
-	}
+	};
 	
-	if (playerTXT == "Login" || "login"){
+	if (playerTXT == "Login" || playerTXT == "login"){
 		path = "Daffodil362";
 		startGame();
 		return;
-	}
-	
-	if (playerTXT == "Unpack"){
-		path = "Unpack";
-		//Unpack Cutscene
-		return;
-	}
-	
-	if (playerTXT == "Locate"){
-		path = "Locate";
-		//Unpack Cutscene
-		return;
-	}
-	
-	if (playerTXT == "Download"){
-		path = "Download";
-		//Unpack Cutscene
-		return;
-	}
+	};
 	
 	if (path == "Daffodil362"){
 		//Actual Game
