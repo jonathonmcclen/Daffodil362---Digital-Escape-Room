@@ -1,4 +1,4 @@
-# Daffodil362 Digital Cyber Punk Escape Room
+# Daffodil362 - Digital Cyber Punk Escape Room
 
 Digital escape room game. Written, Developed, and Designed by me.
 Available at escRoomGames.com.
