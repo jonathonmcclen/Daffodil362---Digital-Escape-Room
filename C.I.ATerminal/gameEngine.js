@@ -33,17 +33,49 @@ var ENTER_DOWN = false;
 window.onload = function () {
   document.addEventListener("keydown", keyPressed);
   document.addEventListener("keyup", keyReleased);
-  //var framerPerSecond = 0.50
-  setInterval(AddMinute, 60000);
+  //create playTimer
 };
-
-function AddMinute() {
-  Time += 1;
-}
 
 function grabSub() {
   playerTXT = document.getElementById("txt").value;
 }
+
+function clearTxtBox() {
+  document.getElementById("txt").value = "";
+}
+
+function keyPressed(evt) {
+  let button_beep = document.createElement("audio");
+  button_beep.src = button_beep_src;
+  button_beep.play();
+
+  if (inputAllowed) {
+    if (evt.keyCode == ENTER) {
+      ENTER_DOWN = true;
+      grabSub();
+      if (section != 3 || puzzle != 6) addNewLogItem("player", playerTXT);
+      checkPlayerInput();
+      clearTxtBox();
+    }
+  }
+}
+
+function keyReleased(evt) {
+  if (evt.keyCode == ENTER) {
+    ENTER_DOWN = false;
+  }
+}
+
+const createHTMLBlock = (who, what) => {
+  //uses who to findWho(who)
+  //uses returned array like: return[0] + what + return[1]
+  //retunrs full html block to cutscene
+};
+
+const findWho = (who) => {
+  //inds who in // actorstyles.js actors hash
+  //returns array of before and after
+};
 
 function addNewLogItem(user, txt, blue = false) {
   if (user == "player") {
@@ -107,36 +139,4 @@ function addNewLogItem(user, txt, blue = false) {
     );
   }
   if (blue) btn.style.color = "#3B7ECF";
-}
-
-function clearTxtBox() {
-  document.getElementById("txt").value = "";
-}
-
-//  PLAYER PRESSED ENTER
-function keyPressed(evt) {
-  //console.log(evt.keyCode);
-
-  let button_beep = document.createElement("audio");
-  button_beep.src = button_beep_src;
-  button_beep.play();
-
-  if (inputAllowed) {
-    if (evt.keyCode == ENTER) {
-      ENTER_DOWN = true;
-      grabSub();
-      if (section != 3 || puzzle != 6) addNewLogItem("player", playerTXT);
-      checkPlayerInput();
-      clearTxtBox();
-    }
-  }
-}
-
-// PLAYER RELEASED ENTER
-
-function keyReleased(evt) {
-  //console.log(evt.keyCode);
-  if (evt.keyCode == ENTER) {
-    ENTER_DOWN = false;
-  }
 }
