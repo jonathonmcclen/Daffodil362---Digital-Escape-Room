@@ -35,6 +35,7 @@ function keyReleased(evt) {
   }
 }
 
+// USEFUL FUCTIONS FOR MANIPULATING DOM
 function grabSub() {
   playerTXT = document.getElementById("txt").value;
 }
