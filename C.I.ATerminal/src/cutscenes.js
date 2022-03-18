@@ -14,6 +14,26 @@ var typing_animation;
 
 //-------------------------------------------------
 
+// cutscene wants an array
+
+cutscene(scene, speed = 0) {
+  inputAllowed = false;
+  let length = scene.length;
+
+  for (let i = 0; i < length; i++) {
+    //creates html block with createHTMLBlock(scene[i][0], scene[i][1])
+
+    function line() {
+      //instead of below check if animation is necisary and render block created above in DOM
+      addNewLogItem(scene[i][0], this.puzzleArry[i][1]);
+      // ready for next line = true
+    }
+
+    setTimeout(line, speed * i + scene[i][2]);
+  }
+  Ready_For_Input();
+}
+
 function startGame() {
   inputAllowed = false;
 
