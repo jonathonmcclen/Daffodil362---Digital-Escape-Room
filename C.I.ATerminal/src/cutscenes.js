@@ -3,7 +3,7 @@
 //
 // cutscenes want an array of lines
 
-cutscene(scene, speed = 0) {
+cutscene = (scene, speed = 0) => {
   inputAllowed = false;
   let length = scene.length;
 
@@ -19,7 +19,7 @@ cutscene(scene, speed = 0) {
     setTimeout(line, speed * i + scene[i][2]);
   }
   Ready_For_Input();
-}
+};
 
 function startGame() {
   inputAllowed = false;
