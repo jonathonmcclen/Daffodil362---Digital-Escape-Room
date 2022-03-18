@@ -1,0 +1,75 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+  font-family: IBMVGA8;
+  src: url(../fonts/ibm_vga8.woff2);
+}
+
+#bg-img {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 2000px;
+  z-index: -5;
+}
+
+input {
+  font-family: IBMVGA8, consolas, Charcoal, sans-serif;
+}
+
+h2 {
+  color: #3b7ecf;
+  font-family: IBMVGA8, consolas, Charcoal, sans-serif;
+  white-space: nowrap;
+}
+
+h1 {
+  color: #3b7ecf;
+  font-family: IBMVGA8, consolas, Charcoal, sans-serif;
+  white-space: nowrap;
+  font-family: monospace;
+  white-space: pre;
+}
+
+h3 {
+  color: #3b7ecf;
+  font-family: IBMVGA8, consolas, Charcoal, sans-serif;
+  white-space: nowrap;
+  font-family: monospace;
+  white-space: pre;
+}
+
+p {
+  color: #018600;
+  font-size: 5px;
+  font-weight: 550;
+  font-family: IBMVGA8, consolas, Charcoal, sans-serif;
+  white-space: nowrap;
+  font-family: monospace;
+  white-space: pre;
+}
+
+#subHeader {
+  color: #018600;
+  font-size: 5px;
+  font-weight: 550;
+  font-family: IBMVGA8, consolas, Charcoal, sans-serif;
+  white-space: nowrap;
+  font-family: monospace;
+  white-space: pre;
+}
+
+h3 {
+  color: #3b7ecf;
+  font-family: IBMVGA8, consolas, Charcoal, sans-serif;
+  white-space: nowrap;
+  font-family: monospace;
+  white-space: pre;
+}
+
+#log {
+  color: #3b7ecf;
+  font-family: IBMVGA8, consolas, Charcoal, sans-serif;
+  white-space: nowrap;
+}
