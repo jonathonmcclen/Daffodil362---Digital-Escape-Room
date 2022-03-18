@@ -1,20 +1,7 @@
-//Added utilities (Fiverr)
-var allowFlicker = true;
-var glitchAnim;
-var ready_for_input_sound = document.createElement("audio");
-ready_for_input_sound.src = ready_for_input_sound_src;
-
-var success_sound = document.createElement("audio");
-success_sound.src = success_sound_src;
-
-var failure_sound = document.createElement("audio");
-failure_sound.src = failure_sound_src;
-
-var typing_animation;
-
-//-------------------------------------------------
-
-// cutscene wants an array
+//
+//
+//
+// cutscenes want an array of lines
 
 cutscene(scene, speed = 0) {
   inputAllowed = false;
