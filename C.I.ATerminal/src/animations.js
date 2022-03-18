@@ -1,5 +1,15 @@
-//animations should take in a what, where, and speed.
+// animations should take in a what, where, and speed.
 // at the end of the animation you should make sure that the what that was animated is added perminately or not.
+//
+//
+// most simple animation POP just adds instantly
+function pop(what) {
+  var newItem = document.createElement("h2");
+  newItem.className = "log-item";
+  newItem.innerHTML = what;
+  document.getElementById("log").appendChild(newItem);
+  scrollToBottom();
+}
 
 function typingAnim(type, duration, EndType, Keep) {
   var typing_log_item = document.createElement("h2");
