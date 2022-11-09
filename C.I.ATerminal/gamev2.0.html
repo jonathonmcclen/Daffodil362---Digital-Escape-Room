@@ -1,146 +1,184 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<title>C.I.A Terminal</title>
-		<link rel="stylesheet" href="css/StoneAndIron.css">
-	</head>
+  <head>
+    <meta charset="utf-8" />
+    <title>C.I.A Terminal</title>
+    <link rel="stylesheet" href="css/StoneAndIron.css" />
+  </head>
 
-	<body style="background-color: #000;">
-		
-		
-		
-		<script type="text/javascript" src="cutscenes.js"></script>
-		<script type="text/javascript" src="listeners.js"></script>
-		<script type="text/javascript" src="gameEngine.js"></script>
-		
-		<img id="bg-img" src="https://esc-room-games.s3.us-west-1.amazonaws.com/Daffodil362/Assets/BG.jpg" />
-		
-	<div id="body">
-		<h3 class="hidden" id="AlabasterHeader">.eeeeee..eee.....eeeeee..eeeeeee...eeeeee...eeeeee.eeeeeeeee.eeeeee.eeeeeee.....eee..eee..eee.eee..eee.eee.eeeeeeeee.eeeeee.
-@@@@@@@@:@@@::::@@@@@@@@:@@@@@@@@:@@@@@@@@:@@@@@@@:@@@@@@@@@:@@@@@@:@@@@@@@@::::@@@::@@@::@@@:@@@::@@@:@@@:@@@@@@@@@:@@@@@@:
-%%%--%%%-%%%----%%%--%%%-%%%--%%%-%%%--%%%-%%%--------%%%----%%%----%%%--%%%----%%%--%%%--%%%-%%%--%%%-%%%----%%%----%%%----
-&&&&&&&&+&&&++++&&&&&&&&+&&&&&&&++&&&&&&&&+&&&&&&+++++&&&++++&&&&&++&&&&&&&+++++&&&++&&&++&&&+&&&&&&&&+&&&++++&&&++++&&&&&++
-||||||||*|||****||||||||*||||||||*||||||||**||||||****|||****|||||**||||||******|||**|||**|||*||||||||*|||****|||****|||||**
-!!!==!!!=!!!====!!!==!!!=!!!==!!!=!!!==!!!=====!!!====!!!====!!!====!!!=!!!=====!!!==!!!==!!!=!!!==!!!=!!!====!!!====!!!====
-:::##:::#::::::#:::##:::#::::::::#:::##:::#:::::::####:::####::::::#:::##:::####:::::::::::::#:::##:::#:::####:::####::::::#
-...@@...@......@...@@...@.......@@...@@...@......@@@@@...@@@@......@...@@...@@@@@...........@@...@@...@...@@@@...@@@@......@</h3>
-		
-		<h3 class="hidden" id="glitch">VkVjNWVWcFhNR2RoV0VKNlpGY3daMXBIT1hOaU0wbG5ZekpzTUVsSFJuUmFXRkZ6U1VkT2RtSnVUbXhaTTFKc1pFaFdlVWxIUm10aFdFSndZekpPY0dKdFkyZGFW
-WkVNMFoxSklWbkJqZVVJeVlWaFNhRnBUUW14amJUbDZTVWMxYkZsNVFteGlSMnd3U1VkR2MyRllSakZhV0ZGbldUSTVkVm96Vm14TWFVSlNaRmRzZW1OWVZteEpS
-bFlUWE5KUjFKd1dWY3daMXBYWkd4a1EwSm9Za2RzZUdSWFZqQkpTRTVzWWxoQ2JHTnBkMmRrV0VwMVdWTkNiR0p0YkhSSlIxcG9aRmRPY0ZsdVZucEpSMngzWXpO
-TWpSblpHMVdkVnBYTldoa1IyeDZTVWN4YUdNelRtaEpSekZ3U1VkRloxcElWbkJNYVVKVVdsZFJaMlJIYkhWWk1teHJaRmMxTUVsSVFuWmpibEl3WVZoU2RtTnBR
-ZHNNR0l6U1hWSlJrNXNXa05DYUVsSGVHaFpNbXgxWVZkRloyUkhPWGxrUnpsNVRFTkNlbUZZVVdkWlZ6RnNaRU5DY0dKWVFteGpiVkp3V2xoUloxbFlTbXBrVXpS
-VW5CaWJVNXdXa2hXZFdSRFFtMVpXRlpxWVZkS01XTjVRbXRoVjJSMVlWaE9lbUZYTUhWSlJscHNZek5TY0ZsdVZuTmtWekJuV2xoVloySkhSbSQpKiMhXiUqJCNe
-XyYpQCpeIykqXiQpIyomJCkjQCpeXikqIyReKSpeQCMpKl4pQCNeKSolXiNAKSokXiUpKl4kKiklXiMkKSpeJSMkKSpeJSkKCQkkXkAjJCYqQColKkAkXiYlKCol
-IyEoJmFtcDteKCMqJSgkJl4mKCEjJF4lIyFAIyReJSQhQF4hQCUqXikoXnwiXj57Xns/fHsmYW1wOz57Knw+XiV7P3x7Xj57fD4ke3wkIyVeISMkXiEjJCMKCQkz
-ISYhIyUqJCgpKF4mKSUqXiMkKV4lKiQpXiopJCpeKSokQCFeXl5eXl5eXl5eXl5eXl5eXl5eXl5eXiQpXiohKSokXikkJiklJn4pJiopJikhKkAjJCklKSQqXikm
-XiFeInBrV0Uxbll6STVjMkpIYkdwaFdGSXhXa2RzZFV4RFFtbGlSMFoxV2tkc01FbEhNV2hhTWpWb1NVZFdNRXhEUW10WldFSndXVzVXZWtsSVVteGlSM2d4WTNr
-TWxaellraFdla2xJV25aaVNGWXdZMGRHTUVsSFZtNWFXRTR3V1ZoTloySnRWbmhrVjFWelNVaE9jR1JEUW1oaVYxWXdTVWhDZG1NelZteGpiVlZuV2xkNGNHUkRR
-aENhR1JEUW14YU1sWXdUR2xDU21KdVVteGFNbFo1U1VoQ2IxbFlTbXhrU0Vwb1NVaENiR0pIZUd4aWJsSnNZek5HTVZwVFFqSmFWM2h3WkVOQ2JHUkRRakprVjNo
-VlhWSlJUVXhZa2Q0YUdKVFFtaGlSMng0WkZkR2RFbEhSblZrUjFWblltMDVkVWxIUmpGYU0xWnNTVWhTYkdKWVFqRmplWGRuWXpKc01FbEhSblJhV0ZGblpFaEtj
-WnNTVWN4YUdNelRtaEpTRUoyWTI1U01HRllVblpqYVRSblZtMVdlbVJIYkdsa1YzZ3hZbE5DZWxwWFVXZGpNa1ozWVZkV2RVbEhOWEJqTW5kMVNVWkNiMWxZVG14
-ZFdJeU5HZFpXRXBxWkZOQ2JWbFlWbXBoVjBveFkzbENlbHBYTUdkaVJ6bHBZak5LTUdGWVRXZGpTRlp6Wkcxc2RWbFlTWFZKUlZveFl6Sk9iRWxJV21oamJXd3hZ
-TlpVMEowWVZOM1oyTXliREJKUjBaMFdsaFJaMlJ0T1hOa1dGSjNXVmhSWjJSSFZuTmlTRlo2U1VkYWJHTnRNV3hpYmxJeFlsTkNkMkl6VGpGYVdFcHNUR2xDUldJ
-WW01U2JFbEhNV2hqTTA1b1RFTkNlV1JZVW5sa1Z6Qm5XbGhSWjJNelZucFpNbXgzWVZoUloyUllVWE5KU0ZKd1ltMU9jRnBJVm5Wa1EwSm9XWGxDYkdOdE9YcE1a
-W5helZPZDJzeFRuZHJNazEzYnpKRFZHYzFRMVJWTlVOVVdUTkRWRkZMVG5kcmVFMVJhekpPZDJzeVRtZHJNMDUzYnpWUFVXdDRUa0ZyZWs1UmF6Tk5VV3N5VG1kd
-UVd0NVRtZHJOVTEzYXpOT2QyOHpUVkZyTWs1QmF6Uk5kMnN4VFhkck1VOVJielZOUVdzMVExUkZlVU5VWjNoRFZGa3hRMnBaTkVOVVJUUkRWRkYzUTFSRmQwMUJh
-HJORTFCYXpWUFVXc3dUV2RyZVUxbmJ6Tk9VV3N4VG1kck1rMTNhekJOVVdzeFRYZHZNazFSYXpKUFFXc3lUbWRyTUVOVVdURkRhbFYzUTFSbk5FTlVTVFZEVkZGN
-YXpCRFZGVjVRMVJGTVVOVVl6SkRWRkUxUTJwRk1rTlVXVFJEVkdkM1ExUk5la05VV1RORGFsbDNRMVJaTkVOVVRUTkRWRWt3UTFSak5VTnFhM3BEVkdOS1RsUlZT
-RkxUbnBaU2s5VVdVcE9SRlZLVGtSRlNrNXFUVXROZWtsS1RWUkJTazFVUVhkRFZFMHhRMVJSTlVOcVVUTkRWR2RLVFhwQlNrNVVSVXBOZWtGTFRsUkpTazFVUlVw
-U2sxVVowdE5WRWxLVGxSTlNrNXFaMHBOYWtGS1RtcGpTMDVxYTBwTmFsRktUVlJqU2s1UmEzaE5RVzh5VFZGck5FNTNhM2hOWjJ0NFExUk5TMDlVV1VwTmVtdEtU
-cFBWRkZMVFZSQmQwTlVUWHBEVkZWS1QxUkZTazVxU1V0T1ZHZEtUV3BKU2s5QmEzbE5aMnQ0VFZGdmVrOUJhekpPUVd0NVRXZHJlVTlCYXpST1FXOHdUMEZyTTA5
-VFdkcmVVNW5iM2hQUVdzelExUm5Na05VVlRKRFZFMHhRMnBSTWtOVVVURkRWR3N3UTFSak5FTlVaelJEYW1NelExUlZTazlCYXpGTlFXdDZUWGR2TTA1bmF6SlBR
-TlVZekZEYWsweFExUlpNME5VUlhkTlFXdDZUVUZyTVU5UmIzbFBVV3MwVFhkck1rNW5hekZPVVdzd1RrRnZlVTUzYTNsTmQydDRUbWRyTWs1bmF6Vk9VVzh6VFVG
-VVd0NlExUnJNRU5xU1RGRFZGbEtUVlJuU2sxNlVVcE9lbWRMVFdwUlNrNXFWVXBQVkdkS1RucFJTazVxWTB0UFZGRktUbFJWU2s5UmEzbE5aMnN5VDFGdmVrNW5h
-ZHJORTlSYXpGUFVXOTVUa0ZyTUUxUmEzbE5VV3N3UTFSTk5FTnFZM2xEVkZFd1ExUlpNVU5VV1hoRFZFMTZRMnByZWtOVVJUTkRWRWsxUTFSck1rTlVSVEpEYWxV
-YTNwRFZFMTZRMVJqTkVOcVp6SkRWRkV3UTFSbk1rTlVTWGxEVkZGNlEycE5la05VU1hsRFZGRTFRMVJaTlVOVVZUSkRha2t6UTFSVmVVTlVaekZEVkdzelExUk5O
-RTBRMVJqZVVOVVZUUkRWRmt4UTJwTlNrOVJhM3BOZDJzd1QxRnJORTEzYnpOTlFXdDZUVkZyZVU1QmF6Tk5RV3N6VG5kdk0wOUJhelZPVVdzeVRWRnJNMDFSYXpC
-TTA1M2EzbE5RV3N4VGxGcmVFMUJiekpOZDJzeVQwRnJlazlSYXpWT2QydDVUV2R2ZVUxUmEzcFBVV3MwVFdkck5FNW5hM3BPUVc4MFRVRnJNME5VV1hwRFZHTTFR
-TkRWRTE1UTFSRmQwMUJhelJOUVd0NFRrRnZNRTlCYXpCTloydDRUMEZyTVU5QmF6Vk5aMjh3VDFGck0wOVJhM2hPVVd0NFRtZHJNMDFuYjNwUFVXc3pUWGRyTTAx
-VFZGdk5VNTNhelZPZDJ0NFExUkplRU5VWnpGRGFsRktUbnBqU2s1NlZVcE9WRVZLVG5wclMwNW5hM2xOZDJ0NVRrRnJNazVSYXpCUFVXOTVUVkZyTTAxbmEzaE9R
-OVJielJQVVdzMFRrRnJlRTVuYXpCTloydDZUWGR2TVUxbmF6Sk9VV3N3UTFSck1FTlVZMHRQVkdkS1RXcG5TazFxUlVwT1JGbEtUa1JaUzAxVWEwcE9WRWxLVFZS
-ZDI4MFExUkpNVU5VVFhwRFZFbDRRMVJaTVVOcVJUUkRWR2MwUTFSck1FTlVWVEJEVkVWNlEycFJlVU5VVlhoRFZFazFRMVJyTkVOVVJUUkRhbFV3UTFSUmVFTlVT
-lZlRU5xWTBwTloyc3dRMVJOTkVOVVRVdFBRV3N4VFZGcmVFOUJhM2xPWjJzeVRtZHZNMDVuYTNwRFZHZDRRMVJaTkVOVVJYZE5RVzgxVFdkck1VOVJhekJOVVdze
-YnpKTmQydDVUVkZyTWs1bmF6Uk9VV3MxVFdkdmVFMUVRVXBOZWtsS1RYcFpTazFSYXpCTlVXOTRUVkZyTUVOVVdVcFBSR3RLVGtSTlMwNXFUVXBQVkUxS1RucFZT
-TkxUV3BaU2sxNlJVcE5WR3RLVDFSalNrOVVWVXROVkVWS1RrUm5TazFxVlVwTlVXc3dUbWR2TlVOVVNYbERWRWswUTFSRk5FTlVXVXRPVkZGS1RtcEpTazE2UlVw
-UzAxcVFVcE5ha1ZLVGtSVlNrNUVhMHBQVVc4elRYZHJlVTFCYXpOTloyczFUV2RyTlUxM2J6QkRWRVYzUTFSak5VTlVZM2hEVkUxTFRucFpTazU2UVVwTmFtdEtU
-dE5lbU5LVG5wRlNrOUVVVXBPUVd0NlRVRnZNazlCYXpWTlVXc3hUV2RyTUVOVVJYcERhbGt3UTFSSk1rTlVXVEZEVkdzeFExUlpkME5xU1VwUFZFbEtUbnBSU2s0
-VFVGcmVrMUJhelZPZDJzeVRtZHJlRTUzYjNoTlVXdDZUMUZyZUU1UmF6SkRWR2MwUTJwVmVrTlVTVFZEVkZFd1ExUlZNVU5VVlhsRGFsbDRRMVJGTWtOVWEwcE5a
-MVJhekpQVVdzeVRrRnJlazVSYTNoTlVXOHlUWGRyTTA1M2F6Vk5RV3MxVFZGck1FNTNielJPUVdzeFRrRnJNRTVSYTNoT1oyc3hUbWR2TWsxUmEzaE5SRUZLVG5w
-YWsxTFRXcEJTazFVUVhkRFZGRjZRMVJuZDBOVVVYbERhbFV6UTFSck1FTlVTVFZEVkdjMFExUkplVU5xUlhoRFZGa3dRMVJGZVVOVWEzaERWRlYzUTJwTk5VTlVU
-UlpNRU5VWnpCRGFsa3pRMVJuTWtOVVZYZERWRVV4UTFSUmVrTnFZMHBPUkZWS1RWUkZTazU2VFVwTmVtdExUVlJqU2s5VVJVcE9lbFZLVGtGcmVFMUJiM2xOWjJ0
-YTNwT1oyc3dUbEZ2TVU1M2EzaE5RV3MxUTFSWmQwTlVXWHBEYW10NFExUlJlRU5VYXpSRFZFVjZRMVJSZUVOcVNUTkRWR2Q0UTFSSmVVTlVhMHBPVkdOTFQwUk5T
-ZEtUbFJqU2s1RVJVdE9SRlZLVDBSQlNrNTZUVXBOZWtsS1QwRnZORTVuYTNsT1FXdDRUbmRyTkUxQmEzcE9VVzk2VGxGck5VMVJhekZPZDJzelRrRnJlVTVSYnpO
-TlUxQmF6Vk9RV3N5VFZGdk5VMW5helJQUVd0NFRWRnJNazFCYXpCTlVXOHhUbmRyTVUxbmF6Qk9aMnN5VDBGcmVrMW5iekZPZDJzMFRYZHJNRTVSYXpWUFVXc3pU
-TkRWRTEzUTFSWmVFTlVTVE5EYWxWNVExUk5NME5VWnpKRFZHdDRRMVJaUzAxVWEwcE9SR3RLVDFSclNrNVVZMHBPYWtsTFRWUm5TazVSYXpOTlVXczFUVUZyZWs1
-VFZGck5VTlVXWHBEVkUweVEycGpNa05VWjNoRFZFVTBRMVJqZDBOVVZVdFBWRUZLVDFSRlNrOUVVVXBQVkd0S1RucHJTMDFxWTBwT2VtdEtUV3BWU2s5RVJVcE5h
-MTNhelZOZDJzelExUk5OVU5xYTNwRFZGVXlRMVJaTTBOVVRUQkRWRVV6UTJwbmVFTlVaM3BEVkVVMVExUm5ORU5VVVRGRGFsVjNRMVJyU2sxUmF6Uk5RV3N6VGtG
-WjJzMVRsRnJlRTFFUVVwTlZFRkxUbFJCU2sxVVNVcFBSRmxLVGxSVlNrNVVaMHROVkVWS1RWUlZTazFVU1VwTmFrbEtUMVJqUzAxVVNVcE5lazFLVFdwUlNrOUVV
-UlJTazlFYTBwT2VrbEtUbXBCU2sxNlkwdE5lbWRLVG5wWlNrNUVXVXBPUkVGS1RsUm5TMDU2YTBwT2VrVktUbFJWU2s1NlJVcE5WRVZMVDBSQlNrMTZSVXBOYWtG</h3>
-		
-		<div id="header">
-			
-			<h1> ________      ___      ________     
-|\   ____\    |\  \    |\   __  \    
-\ \  \___|    \ \  \   \ \  \|\  \   
- \ \  \        \ \  \   \ \   __  \  
-  \ \  \____  __\ \  \ __\ \  \ \  \ 
-   \ \_______\\__\ \__\\__\ \__\ \__\
-    \|_______\|__|\|__\|__|\|__|\|__|
-</h1>
-			<h2>..........................................................</h2>
-			<p id="subHeader" class="hidden"> ________  _______   ________   _________  ________  ________  ___               ___  ________   _________  _______   ___       ___       ___  ________  _______   ________   ________  _______           ________  ________  _______   ________   ________      ___    ___ 
-|\   ____\|\  ___ \ |\   ___  \|\___   ___\\   __  \|\   __  \|\  \             |\  \|\   ___  \|\___   ___\\  ___ \ |\  \     |\  \     |\  \|\   ____\|\  ___ \ |\   ___  \|\   ____\|\  ___ \         |\   __  \|\   ____\|\  ___ \ |\   ___  \|\   ____\    |\  \  /  /|
-\ \  \___|\ \   __/|\ \  \\ \  \|___ \  \_\ \  \|\  \ \  \|\  \ \  \            \ \  \ \  \\ \  \|___ \  \_\ \   __/|\ \  \    \ \  \    \ \  \ \  \___|\ \   __/|\ \  \\ \  \ \  \___|\ \   __/|        \ \  \|\  \ \  \___|\ \   __/|\ \  \\ \  \ \  \___|    \ \  \/  / /
- \ \  \    \ \  \_|/_\ \  \\ \  \   \ \  \ \ \   _  _\ \   __  \ \  \            \ \  \ \  \\ \  \   \ \  \ \ \  \_|/_\ \  \    \ \  \    \ \  \ \  \  __\ \  \_|/_\ \  \\ \  \ \  \    \ \  \_|/__       \ \   __  \ \  \  __\ \  \_|/_\ \  \\ \  \ \  \        \ \    / / 
-  \ \  \____\ \  \_|\ \ \  \\ \  \   \ \  \ \ \  \\  \\ \  \ \  \ \  \____        \ \  \ \  \\ \  \   \ \  \ \ \  \_|\ \ \  \____\ \  \____\ \  \ \  \|\  \ \  \_|\ \ \  \\ \  \ \  \____\ \  \_|\ \       \ \  \ \  \ \  \|\  \ \  \_|\ \ \  \\ \  \ \  \____    \/  /  /  
-   \ \_______\ \_______\ \__\\ \__\   \ \__\ \ \__\\ _\\ \__\ \__\ \_______\       \ \__\ \__\\ \__\   \ \__\ \ \_______\ \_______\ \_______\ \__\ \_______\ \_______\ \__\\ \__\ \_______\ \_______\       \ \__\ \__\ \_______\ \_______\ \__\\ \__\ \_______\__/  / /    
-    \|_______|\|_______|\|__| \|__|    \|__|  \|__|\|__|\|__|\|__|\|_______|        \|__|\|__| \|__|    \|__|  \|_______|\|_______|\|_______|\|__|\|_______|\|_______|\|__| \|__|\|_______|\|_______|        \|__|\|__|\|_______|\|_______|\|__| \|__|\|_______|\___/ /     
-                                                                                                                                                                                                                                                               \|___|/      
-                                                                                                                                                                                                                                                                            
-			<h2 class="hidden">..........................................................</h2>
-		</div>
-		
-		<div id="credits" class="hidden">
-			
-			<h1> ________      ___      ________     
-|\   ____\    |\  \    |\   __  \    
-\ \  \___|    \ \  \   \ \  \|\  \   
- \ \  \        \ \  \   \ \   __  \  
-  \ \  \____  __\ \  \ __\ \  \ \  \ 
-   \ \_______\\__\ \__\\__\ \__\ \__\
-    \|_______\|__|\|__\|__|\|__|\|__|
-			</h1>
-			<h2>..........................................................</h2>
-			<div>
-				<h2>Microsooooft Windows [Version 10.0.18363.720]</h2>
-				<h2>(c) 2019 Microsooooft Corporation. All Rights Reserved.</h2>
-				<h2>..........................................................</h2>
-				<h2>C&#58; Output > LOGIN</h2>
-				<h2>C&#58; Output > PLEASE ENTER USERNAME THEN PRESS ENTER</h2>
-			</div>
-		</div>
-		
-		<div id="log">
-			<h2>Microsoft Windows [Version 10.0.18363.720]</h2>
-			<h2>(c) 2019 Microsoft Corporation. All rights reserved.</h2>
-			<h2>..........................................................</h2>
-			<h2>C&#58; Output > TYPE A COMMAND AND PRESS ENTER</h2>
-			<h2>C&#58; Output > **EXAMPLE** Login </h2>
-			<h2>..........................................................</h2>
-		</div>
-		
-		<input type="text" id="txt" placeholder="Type Here" maxlength="100" style="position: fixed; bottom: 0; left: 0; width: 100%; height: 50px; font-size: 30px; background-color: #2A2A2A; color: #018600; padding-left: 15px; font-weight: 550; ">
-		
-		<div style="margin: 45px;">
-			<p id="bottomSpace" style="color: #000;">. </p>
-		</div>
-		</div>
-		<div id="finalInstruction" class="hidden" style="color: #FFFFFF; position: fixed; top: 400px; left: 300px;">
-			<h1 style="color: #FFFFFF; text-align: center;">Call (818) 665 - 3245</h1>
-			<h1 style="color: #FFFFFF; text-align: center;">Enter code 701</h1>
-			<h1 style="color: #FFFFFF; text-align: center;">Then press ENTER on your keyboard.</h1>
-		</div>
-	</body>
+  <body style="background-color: #000">
+    <script type="text/javascript" src="cutscenes.js"></script>
+    <script type="text/javascript" src="listeners.js"></script>
+    <script type="text/javascript" src="gameEngine.js"></script>
+
+    <img
+      id="bg-img"
+      src="https://esc-room-games.s3.us-west-1.amazonaws.com/Daffodil362/Assets/BG.jpg"
+    />
+
+    <div id="body">
+      <h3 class="hidden" id="AlabasterHeader">
+        .eeeeee..eee.....eeeeee..eeeeeee...eeeeee...eeeeee.eeeeeeeee.eeeeee.eeeeeee.....eee..eee..eee.eee..eee.eee.eeeeeeeee.eeeeee.
+        @@@@@@@@:@@@::::@@@@@@@@:@@@@@@@@:@@@@@@@@:@@@@@@@:@@@@@@@@@:@@@@@@:@@@@@@@@::::@@@::@@@::@@@:@@@::@@@:@@@:@@@@@@@@@:@@@@@@:
+        %%%--%%%-%%%----%%%--%%%-%%%--%%%-%%%--%%%-%%%--------%%%----%%%----%%%--%%%----%%%--%%%--%%%-%%%--%%%-%%%----%%%----%%%----
+        &&&&&&&&+&&&++++&&&&&&&&+&&&&&&&++&&&&&&&&+&&&&&&+++++&&&++++&&&&&++&&&&&&&+++++&&&++&&&++&&&+&&&&&&&&+&&&++++&&&++++&&&&&++
+        ||||||||*|||****||||||||*||||||||*||||||||**||||||****|||****|||||**||||||******|||**|||**|||*||||||||*|||****|||****|||||**
+        !!!==!!!=!!!====!!!==!!!=!!!==!!!=!!!==!!!=====!!!====!!!====!!!====!!!=!!!=====!!!==!!!==!!!=!!!==!!!=!!!====!!!====!!!====
+        :::##:::#::::::#:::##:::#::::::::#:::##:::#:::::::####:::####::::::#:::##:::####:::::::::::::#:::##:::#:::####:::####::::::#
+        ...@@...@......@...@@...@.......@@...@@...@......@@@@@...@@@@......@...@@...@@@@@...........@@...@@...@...@@@@...@@@@......@
+      </h3>
+
+      <h3 class="hidden" id="glitch">
+        VkVjNWVWcFhNR2RoV0VKNlpGY3daMXBIT1hOaU0wbG5ZekpzTUVsSFJuUmFXRkZ6U1VkT2RtSnVUbXhaTTFKc1pFaFdlVWxIUm10aFdFSndZekpPY0dKdFkyZGFW
+        WkVNMFoxSklWbkJqZVVJeVlWaFNhRnBUUW14amJUbDZTVWMxYkZsNVFteGlSMnd3U1VkR2MyRllSakZhV0ZGbldUSTVkVm96Vm14TWFVSlNaRmRzZW1OWVZteEpS
+        bFlUWE5KUjFKd1dWY3daMXBYWkd4a1EwSm9Za2RzZUdSWFZqQkpTRTVzWWxoQ2JHTnBkMmRrV0VwMVdWTkNiR0p0YkhSSlIxcG9aRmRPY0ZsdVZucEpSMngzWXpO
+        TWpSblpHMVdkVnBYTldoa1IyeDZTVWN4YUdNelRtaEpSekZ3U1VkRloxcElWbkJNYVVKVVdsZFJaMlJIYkhWWk1teHJaRmMxTUVsSVFuWmpibEl3WVZoU2RtTnBR
+        ZHNNR0l6U1hWSlJrNXNXa05DYUVsSGVHaFpNbXgxWVZkRloyUkhPWGxrUnpsNVRFTkNlbUZZVVdkWlZ6RnNaRU5DY0dKWVFteGpiVkp3V2xoUloxbFlTbXBrVXpS
+        VW5CaWJVNXdXa2hXZFdSRFFtMVpXRlpxWVZkS01XTjVRbXRoVjJSMVlWaE9lbUZYTUhWSlJscHNZek5TY0ZsdVZuTmtWekJuV2xoVloySkhSbSQpKiMhXiUqJCNe
+        XyYpQCpeIykqXiQpIyomJCkjQCpeXikqIyReKSpeQCMpKl4pQCNeKSolXiNAKSokXiUpKl4kKiklXiMkKSpeJSMkKSpeJSkKCQkkXkAjJCYqQColKkAkXiYlKCol
+        IyEoJmFtcDteKCMqJSgkJl4mKCEjJF4lIyFAIyReJSQhQF4hQCUqXikoXnwiXj57Xns/fHsmYW1wOz57Knw+XiV7P3x7Xj57fD4ke3wkIyVeISMkXiEjJCMKCQkz
+        ISYhIyUqJCgpKF4mKSUqXiMkKV4lKiQpXiopJCpeKSokQCFeXl5eXl5eXl5eXl5eXl5eXl5eXl5eXiQpXiohKSokXikkJiklJn4pJiopJikhKkAjJCklKSQqXikm
+        XiFeInBrV0Uxbll6STVjMkpIYkdwaFdGSXhXa2RzZFV4RFFtbGlSMFoxV2tkc01FbEhNV2hhTWpWb1NVZFdNRXhEUW10WldFSndXVzVXZWtsSVVteGlSM2d4WTNr
+        TWxaellraFdla2xJV25aaVNGWXdZMGRHTUVsSFZtNWFXRTR3V1ZoTloySnRWbmhrVjFWelNVaE9jR1JEUW1oaVYxWXdTVWhDZG1NelZteGpiVlZuV2xkNGNHUkRR
+        aENhR1JEUW14YU1sWXdUR2xDU21KdVVteGFNbFo1U1VoQ2IxbFlTbXhrU0Vwb1NVaENiR0pIZUd4aWJsSnNZek5HTVZwVFFqSmFWM2h3WkVOQ2JHUkRRakprVjNo
+        VlhWSlJUVXhZa2Q0YUdKVFFtaGlSMng0WkZkR2RFbEhSblZrUjFWblltMDVkVWxIUmpGYU0xWnNTVWhTYkdKWVFqRmplWGRuWXpKc01FbEhSblJhV0ZGblpFaEtj
+        WnNTVWN4YUdNelRtaEpTRUoyWTI1U01HRllVblpqYVRSblZtMVdlbVJIYkdsa1YzZ3hZbE5DZWxwWFVXZGpNa1ozWVZkV2RVbEhOWEJqTW5kMVNVWkNiMWxZVG14
+        ZFdJeU5HZFpXRXBxWkZOQ2JWbFlWbXBoVjBveFkzbENlbHBYTUdkaVJ6bHBZak5LTUdGWVRXZGpTRlp6Wkcxc2RWbFlTWFZKUlZveFl6Sk9iRWxJV21oamJXd3hZ
+        TlpVMEowWVZOM1oyTXliREJKUjBaMFdsaFJaMlJ0T1hOa1dGSjNXVmhSWjJSSFZuTmlTRlo2U1VkYWJHTnRNV3hpYmxJeFlsTkNkMkl6VGpGYVdFcHNUR2xDUldJ
+        WW01U2JFbEhNV2hqTTA1b1RFTkNlV1JZVW5sa1Z6Qm5XbGhSWjJNelZucFpNbXgzWVZoUloyUllVWE5KU0ZKd1ltMU9jRnBJVm5Wa1EwSm9XWGxDYkdOdE9YcE1a
+        W5helZPZDJzeFRuZHJNazEzYnpKRFZHYzFRMVJWTlVOVVdUTkRWRkZMVG5kcmVFMVJhekpPZDJzeVRtZHJNMDUzYnpWUFVXdDRUa0ZyZWs1UmF6Tk5VV3N5VG1kd
+        UVd0NVRtZHJOVTEzYXpOT2QyOHpUVkZyTWs1QmF6Uk5kMnN4VFhkck1VOVJielZOUVdzMVExUkZlVU5VWjNoRFZGa3hRMnBaTkVOVVJUUkRWRkYzUTFSRmQwMUJh
+        HJORTFCYXpWUFVXc3dUV2RyZVUxbmJ6Tk9VV3N4VG1kck1rMTNhekJOVVdzeFRYZHZNazFSYXpKUFFXc3lUbWRyTUVOVVdURkRhbFYzUTFSbk5FTlVTVFZEVkZGN
+        YXpCRFZGVjVRMVJGTVVOVVl6SkRWRkUxUTJwRk1rTlVXVFJEVkdkM1ExUk5la05VV1RORGFsbDNRMVJaTkVOVVRUTkRWRWt3UTFSak5VTnFhM3BEVkdOS1RsUlZT
+        RkxUbnBaU2s5VVdVcE9SRlZLVGtSRlNrNXFUVXROZWtsS1RWUkJTazFVUVhkRFZFMHhRMVJSTlVOcVVUTkRWR2RLVFhwQlNrNVVSVXBOZWtGTFRsUkpTazFVUlVw
+        U2sxVVowdE5WRWxLVGxSTlNrNXFaMHBOYWtGS1RtcGpTMDVxYTBwTmFsRktUVlJqU2s1UmEzaE5RVzh5VFZGck5FNTNhM2hOWjJ0NFExUk5TMDlVV1VwTmVtdEtU
+        cFBWRkZMVFZSQmQwTlVUWHBEVkZWS1QxUkZTazVxU1V0T1ZHZEtUV3BKU2s5QmEzbE5aMnQ0VFZGdmVrOUJhekpPUVd0NVRXZHJlVTlCYXpST1FXOHdUMEZyTTA5
+        VFdkcmVVNW5iM2hQUVdzelExUm5Na05VVlRKRFZFMHhRMnBSTWtOVVVURkRWR3N3UTFSak5FTlVaelJEYW1NelExUlZTazlCYXpGTlFXdDZUWGR2TTA1bmF6SlBR
+        TlVZekZEYWsweFExUlpNME5VUlhkTlFXdDZUVUZyTVU5UmIzbFBVV3MwVFhkck1rNW5hekZPVVdzd1RrRnZlVTUzYTNsTmQydDRUbWRyTWs1bmF6Vk9VVzh6VFVG
+        VVd0NlExUnJNRU5xU1RGRFZGbEtUVlJuU2sxNlVVcE9lbWRMVFdwUlNrNXFWVXBQVkdkS1RucFJTazVxWTB0UFZGRktUbFJWU2s5UmEzbE5aMnN5VDFGdmVrNW5h
+        ZHJORTlSYXpGUFVXOTVUa0ZyTUUxUmEzbE5VV3N3UTFSTk5FTnFZM2xEVkZFd1ExUlpNVU5VV1hoRFZFMTZRMnByZWtOVVJUTkRWRWsxUTFSck1rTlVSVEpEYWxV
+        YTNwRFZFMTZRMVJqTkVOcVp6SkRWRkV3UTFSbk1rTlVTWGxEVkZGNlEycE5la05VU1hsRFZGRTFRMVJaTlVOVVZUSkRha2t6UTFSVmVVTlVaekZEVkdzelExUk5O
+        RTBRMVJqZVVOVVZUUkRWRmt4UTJwTlNrOVJhM3BOZDJzd1QxRnJORTEzYnpOTlFXdDZUVkZyZVU1QmF6Tk5RV3N6VG5kdk0wOUJhelZPVVdzeVRWRnJNMDFSYXpC
+        TTA1M2EzbE5RV3N4VGxGcmVFMUJiekpOZDJzeVQwRnJlazlSYXpWT2QydDVUV2R2ZVUxUmEzcFBVV3MwVFdkck5FNW5hM3BPUVc4MFRVRnJNME5VV1hwRFZHTTFR
+        TkRWRTE1UTFSRmQwMUJhelJOUVd0NFRrRnZNRTlCYXpCTloydDRUMEZyTVU5QmF6Vk5aMjh3VDFGck0wOVJhM2hPVVd0NFRtZHJNMDFuYjNwUFVXc3pUWGRyTTAx
+        VFZGdk5VNTNhelZPZDJ0NFExUkplRU5VWnpGRGFsRktUbnBqU2s1NlZVcE9WRVZLVG5wclMwNW5hM2xOZDJ0NVRrRnJNazVSYXpCUFVXOTVUVkZyTTAxbmEzaE9R
+        OVJielJQVVdzMFRrRnJlRTVuYXpCTloydDZUWGR2TVUxbmF6Sk9VV3N3UTFSck1FTlVZMHRQVkdkS1RXcG5TazFxUlVwT1JGbEtUa1JaUzAxVWEwcE9WRWxLVFZS
+        ZDI4MFExUkpNVU5VVFhwRFZFbDRRMVJaTVVOcVJUUkRWR2MwUTFSck1FTlVWVEJEVkVWNlEycFJlVU5VVlhoRFZFazFRMVJyTkVOVVJUUkRhbFV3UTFSUmVFTlVT
+        lZlRU5xWTBwTloyc3dRMVJOTkVOVVRVdFBRV3N4VFZGcmVFOUJhM2xPWjJzeVRtZHZNMDVuYTNwRFZHZDRRMVJaTkVOVVJYZE5RVzgxVFdkck1VOVJhekJOVVdze
+        YnpKTmQydDVUVkZyTWs1bmF6Uk9VV3MxVFdkdmVFMUVRVXBOZWtsS1RYcFpTazFSYXpCTlVXOTRUVkZyTUVOVVdVcFBSR3RLVGtSTlMwNXFUVXBQVkUxS1RucFZT
+        TkxUV3BaU2sxNlJVcE5WR3RLVDFSalNrOVVWVXROVkVWS1RrUm5TazFxVlVwTlVXc3dUbWR2TlVOVVNYbERWRWswUTFSRk5FTlVXVXRPVkZGS1RtcEpTazE2UlVw
+        UzAxcVFVcE5ha1ZLVGtSVlNrNUVhMHBQVVc4elRYZHJlVTFCYXpOTloyczFUV2RyTlUxM2J6QkRWRVYzUTFSak5VTlVZM2hEVkUxTFRucFpTazU2UVVwTmFtdEtU
+        dE5lbU5LVG5wRlNrOUVVVXBPUVd0NlRVRnZNazlCYXpWTlVXc3hUV2RyTUVOVVJYcERhbGt3UTFSSk1rTlVXVEZEVkdzeFExUlpkME5xU1VwUFZFbEtUbnBSU2s0
+        VFVGcmVrMUJhelZPZDJzeVRtZHJlRTUzYjNoTlVXdDZUMUZyZUU1UmF6SkRWR2MwUTJwVmVrTlVTVFZEVkZFd1ExUlZNVU5VVlhsRGFsbDRRMVJGTWtOVWEwcE5a
+        MVJhekpQVVdzeVRrRnJlazVSYTNoTlVXOHlUWGRyTTA1M2F6Vk5RV3MxVFZGck1FNTNielJPUVdzeFRrRnJNRTVSYTNoT1oyc3hUbWR2TWsxUmEzaE5SRUZLVG5w
+        YWsxTFRXcEJTazFVUVhkRFZGRjZRMVJuZDBOVVVYbERhbFV6UTFSck1FTlVTVFZEVkdjMFExUkplVU5xUlhoRFZGa3dRMVJGZVVOVWEzaERWRlYzUTJwTk5VTlVU
+        UlpNRU5VWnpCRGFsa3pRMVJuTWtOVVZYZERWRVV4UTFSUmVrTnFZMHBPUkZWS1RWUkZTazU2VFVwTmVtdExUVlJqU2s5VVJVcE9lbFZLVGtGcmVFMUJiM2xOWjJ0
+        YTNwT1oyc3dUbEZ2TVU1M2EzaE5RV3MxUTFSWmQwTlVXWHBEYW10NFExUlJlRU5VYXpSRFZFVjZRMVJSZUVOcVNUTkRWR2Q0UTFSSmVVTlVhMHBPVkdOTFQwUk5T
+        ZEtUbFJqU2s1RVJVdE9SRlZLVDBSQlNrNTZUVXBOZWtsS1QwRnZORTVuYTNsT1FXdDRUbmRyTkUxQmEzcE9VVzk2VGxGck5VMVJhekZPZDJzelRrRnJlVTVSYnpO
+        TlUxQmF6Vk9RV3N5VFZGdk5VMW5helJQUVd0NFRWRnJNazFCYXpCTlVXOHhUbmRyTVUxbmF6Qk9aMnN5VDBGcmVrMW5iekZPZDJzMFRYZHJNRTVSYXpWUFVXc3pU
+        TkRWRTEzUTFSWmVFTlVTVE5EYWxWNVExUk5NME5VWnpKRFZHdDRRMVJaUzAxVWEwcE9SR3RLVDFSclNrNVVZMHBPYWtsTFRWUm5TazVSYXpOTlVXczFUVUZyZWs1
+        VFZGck5VTlVXWHBEVkUweVEycGpNa05VWjNoRFZFVTBRMVJqZDBOVVZVdFBWRUZLVDFSRlNrOUVVVXBQVkd0S1RucHJTMDFxWTBwT2VtdEtUV3BWU2s5RVJVcE5h
+        MTNhelZOZDJzelExUk5OVU5xYTNwRFZGVXlRMVJaTTBOVVRUQkRWRVV6UTJwbmVFTlVaM3BEVkVVMVExUm5ORU5VVVRGRGFsVjNRMVJyU2sxUmF6Uk5RV3N6VGtG
+        WjJzMVRsRnJlRTFFUVVwTlZFRkxUbFJCU2sxVVNVcFBSRmxLVGxSVlNrNVVaMHROVkVWS1RWUlZTazFVU1VwTmFrbEtUMVJqUzAxVVNVcE5lazFLVFdwUlNrOUVV
+        UlJTazlFYTBwT2VrbEtUbXBCU2sxNlkwdE5lbWRLVG5wWlNrNUVXVXBPUkVGS1RsUm5TMDU2YTBwT2VrVktUbFJWU2s1NlJVcE5WRVZMVDBSQlNrMTZSVXBOYWtG
+      </h3>
+
+      <div id="header">
+        <h1>
+          ________ ___ ________ |\ ____\ |\ \ |\ __ \ \ \ \___| \ \ \ \ \ \|\ \
+          \ \ \ \ \ \ \ \ __ \ \ \ \____ __\ \ \ __\ \ \ \ \ \ \_______\\__\
+          \__\\__\ \__\ \__\ \|_______\|__|\|__\|__|\|__|\|__|
+        </h1>
+        <h2>..........................................................</h2>
+        <p id="subHeader" class="hidden">
+          ________ _______ ________ _________ ________ ________ ___ ___ ________
+          _________ _______ ___ ___ ___ ________ _______ ________ ________
+          _______ ________ ________ _______ ________ ________ ___ ___ |\ ____\|\
+          ___ \ |\ ___ \|\___ ___\\ __ \|\ __ \|\ \ |\ \|\ ___ \|\___ ___\\ ___
+          \ |\ \ |\ \ |\ \|\ ____\|\ ___ \ |\ ___ \|\ ____\|\ ___ \ |\ __ \|\
+          ____\|\ ___ \ |\ ___ \|\ ____\ |\ \ / /| \ \ \___|\ \ __/|\ \ \\ \
+          \|___ \ \_\ \ \|\ \ \ \|\ \ \ \ \ \ \ \ \\ \ \|___ \ \_\ \ __/|\ \ \ \
+          \ \ \ \ \ \ \___|\ \ __/|\ \ \\ \ \ \ \___|\ \ __/| \ \ \|\ \ \ \___|\
+          \ __/|\ \ \\ \ \ \ \___| \ \ \/ / / \ \ \ \ \ \_|/_\ \ \\ \ \ \ \ \ \
+          \ _ _\ \ __ \ \ \ \ \ \ \ \\ \ \ \ \ \ \ \ \_|/_\ \ \ \ \ \ \ \ \ \ \
+          __\ \ \_|/_\ \ \\ \ \ \ \ \ \ \_|/__ \ \ __ \ \ \ __\ \ \_|/_\ \ \\ \
+          \ \ \ \ \ / / \ \ \____\ \ \_|\ \ \ \\ \ \ \ \ \ \ \ \\ \\ \ \ \ \ \
+          \____ \ \ \ \ \\ \ \ \ \ \ \ \ \_|\ \ \ \____\ \ \____\ \ \ \ \|\ \ \
+          \_|\ \ \ \\ \ \ \ \____\ \ \_|\ \ \ \ \ \ \ \ \|\ \ \ \_|\ \ \ \\ \ \
+          \ \____ \/ / / \ \_______\ \_______\ \__\\ \__\ \ \__\ \ \__\\ _\\
+          \__\ \__\ \_______\ \ \__\ \__\\ \__\ \ \__\ \ \_______\ \_______\
+          \_______\ \__\ \_______\ \_______\ \__\\ \__\ \_______\ \_______\ \
+          \__\ \__\ \_______\ \_______\ \__\\ \__\ \_______\__/ / /
+          \|_______|\|_______|\|__| \|__| \|__| \|__|\|__|\|__|\|__|\|_______|
+          \|__|\|__| \|__| \|__|
+          \|_______|\|_______|\|_______|\|__|\|_______|\|_______|\|__|
+          \|__|\|_______|\|_______| \|__|\|__|\|_______|\|_______|\|__|
+          \|__|\|_______|\___/ / \|___|/
+        </p>
+
+        <h2 class="hidden">
+          ..........................................................
+        </h2>
+      </div>
+
+      <div id="credits" class="hidden">
+        <h1>
+          ________ ___ ________ |\ ____\ |\ \ |\ __ \ \ \ \___| \ \ \ \ \ \|\ \
+          \ \ \ \ \ \ \ \ __ \ \ \ \____ __\ \ \ __\ \ \ \ \ \ \_______\\__\
+          \__\\__\ \__\ \__\ \|_______\|__|\|__\|__|\|__|\|__|
+        </h1>
+        <h2>..........................................................</h2>
+        <div>
+          <h2>Microsooooft Windows [Version 10.0.18363.720]</h2>
+          <h2>(c) 2019 Microsooooft Corporation. All Rights Reserved.</h2>
+          <h2>..........................................................</h2>
+          <h2>C&#58; Output > LOGIN</h2>
+          <h2>C&#58; Output > PLEASE ENTER USERNAME THEN PRESS ENTER</h2>
+        </div>
+      </div>
+
+      <div id="log">
+        <h2>Microsoft Windows [Version 10.0.18363.720]</h2>
+        <h2>(c) 2019 Microsoft Corporation. All rights reserved.</h2>
+        <h2>..........................................................</h2>
+        <h2>C&#58; Output > TYPE A COMMAND AND PRESS ENTER</h2>
+        <h2>C&#58; Output > **EXAMPLE** Login</h2>
+        <h2>..........................................................</h2>
+      </div>
+
+      <input
+        type="text"
+        id="txt"
+        placeholder="Type Here"
+        maxlength="100"
+        style="
+          position: fixed;
+          bottom: 0;
+          left: 0;
+          width: 100%;
+          height: 50px;
+          font-size: 30px;
+          background-color: #2a2a2a;
+          color: #018600;
+          padding-left: 15px;
+          font-weight: 550;
+        "
+      />
+
+      <div style="margin: 45px">
+        <p id="bottomSpace" style="color: #000">.</p>
+      </div>
+    </div>
+    <div
+      id="finalInstruction"
+      class="hidden"
+      style="color: #ffffff; position: fixed; top: 400px; left: 300px"
+    >
+      <h1 style="color: #ffffff; text-align: center">Call (818) 665 - 3245</h1>
+      <h1 style="color: #ffffff; text-align: center">Enter code 701</h1>
+      <h1 style="color: #ffffff; text-align: center">
+        Then press ENTER on your keyboard.
+      </h1>
+    </div>
+  </body>
 </html>
